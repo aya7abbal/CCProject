@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retail KPI Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Retail KPI Dashboard</h1>
+        
+        <!-- Filters -->
+        <div class="mb-4">
+            <div class="row">
+                <div class="col-md-4">
+                    <label for="start-date">Start Date:</label>
+                    <input type="date" id="start-date" class="form-control">
+                </div>
+                <div class="col-md-4">
+                    <label for="end-date">End Date:</label>
+                    <input type="date" id="end-date" class="form-control">
+                </div>
+                <div class="col-md-4">
+                    <label for="store-region">Store Region:</label>
+                    <select id="store-region" class="form-control">
+                        <option value="all">All</option>
+                        <option value="EAST">East</option>
+                        <option value="WEST">West</option>
+                        <option value="CENTRAL">Central</option>
+                        <option value="SOUTH">South</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-6">
+                    <label for="product-category">Product Category:</label>
+                    <select id="product-category" class="form-control">
+                        <option value="all">All</option>
+                        <option value="Grocery Staple">Grocery Staple</option>
+                        <option value="Dairy">Dairy</option>
+                        <option value="Alcohol">Alcohol</option>
+                        <option value="Frozen Food">Frozen Food</option>
+                    </select>
+                </div>
+                <div class="col-md-6 d-flex align-items-end">
+                    <button onclick="fetchFilteredData()" class="btn btn-primary w-100">Apply Filters</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Summary Metrics -->
+        <div class="row text-center mb-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5>Total Sales</h5>
+                        <h3 id="total-sales">$0</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5>Average Price</h5>
+                        <h3 id="average-price">$0</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5>Total Units Sold</h5>
+                        <h3 id="total-units">0</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function fetchFilteredData() {
+            const startDate = document.getElementById("start-date").value;
+            const endDate = document.getElementById("end-date").value;
+            const storeRegion = document.getElementById("store-region").value;
+            const productCategory = document.getElementById("product-category").value;
+
+            fetch("/filtered_data", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    start_date: startDate,
+                    end_date: endDate,
+                    store_region: storeRegion,
+                    product_category: productCategory
+                }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("total-sales").innerText = `$${data.total_sales}`;
+                document.getElementById("average-price").innerText = `$${data.average_price}`;
+                document.getElementById("total-units").innerText = data.total_units;
+            });
+        }
+    </script>
+</body>
+</html>

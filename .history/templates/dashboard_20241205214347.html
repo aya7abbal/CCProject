@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retail KPI Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Retail KPI Dashboard</h1>
+    <label for="hshd_num">Enter Household Number:</label>
+    <input type="text" id="hshd_num" placeholder="e.g., 159">
+    <button onclick="fetchData()">Fetch Data</button>
+
+    <div>
+        <h3>Total Sales: <span id="total_sales">$0</span></h3>
+        <h3>Average Price: <span id="average_price">$0</span></h3>
+        <h3>Total Units Sold: <span id="total_units">$0</span></h3>
+    </div>
+
+    <canvas id="salesByDivisionChart" width="400" height="200"></canvas>
+    <canvas id="topCommoditiesChart" width="400" height="200"></canvas>
+
+    <script>
+        function fetchData() {
+            const hshdNum = document.getElementById('hshd_num').value;
+            if (!hshdNum) {
+                alert("Please enter a household number!");
+                return;
+            }
+
+            axios.post('/fetch_data', { hshd_num: hshdNum })
+                .then(response => {
+                    const data = response.data;
+                    if (data.error) {
+                        alert(data.error);
+                        return;
+                    }
+
+                    document.getElementById('total_sales').innerText = data.total_sales;
+                    document.getElementById('average_price').innerText = data.average_price;
+                    document.getElementById('total_units').innerText = data.total_units_sold;
+
+                    // Sales by Division Chart
+                    const divisionCtx = document.getElementById('salesByDivisionChart').getContext('2d');
+                    new Chart(divisionCtx, {
+                        type: 'bar',
+                        data: {
+                            labels: data.sales_by_division.map(item => item.STORE_R),
+                            datasets: [{
+                                label: 'Sales by Division',
+                                data: data.sales_by_division.map(item => item.SPEND),
+                                backgroundColor: 'blue'
+                            }]
+                        }
+                    });
+
+                    // Top Commodities Chart
+                    const commoditiesCtx = document.getElementById('topCommoditiesChart').getContext('2d');
+                    new Chart(commoditiesCtx, {
+                        type: 'bar',
+                        data: {
+                            labels: data.top_commodities.map(item => item.COMMODITY),
+                            datasets: [{
+                                label: 'Top 5 Selling Commodities',
+                                data: data.top_commodities.map(item => item.SPEND),
+                                backgroundColor: 'green'
+                            }]
+                        }
+                    });
+                })
+                .catch(error => {
+                    console.error(error);
+                    alert("An error occurred while fetching data!");
+                });
+        }
+    </script>
+</body>
+</html>

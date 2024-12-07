@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Retail Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    .container { max-width: 1200px; margin: auto; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Retail Dashboard</h1>
+
+    <!-- Load Data -->
+    <h2>Load Data from Cleaned CSVs</h2>
+    <button onclick="loadData()">Load Data</button>
+
+    <!-- Seasonal Trends Chart -->
+    <h2>Seasonal Trends</h2>
+    <canvas id="seasonalTrends"></canvas>
+
+    <!-- Data Pull -->
+    <h2>Data Pull for HSHD_NUM</h2>
+    <input type="text" id="hshd_num" placeholder="Enter Household Number">
+    <button onclick="fetchDataPull()">Search</button>
+    <table border="1" id="data-pull-table">
+      <thead>
+        <tr>
+          <th>Hshd_num</th>
+          <th>Basket_num</th>
+          <th>Date</th>
+          <th>Product_num</th>
+          <th>Department</th>
+          <th>Commodity</th>
+          <th>Spend</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <script>
+    // Load Data
+    function loadData() {
+      fetch('/load_data')
+        .then(response => response.text())
+        .then(data => alert(data));
+    }
+
+    // Fetch Seasonal Trends
+    fetch('/dashboard_data')
+      .then(response => response.json())
+      .then(data => {
+        const labels = data.map(row => row.Month);
+        const values = data.map(row => row.TotalSpend);
+
+        new Chart(document.getElementById('seasonalTrends'), {
+          type: 'line',
+          data: {
+            labels: labels,
+            datasets: [{
+              label: 'Total Spend by Month',
+              data: values,
+              borderColor: 'rgba(75, 192, 192, 1)',
+              borderWidth: 2,
+              fill: false
+            }]
+          }
+        });
+      });
+
+    // Fetch Data Pull
+    function fetchDataPull() {
+      const hshdNum = document.getElementById('hshd_num').value;
+      fetch(`/data_pull/${hshdNum}`)
+        .then(response => response.json())
+        .then(data => {
+          const tableBody = document.querySelector('#data-pull-table tbody');
+          tableBody.innerHTML = ''; // Clear existing rows
+          data.forEach(row => {
+            const tr = document.createElement('tr');
+            for (const key in row) {
+              const td = document.createElement('td');
+              td.textContent = row[key];
+              tr.appendChild(td);
+            }
+            tableBody.appendChild(tr);
+          });
+        });
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Retail KPI Dashboard</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Retail KPI Dashboard</h1>
+    <p>Welcome, {{ session['username'] }}! <a href="/logout">Logout</a></p>
+    <form id="fetchForm">
+        <label for="hshd_num">Enter Household Number:</label>
+        <input type="text" id="hshd_num" name="hshd_num" placeholder="e.g., 159" required>
+        <button type="submit">Fetch Data</button>
+    </form>
+    <div id="results">
+        <h3>Total Sales: <span id="total_sales">$0</span></h3>
+        <h3>Average Price: <span id="average_price">$0</span></h3>
+        <h3>Total Units Sold: <span id="total_units_sold">0</span></h3>
+        <h3>Demographics:</h3>
+        <pre id="demographics">No data available.</pre>
+        <h3>Sales by Division:</h3>
+        <pre id="sales_by_division">No data available.</pre>
+        <h3>Top 5 Commodities:</h3>
+        <pre id="top_commodities">No data available.</pre>
+    </div>
+    <script>
+        $('#fetchForm').on('submit', function(e) {
+            e.preventDefault();
+            $.post('/fetch_data', $(this).serialize(), function(data) {
+                if (data.error) {
+                    alert(data.error);
+                } else {
+                    $('#total_sales').text(data.total_sales);
+                    $('#average_price').text(data.average_price);
+                    $('#total_units_sold').text(data.total_units_sold);
+                    $('#demographics').text(JSON.stringify(data.demographics, null, 2));
+                    $('#sales_by_division').text(JSON.stringify(data.sales_by_division, null, 2));
+                    $('#top_commodities').text(JSON.stringify(data.top_commodities, null, 2));
+                }
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retail KPI Visualization</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Retail KPI Visualization</h1>
+
+        <div class="row">
+            <form method="POST" action="/visualization" class="form-inline">
+                <div class="col-md-3">
+                    <label for="start_date">Start Date:</label>
+                    <input type="date" id="start_date" name="start_date" class="form-control">
+                </div>
+                <div class="col-md-3">
+                    <label for="end_date">End Date:</label>
+                    <input type="date" id="end_date" name="end_date" class="form-control">
+                </div>
+                <div class="col-md-3">
+                    <label for="region">Store Region:</label>
+                    <select id="region" name="region" class="form-control">
+                        <option value="All">All</option>
+                        <option value="East">East</option>
+                        <option value="West">West</option>
+                        <option value="Central">Central</option>
+                        <option value="South">South</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <label for="category">Product Category:</label>
+                    <select id="category" name="category" class="form-control">
+                        <option value="All">All</option>
+                        <option value="Grocery Staple">Grocery Staple</option>
+                        <option value="Dairy">Dairy</option>
+                        <option value="Alcohol">Alcohol</option>
+                        <option value="Frozen Food">Frozen Food</option>
+                    </select>
+                </div>
+                <div class="col-md-12 text-center">
+                    <button type="submit" class="btn btn-primary mt-3">Apply Filters</button>
+                </div>
+            </form>
+        </div>
+
+        <hr>
+
+        <h3 class="text-center">KPI Overview</h3>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <h4>Total Sales</h4>
+                <p id="total_sales">${{ total_sales }}</p>
+            </div>
+            <div class="col-md-4">
+                <h4>Average Price</h4>
+                <p id="average_price">${{ average_price }}</p>
+            </div>
+            <div class="col-md-4">
+                <h4>Total Units Sold</h4>
+                <p id="total_units">{{ total_units }}</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <h3 class="text-center">Sales by Division</h3>
+        <canvas id="salesDivisionChart"></canvas>
+
+        <h3 class="text-center">Average Price Over Time</h3>
+        <canvas id="priceOverTimeChart"></canvas>
+
+        <h3 class="text-center">Top 5 Selling Commodities</h3>
+        <canvas id="topCommoditiesChart"></canvas>
+    </div>
+
+    <script>
+        // Sample data for visualization (Replace with backend data dynamically)
+        const salesDivisionData = {{ sales_division_data | safe }};
+        const priceOverTimeData = {{ price_over_time_data | safe }};
+        const topCommoditiesData = {{ top_commodities_data | safe }};
+
+        // Sales by Division Chart
+        const ctxDivision = document.getElementById('salesDivisionChart').getContext('2d');
+        new Chart(ctxDivision, {
+            type: 'bar',
+            data: salesDivisionData,
+        });
+
+        // Average Price Over Time Chart
+        const ctxPrice = document.getElementById('priceOverTimeChart').getContext('2d');
+        new Chart(ctxPrice, {
+            type: 'line',
+            data: priceOverTimeData,
+        });
+
+        // Top 5 Selling Commodities Chart
+        const ctxCommodities = document.getElementById('topCommoditiesChart').getContext('2d');
+        new Chart(ctxCommodities, {
+            type: 'bar',
+            data: topCommoditiesData,
+        });
+    </script>
+</body>
+</html>

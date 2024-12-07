@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retail KPI Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/plotly.js-dist-min@2.25.2/plotly.min.js"></script>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Retail KPI Dashboard</h1>
+        <form method="POST" action="/visualization" class="mb-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <label for="household_number" class="form-label">Household Number:</label>
+                    <input type="text" name="household_number" id="household_number" class="form-control" placeholder="e.g., 10">
+                </div>
+                <div class="col-md-6">
+                    <label for="store_region" class="form-label">Store Region:</label>
+                    <select name="store_region" id="store_region" class="form-control">
+                        <option value="">All</option>
+                        <option value="EAST">East</option>
+                        <option value="WEST">West</option>
+                    </select>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary mt-3">Apply Filters</button>
+        </form>
+
+        <div class="row text-center">
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <h5>Total Sales</h5>
+                    <h3>${{ total_sales }}</h3>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <h5>Average Price</h5>
+                    <h3>${{ avg_price }}</h3>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <h5>Total Units Sold</h5>
+                    <h3>{{ total_units }}</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <div id="sales-by-month"></div>
+            </div>
+            <div class="col-md-6">
+                <div id="spending-by-income"></div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <div id="loyalty-impact"></div>
+            </div>
+            <div class="col-md-6">
+                <div id="basket-analysis"></div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <div id="churn-trends"></div>
+            </div>
+            <div class="col-md-6">
+                <div id="region-preference"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        Plotly.newPlot('sales-by-month', {{ sales_by_month_json | safe }}.data, {{ sales_by_month_json | safe }}.layout);
+        Plotly.newPlot('spending-by-income', {{ spending_by_income_json | safe }}.data, {{ spending_by_income_json | safe }}.layout);
+        Plotly.newPlot('loyalty-impact', {{ loyalty_impact_json | safe }}.data, {{ loyalty_impact_json | safe }}.layout);
+        Plotly.newPlot('basket-analysis', {{ basket_analysis_json | safe }}.data, {{ basket_analysis_json | safe }}.layout);
+        Plotly.newPlot('churn-trends', {{ churn_trends_json | safe }}.data, {{ churn_trends_json | safe }}.layout);
+        Plotly.newPlot('region-preference', {{ region_preference_json | safe }}.data, {{ region_preference_json | safe }}.layout);
+    </script>
+</body>
+</html>

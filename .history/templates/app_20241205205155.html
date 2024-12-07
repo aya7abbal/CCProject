@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retail Dashboard</title>
+</head>
+<body>
+    <h1>Retail Dashboard</h1>
+    <form method="POST" action="/fetch_data">
+        <label for="household_number">Enter Household Number:</label>
+        <input type="text" id="household_number" name="household_number" placeholder="e.g., 10">
+        <button type="submit">Fetch Data</button>
+    </form>
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+    {% if data %}
+        <h2>Data for Household Number</h2>
+        <table border="1">
+            <tr>
+                <th>Basket Number</th>
+                <th>Date</th>
+                <th>Product Number</th>
+                <th>Department</th>
+                <th>Commodity</th>
+                <th>Spend</th>
+                <th>Units</th>
+                <th>Store Region</th>
+                <th>Week Number</th>
+                <th>Year</th>
+                <th>Loyalty</th>
+                <th>Age Range</th>
+                <th>Marital Status</th>
+                <th>Income Range</th>
+                <th>Homeowner</th>
+                <th>Household Composition</th>
+                <th>Household Size</th>
+                <th>Children</th>
+            </tr>
+            {% for row in data %}
+            <tr>
+                {% for col in row %}
+                <td>{{ col }}</td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </table>
+    {% endif %}
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% comment %} <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retail Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Retail Dashboard</h1>
+        
+        <div class="mt-3">
+            <label for="hshd_num">Enter Household Number:</label>
+            <input type="text" id="hshd_num" class="form-control" placeholder="e.g., 10">
+            <button id="fetch_data" class="btn btn-primary mt-3">Fetch Data</button>
+        </div>
+
+        <div id="table_container" class="mt-5"></div>
+    </div>
+
+    <script>
+        document.getElementById('fetch_data').addEventListener('click', () => {
+            const hshdNum = document.getElementById('hshd_num').value;
+            fetch(`/get_data?hshd_num=${hshdNum}`)
+                .then(response => response.json())
+                .then(data => {
+                    let table = '<table class="table table-bordered"><thead><tr>';
+                    table += Object.keys(data[0]).map(key => `<th>${key}</th>`).join('');
+                    table += '</tr></thead><tbody>';
+                    table += data.map(row => {
+                        return '<tr>' + Object.values(row).map(value => `<td>${value}</td>`).join('') + '</tr>';
+                    }).join('');
+                    table += '</tbody></table>';
+                    document.getElementById('table_container').innerHTML = table;
+                });
+        });
+    </script>
+</body>
+</html> {% endcomment %}
