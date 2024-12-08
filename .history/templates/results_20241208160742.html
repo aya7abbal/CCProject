@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Results</title>
+</head>
+<body>
+    <h1>Results for Household {{ hshd_num }}</h1>
+    <table border="1">
+        <tr>
+            <th>Hshd_num</th>
+            <th>Basket_num</th>
+            <th>Purchase_Date</th>
+            <th>Product_num</th>
+            <th>Department</th>
+            <th>Commodity</th>
+        </tr>
+        {% for row in results %}
+        <tr>
+            <td>{{ row[0] }}</td>
+            <td>{{ row[1] }}</td>
+            <td>{{ row[2] }}</td>
+            <td>{{ row[3] }}</td>
+            <td>{{ row[4] }}</td>
+            <td>{{ row[5] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
