@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Datasets</title>
+</head>
+<body>
+    <h1>Upload Data</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="transactions">Transactions CSV:</label>
+        <input type="file" name="transactions" required><br>
+        <label for="households">Households CSV:</label>
+        <input type="file" name="households" required><br>
+        <label for="products">Products CSV:</label>
+        <input type="file" name="products" required><br>
+        <button type="submit">Upload</button>
+    </form>
+</body>
+</html>
