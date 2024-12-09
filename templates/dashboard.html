@@ -12,11 +12,31 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
   <style>
-    body { font-family: Arial, sans-serif; background-color: #f8f9fa; margin: 20px; }
-    .card { margin-bottom: 20px; }
-    .dashboard-container { max-width: 1200px; margin: auto; }
-    .chart-container { margin-top: 30px; }
-    .kpi { font-size: 1.5rem; font-weight: bold; }
+    body { 
+      font-family: Arial, sans-serif; 
+      background-color: #f8f9fa; 
+      margin: 20px; 
+    }
+    .card { 
+      margin-bottom: 20px; 
+      border: none;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .dashboard-container { 
+      max-width: 1200px; 
+      margin: auto; 
+    }
+    .chart-container { 
+      margin-top: 30px; 
+    }
+    .kpi { 
+      font-size: 1.8rem; 
+      font-weight: bold; 
+      color: #495057; 
+    }
+    h1 { 
+      color: #343a40; 
+    }
   </style>
 </head>
 <body>
@@ -27,7 +47,7 @@
     <!-- KPI Cards -->
     <div class="row text-center">
       <div class="col-md-3">
-        <div class="card shadow-sm">
+        <div class="card">
           <div class="card-body">
             <p class="kpi">$273.80</p>
             <p>Total Sales Per Labor Hour</p>
@@ -35,7 +55,7 @@
         </div>
       </div>
       <div class="col-md-3">
-        <div class="card shadow-sm">
+        <div class="card">
           <div class="card-body">
             <p class="kpi">$1.22M</p>
             <p>Total Sales for All Departments</p>
@@ -43,7 +63,7 @@
         </div>
       </div>
       <div class="col-md-3">
-        <div class="card shadow-sm">
+        <div class="card">
           <div class="card-body">
             <p class="kpi">$5.44</p>
             <p>Average Sales Per Unit Area</p>
@@ -51,7 +71,7 @@
         </div>
       </div>
       <div class="col-md-3">
-        <div class="card shadow-sm">
+        <div class="card">
           <div class="card-body">
             <p class="kpi">$178.67</p>
             <p>Average Sales Revenue Per Hour</p>

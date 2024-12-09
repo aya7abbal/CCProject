@@ -24,28 +24,52 @@ class User(db.Model):
     username = db.Column(db.String(80), nullable=False, unique=True)
     password = db.Column(db.String(120), nullable=False)
 
+# Define other models if necessary (example: Household, Transaction, Product)
+class Household(db.Model):
+    __tablename__ = 'Households'
+    Hshd_num = db.Column(db.Integer, primary_key=True)
+    Age_range = db.Column(db.String)
+    Income_range = db.Column(db.String)
+    Hshd_composition = db.Column(db.String)
+    Children = db.Column(db.Integer)
+
+class Transaction(db.Model):
+    __tablename__ = 'Transactions'
+    Transaction_id = db.Column(db.Integer, primary_key=True)
+    Hshd_num = db.Column(db.Integer)
+    Basket_num = db.Column(db.Integer)
+    Product_num = db.Column(db.Integer)
+    Spend = db.Column(db.Float)
+    Units = db.Column(db.Integer)
+    Date = db.Column(db.String)
+
+class Product(db.Model):
+    __tablename__ = 'Products'
+    Product_num = db.Column(db.Integer, primary_key=True)
+    Department = db.Column(db.String)
+    Commodity = db.Column(db.String)
+
+# Routes
 @app.route('/')
 def home():
     """Home page with login functionality."""
     return render_template('login.html')
 
-@app.route('/login', methods=['GET', 'POST'])
+@app.route('/login', methods=['POST'])
 def login():
     """Handle user login."""
-    if request.method == 'POST':
-        username = request.form['username']
-        password = request.form['password']
+    username = request.form['username']
+    password = request.form['password']
 
-        user = User.query.filter_by(username=username, password=password).first()
-        if user:
-            session['user_id'] = user.id
-            flash('Login successful!', 'success')
-            return redirect(url_for('dashboard'))
-        else:
-            flash('Invalid username or password.', 'danger')
-            return redirect(url_for('home'))
-
-    return render_template('login.html')
+    # Authenticate user
+    user = User.query.filter_by(username=username, password=password).first()
+    if user:
+        session['user_id'] = user.id
+        flash('Login successful!', 'success')
+        return redirect(url_for('dashboard'))
+    else:
+        flash('Invalid username or password.', 'danger')
+        return redirect(url_for('home'))
 
 @app.route('/register', methods=['GET', 'POST'])
 def register():
