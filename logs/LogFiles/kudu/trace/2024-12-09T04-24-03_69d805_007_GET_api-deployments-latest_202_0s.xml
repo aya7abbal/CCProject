@@ -1,0 +1,10 @@
+<step title="Incoming Request" date="2024-12-09T04:24:03.597" instance="69d805" url="/api/deployments/latest?deployer=OneDeploy&amp;time=2024-12-09_04-23-52Z" method="GET" type="request" pid="85,1,7" Host="retail-webapp-fvbraghnb0g0aye4.scm.centralus-01.azurewebsites.net" User-Agent="GITHUBACTIONS_DeployWebAppToAzure_07fa955058e7a9b1c6186baa3bdb95c4e9b64e2f56c76fbeb9d8f68e97497b0d" Authorization="Bas..." Content-Type="application/json; charset=utf-8" Cookie="ARRAffinity=69d8052e780e3c5632539e276bc018c2c09d69571a6977d598960a99a68a5152;Path=/;HttpOnly;Secure;Domain=retail-webapp-fvbraghnb0g0aye4.scm.centralus-01.azurewebsites.net; ARRAffinitySameSite=69d8052e780e3c5632539e276bc018c2c09d69571a6977d598960a99a68a5152;Path=/;HttpOnly;SameSite=None;Secure;Domain=retail-webapp-fvbraghnb0g0aye4.scm.centralus-01.azurewebsites.net" Content-Length="0" X-ARR-LOG-ID="c283efb8-5c57-4887-9a40-619d0639e45e" CLIENT-IP="20.172.5.215:47162" X-SITE-DEPLOYMENT-ID="Retail-WebApp" WAS-DEFAULT-HOSTNAME="retail-webapp-fvbraghnb0g0aye4.scm.centralus-01.azurewebsites.net" X-Forwarded-Proto="https" X-AppService-Proto="https" X-Forwarded-TlsVersion="1.3" X-WAWS-Unencoded-URL="/api/deployments/latest?deployer=OneDeploy&amp;time=2024-12-09_04-23-52Z" X-Client-IP="20.172.5.215" X-Client-Port="47162" >
+  <step title="Cleanup Xml Logs" date="2024-12-09T04:24:03.606" /><!-- duration: 5ms -->
+  <step title="DeploymentService.GetResult" date="2024-12-09T04:24:03.618" >
+    <step title="DeploymentService.GetLatestDeployment" date="2024-12-09T04:24:03.620" >
+      <step title="DeploymentManager.GetResults" date="2024-12-09T04:24:03.623" /><!-- duration: 151ms -->
+      <step title="Deployment 97da845b-2486-4691-bf6d-69f92c818c18 is Building" date="2024-12-09T04:24:03.776" /><!-- duration: 3ms -->
+    </step><!-- duration: 161ms -->
+  </step><!-- duration: 166ms -->
+  <step title="Outgoing response" date="2024-12-09T04:24:03.787" type="response" statusCode="202" statusText="Accepted" /><!-- duration: 2ms -->
+</step><!-- duration: 213ms -->

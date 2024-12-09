@@ -1,0 +1,115 @@
+2024-12-09T15:44:09.1308738Z,Updating submodules.,82e70046-8e79-466d-a59a-9dfc7a5657ed,0
+2024-12-09T15:44:10.1990091Z,Preparing deployment for commit id 'dbbe7836-6'.,cfb2fc73-6209-4672-80d7-7d0410f654d4,0
+2024-12-09T15:44:10.3543732Z,PreDeployment: context.CleanOutputPath False,4b0af06b-ddb0-4b9e-bb13-9a98c46b3741,0
+2024-12-09T15:44:10.4093404Z,PreDeployment: context.OutputPath /home/site/wwwroot,48118b54-7e8c-4451-be8a-d248156db49e,0
+2024-12-09T15:44:10.4923564Z,Repository path is /tmp/zipdeploy/extracted,6d6a29b4-69ef-4f58-b92b-5a382c77a26c,0
+2024-12-09T15:44:10.5738730Z,Running oryx build...,e3fcaa29-9515-44a0-bc7f-6e0bdb53d919,0
+	2024-12-09T15:44:10.5787737Z,Command: oryx build /tmp/zipdeploy/extracted -o /home/site/wwwroot --platform python --platform-version 3.12 -p virtualenv_name=antenv --log-file /tmp/build-debug.log  -i /tmp/8dd186852e3157f --compress-destination-dir | tee /tmp/oryx-build.log,,0
+	2024-12-09T15:44:11.3156893Z,Operation performed by Microsoft Oryx&comma; https://github.com/Microsoft/Oryx,,0
+	2024-12-09T15:44:11.3346749Z,You can report issues at https://github.com/Microsoft/Oryx/issues,,0
+	2024-12-09T15:44:11.3462872Z,,,0
+	2024-12-09T15:44:11.3510452Z,Oryx Version: 0.2.20240424.1&comma; Commit: d37b2225a252ab2c04b4726024d047cf01ea1318&comma; ReleaseTagName: 20240424.1,,0
+	2024-12-09T15:44:11.3559188Z,,,0
+	2024-12-09T15:44:11.3715846Z,Build Operation ID: ba3929e545d1f073,,0
+	2024-12-09T15:44:11.3775630Z,Repository Commit : dbbe7836-6120-48f3-917e-a9cfa1fa2165,,0
+	2024-12-09T15:44:11.4711400Z,OS Type           : bullseye,,0
+	2024-12-09T15:44:11.4765706Z,Image Type        : githubactions,,0
+	2024-12-09T15:44:11.4818301Z,,,0
+	2024-12-09T15:44:11.4862956Z,Detecting platforms...,,0
+	2024-12-09T15:44:12.0006251Z,Detected following platforms:,,0
+	2024-12-09T15:44:12.0132579Z,  python: 3.12.6,,0
+	2024-12-09T15:44:12.0242913Z,Version '3.12.6' of platform 'python' is not installed. Generating script to install it...,,0
+	2024-12-09T15:44:12.1411284Z,,,0
+	2024-12-09T15:44:12.1745576Z,Using intermediate directory '/tmp/8dd186852e3157f'.,,0
+	2024-12-09T15:44:12.1803711Z,,,0
+	2024-12-09T15:44:12.1854132Z,Copying files to the intermediate directory...,,0
+	2024-12-09T15:44:12.8633277Z,Done in 0 sec(s).,,0
+	2024-12-09T15:44:12.8794135Z,,,0
+	2024-12-09T15:44:12.8840784Z,Source directory     : /tmp/8dd186852e3157f,,0
+	2024-12-09T15:44:12.8899707Z,Destination directory: /home/site/wwwroot,,0
+	2024-12-09T15:44:12.9021570Z,,,0
+	2024-12-09T15:44:12.9119353Z,,,0
+	2024-12-09T15:44:12.9204889Z,Downloading and extracting 'python' version '3.12.6' to '/tmp/oryx/platforms/python/3.12.6'...,,0
+	2024-12-09T15:44:12.9254909Z,Detected image debian flavor: bullseye.,,0
+	2024-12-09T15:44:14.5506280Z,Downloaded in 2 sec(s).,,0
+	2024-12-09T15:44:14.5684701Z,Verifying checksum...,,0
+	2024-12-09T15:44:14.5818677Z,Extracting contents...,,0
+	2024-12-09T15:44:18.9016331Z,performing sha512 checksum for: python...,,0
+	2024-12-09T15:44:19.3904429Z,Done in 7 sec(s).,,0
+	2024-12-09T15:44:19.4002276Z,,,0
+	2024-12-09T15:44:19.4117207Z,image detector file exists&comma; platform is python..,,0
+	2024-12-09T15:44:19.4177361Z,OS detector file exists&comma; OS is bullseye..,,0
+	2024-12-09T15:44:19.5347557Z,Python Version: /tmp/oryx/platforms/python/3.12.6/bin/python3.12,,0
+	2024-12-09T15:44:19.5412869Z,Creating directory for command manifest file if it does not exist,,0
+	2024-12-09T15:44:19.5592407Z,Removing existing manifest file,,0
+	2024-12-09T15:44:19.5738495Z,Python Virtual Environment: antenv,,0
+	2024-12-09T15:44:19.5896945Z,Creating virtual environment...,,0
+	2024-12-09T15:44:22.7402778Z,Activating virtual environment...,,0
+	2024-12-09T15:44:22.7566851Z,Running pip install...,,0
+	2024-12-09T15:44:27.5591166Z,[15:44:23+0000] Collecting flask (from -r requirements.txt (line 1)),,0
+	2024-12-09T15:44:27.5788408Z,[15:44:23+0000]   Downloading flask-3.1.0-py3-none-any.whl.metadata (2.7 kB),,0
+	2024-12-09T15:44:27.5860852Z,[15:44:23+0000] Collecting flask_sqlalchemy (from -r requirements.txt (line 2)),,0
+	2024-12-09T15:44:27.5910091Z,[15:44:23+0000]   Downloading flask_sqlalchemy-3.1.1-py3-none-any.whl.metadata (3.4 kB),,0
+	2024-12-09T15:44:27.6095049Z,[15:44:23+0000] Collecting Werkzeug>=3.1 (from flask->-r requirements.txt (line 1)),,0
+	2024-12-09T15:44:27.6144542Z,[15:44:23+0000]   Downloading werkzeug-3.1.3-py3-none-any.whl.metadata (3.7 kB),,0
+	2024-12-09T15:44:27.6188618Z,[15:44:23+0000] Collecting Jinja2>=3.1.2 (from flask->-r requirements.txt (line 1)),,0
+	2024-12-09T15:44:27.6229201Z,[15:44:23+0000]   Downloading jinja2-3.1.4-py3-none-any.whl.metadata (2.6 kB),,0
+	2024-12-09T15:44:27.6276620Z,[15:44:23+0000] Collecting itsdangerous>=2.2 (from flask->-r requirements.txt (line 1)),,0
+	2024-12-09T15:44:27.6320472Z,[15:44:23+0000]   Downloading itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB),,0
+	2024-12-09T15:44:27.6360592Z,[15:44:23+0000] Collecting click>=8.1.3 (from flask->-r requirements.txt (line 1)),,0
+	2024-12-09T15:44:27.6403008Z,[15:44:23+0000]   Downloading click-8.1.7-py3-none-any.whl.metadata (3.0 kB),,0
+	2024-12-09T15:44:27.6449844Z,[15:44:23+0000] Collecting blinker>=1.9 (from flask->-r requirements.txt (line 1)),,0
+	2024-12-09T15:44:27.6492317Z,[15:44:23+0000]   Downloading blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB),,0
+	2024-12-09T15:44:27.6532208Z,[15:44:24+0000] Collecting sqlalchemy>=2.0.16 (from flask_sqlalchemy->-r requirements.txt (line 2)),,0
+	2024-12-09T15:44:27.6585566Z,[15:44:24+0000]   Downloading SQLAlchemy-2.0.36-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (9.7 kB),,0
+	2024-12-09T15:44:27.6634815Z,[15:44:24+0000] Collecting MarkupSafe>=2.0 (from Jinja2>=3.1.2->flask->-r requirements.txt (line 1)),,0
+	2024-12-09T15:44:27.6680940Z,[15:44:24+0000]   Downloading MarkupSafe-3.0.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.0 kB),,0
+	2024-12-09T15:44:27.6721903Z,[15:44:24+0000] Collecting typing-extensions>=4.6.0 (from sqlalchemy>=2.0.16->flask_sqlalchemy->-r requirements.txt (line 2)),,0
+	2024-12-09T15:44:27.6762110Z,[15:44:24+0000]   Downloading typing_extensions-4.12.2-py3-none-any.whl.metadata (3.0 kB),,0
+	2024-12-09T15:44:27.6804326Z,[15:44:24+0000] Collecting greenlet!=0.4.17 (from sqlalchemy>=2.0.16->flask_sqlalchemy->-r requirements.txt (line 2)),,0
+	2024-12-09T15:44:27.6850074Z,[15:44:24+0000]   Downloading greenlet-3.1.1-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (3.8 kB),,0
+	2024-12-09T15:44:27.7003189Z,[15:44:24+0000] Downloading flask-3.1.0-py3-none-any.whl (102 kB),,0
+	2024-12-09T15:44:27.7049331Z,[15:44:24+0000] Downloading flask_sqlalchemy-3.1.1-py3-none-any.whl (25 kB),,0
+	2024-12-09T15:44:27.7099393Z,[15:44:24+0000] Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB),,0
+	2024-12-09T15:44:27.7144036Z,[15:44:24+0000] Downloading click-8.1.7-py3-none-any.whl (97 kB),,0
+	2024-12-09T15:44:27.7186352Z,[15:44:24+0000] Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB),,0
+	2024-12-09T15:44:27.7235934Z,[15:44:24+0000] Downloading jinja2-3.1.4-py3-none-any.whl (133 kB),,0
+	2024-12-09T15:44:27.7280642Z,[15:44:24+0000] Downloading SQLAlchemy-2.0.36-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.2 MB),,0
+	2024-12-09T15:44:27.7333567Z,[15:44:24+0000]    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 74.3 MB/s eta 0:00:00,,0
+	2024-12-09T15:44:27.7389610Z,[15:44:24+0000] Downloading werkzeug-3.1.3-py3-none-any.whl (224 kB),,0
+	2024-12-09T15:44:27.7433361Z,[15:44:25+0000] Downloading greenlet-3.1.1-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (613 kB),,0
+	2024-12-09T15:44:27.7478780Z,[15:44:25+0000]    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 613.1/613.1 kB 54.9 MB/s eta 0:00:00,,0
+	2024-12-09T15:44:27.7522630Z,[15:44:25+0000] Downloading MarkupSafe-3.0.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (23 kB),,0
+	2024-12-09T15:44:27.7567618Z,[15:44:25+0000] Downloading typing_extensions-4.12.2-py3-none-any.whl (37 kB),,0
+	2024-12-09T15:44:27.7612019Z,[15:44:25+0000] Installing collected packages: typing-extensions&comma; MarkupSafe&comma; itsdangerous&comma; greenlet&comma; click&comma; blinker&comma; Werkzeug&comma; sqlalchemy&comma; Jinja2&comma; flask&comma; flask_sqlalchemy,,0
+	2024-12-09T15:44:27.7656871Z,[15:44:27+0000] Successfully installed Jinja2-3.1.4 MarkupSafe-3.0.2 Werkzeug-3.1.3 blinker-1.9.0 click-8.1.7 flask-3.1.0 flask_sqlalchemy-3.1.1 greenlet-3.1.1 itsdangerous-2.2.0 sqlalchemy-2.0.36 typing-extensions-4.12.2,,0
+	2024-12-09T15:44:27.7699104Z,,,0
+	2024-12-09T15:44:27.7766430Z,[notice] A new release of pip is available: 24.2 -> 24.3.1,,0
+	2024-12-09T15:44:27.7814458Z,[notice] To update&comma; run: pip install --upgrade pip,,0
+	2024-12-09T15:44:27.7866663Z,Not a vso image&comma; so not writing build commands,,0
+	2024-12-09T15:44:27.7913631Z,Preparing output...,,0
+	2024-12-09T15:44:27.8029882Z,,,0
+	2024-12-09T15:44:27.8089771Z,Copying files to destination directory '/tmp/_preCompressedDestinationDir'...,,0
+	2024-12-09T15:44:29.3464921Z,Done in 2 sec(s).,,0
+	2024-12-09T15:44:29.3744161Z,Compressing content of directory '/tmp/_preCompressedDestinationDir'...,,0
+	2024-12-09T15:44:33.6140458Z,Copied the compressed output to '/home/site/wwwroot',,0
+	2024-12-09T15:44:33.6339640Z,,,0
+	2024-12-09T15:44:33.6574450Z,Removing existing manifest file,,0
+	2024-12-09T15:44:33.6625306Z,Creating a manifest file...,,0
+	2024-12-09T15:44:33.7292839Z,Manifest file created.,,0
+	2024-12-09T15:44:33.7342561Z,Copying .ostype to manifest output directory.,,0
+	2024-12-09T15:44:33.7541112Z,,,0
+	2024-12-09T15:44:33.7589808Z,Done in 21 sec(s).,,0
+2024-12-09T15:44:34.1120463Z,Running post deployment command(s)...,2630cc1f-ff88-4700-b9ec-c39aff556c56,0
+2024-12-09T15:44:34.1742546Z,,1aaa3d72-1974-441f-b20f-5d5ff53529e9,0
+2024-12-09T15:44:34.2338469Z,Generating summary of Oryx build,95fc8f1b-b498-4c54-b74f-f1f510ec11f8,0
+2024-12-09T15:44:34.3204475Z,Parsing the build logs,73208ff3-f2ec-4cde-b1a4-6722c4788add,0
+2024-12-09T15:44:34.3833434Z,Found 0 issue(s),650c1e7a-67a3-4ed8-afab-1752c5abf904,0
+2024-12-09T15:44:34.4377571Z,,2a018f89-8f88-49f5-bd73-fcb648275686,0
+2024-12-09T15:44:34.4941690Z,Build Summary :,572c46ea-bb01-436b-af34-64af8881bf72,0
+2024-12-09T15:44:34.5566099Z,===============,195096dd-aa40-4462-b7eb-aac1dbfa4e0b,0
+2024-12-09T15:44:34.6168245Z,Errors (0),4f1d98e8-e520-4231-9304-274bab1322c2,0
+2024-12-09T15:44:34.7264930Z,Warnings (0),bde8b434-ff93-44f0-91bc-a85348207331,0
+2024-12-09T15:44:34.7838502Z,,b7a7262e-e6d8-467b-8ffe-2d99d10a243e,0
+2024-12-09T15:44:34.8553080Z,Triggering container recycle for OneDeploy by adding/updating restartTrigger.txt to the site root path,63bb9ee6-298c-492f-8363-87f7e8859903,0
+2024-12-09T15:44:34.9406921Z,Deployment successful. deployer = OneDeploy deploymentPath = OneDeploy,704b8066-40e6-48e6-ab0f-1085e3903412,0

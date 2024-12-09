@@ -1,0 +1,10 @@
+<step title="Incoming Request" date="2024-12-09T04:07:11.449" instance="69d805" url="/api/deployments/latest?deployer=OneDeploy&amp;time=2024-12-09_04-07-00Z" method="GET" type="request" pid="80,1,20" Host="retail-webapp-fvbraghnb0g0aye4.scm.centralus-01.azurewebsites.net" User-Agent="GITHUBACTIONS_DeployWebAppToAzure_07fa955058e7a9b1c6186baa3bdb95c4e9b64e2f56c76fbeb9d8f68e97497b0d" Authorization="Bas..." Content-Type="application/json; charset=utf-8" Cookie="ARRAffinity=69d8052e780e3c5632539e276bc018c2c09d69571a6977d598960a99a68a5152;Path=/;HttpOnly;Secure;Domain=retail-webapp-fvbraghnb0g0aye4.scm.centralus-01.azurewebsites.net; ARRAffinitySameSite=69d8052e780e3c5632539e276bc018c2c09d69571a6977d598960a99a68a5152;Path=/;HttpOnly;SameSite=None;Secure;Domain=retail-webapp-fvbraghnb0g0aye4.scm.centralus-01.azurewebsites.net" Content-Length="0" X-ARR-LOG-ID="99ab2900-277c-4fd6-beaa-9e28c69e7f6a" CLIENT-IP="172.183.79.14:1138" X-SITE-DEPLOYMENT-ID="Retail-WebApp" WAS-DEFAULT-HOSTNAME="retail-webapp-fvbraghnb0g0aye4.scm.centralus-01.azurewebsites.net" X-Forwarded-Proto="https" X-AppService-Proto="https" X-Forwarded-TlsVersion="1.3" X-WAWS-Unencoded-URL="/api/deployments/latest?deployer=OneDeploy&amp;time=2024-12-09_04-07-00Z" X-Client-IP="172.183.79.14" X-Client-Port="1138" >
+  <step title="Cleanup Xml Logs" date="2024-12-09T04:07:11.453" /><!-- duration: 4ms -->
+  <step title="DeploymentService.GetResult" date="2024-12-09T04:07:11.492" >
+    <step title="DeploymentService.GetLatestDeployment" date="2024-12-09T04:07:11.511" >
+      <step title="DeploymentManager.GetResults" date="2024-12-09T04:07:11.514" /><!-- duration: 202ms -->
+      <step title="Deployment f313a932-96b9-4806-b4a8-0e74d95f30e1 is Building" date="2024-12-09T04:07:11.721" /><!-- duration: 3ms -->
+    </step><!-- duration: 217ms -->
+  </step><!-- duration: 240ms -->
+  <step title="Outgoing response" date="2024-12-09T04:07:11.734" type="response" statusCode="202" statusText="Accepted" /><!-- duration: 27ms -->
+</step><!-- duration: 314ms -->

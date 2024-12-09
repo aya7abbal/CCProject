@@ -1,0 +1,272 @@
+2024-12-08T21:45:07.023985561Z    _____                               
+2024-12-08T21:45:07.024044151Z   /  _  \ __________ _________   ____  
+2024-12-08T21:45:07.024046783Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-08T21:45:07.024049419Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-08T21:45:07.024052290Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-08T21:45:07.024055220Z         \/      \/                  \/ 
+2024-12-08T21:45:07.024058077Z A P P   S E R V I C E   O N   L I N U X
+2024-12-08T21:45:07.024061066Z 
+2024-12-08T21:45:07.024063726Z Documentation: http://aka.ms/webapp-linux
+2024-12-08T21:45:07.024066549Z Python 3.12.2
+2024-12-08T21:45:07.024069414Z Note: Any data outside '/home' is not persisted
+2024-12-08T21:45:08.086499011Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-08T21:45:08.091681747Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-08T21:45:08.118763388Z App Command Line not configured, will attempt auto-detect
+2024-12-08T21:45:08.119123982Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite
+2024-12-08T21:45:08.126751137Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-08T21:45:08.128987841Z Build Operation ID: 4030bd2e135227b1
+2024-12-08T21:45:08.130437777Z Oryx Version: 0.2.20240501.1, Commit: f83f88d3cfb8bb6d3e2765e1dcd218eb0814a095, ReleaseTagName: 20240501.1
+2024-12-08T21:45:08.130720710Z Output is compressed. Extracting it...
+2024-12-08T21:45:08.132269542Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd17d140035444'...
+2024-12-08T21:45:09.441590465Z App path is set to '/tmp/8dd17d140035444'
+2024-12-08T21:45:09.766123147Z Detected an app based on Flask
+2024-12-08T21:45:09.766188098Z Generating `gunicorn` command for 'app:app'
+2024-12-08T21:45:09.791440103Z Writing output script to '/opt/startup/startup.sh'
+2024-12-08T21:45:10.146980993Z Using packages from virtual environment antenv located at /tmp/8dd17d140035444/antenv.
+2024-12-08T21:45:10.147008781Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd17d140035444/antenv/lib/python3.12/site-packages'
+2024-12-08T21:45:10.485413951Z [2024-12-08 21:45:10 +0000] [66] [INFO] Starting gunicorn 23.0.0
+2024-12-08T21:45:10.494687236Z [2024-12-08 21:45:10 +0000] [66] [INFO] Listening at: http://0.0.0.0:8000 (66)
+2024-12-08T21:45:10.494708827Z [2024-12-08 21:45:10 +0000] [66] [INFO] Using worker: sync
+2024-12-08T21:45:10.503059249Z [2024-12-08 21:45:10 +0000] [69] [INFO] Booting worker with pid: 69
+2024-12-08T21:45:10.788089575Z [2024-12-08 21:45:10 +0000] [69] [ERROR] Exception in worker process
+2024-12-08T21:45:10.788116335Z Traceback (most recent call last):
+2024-12-08T21:45:10.788121000Z   File "/tmp/8dd17d140035444/antenv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+2024-12-08T21:45:10.788331140Z     worker.init_process()
+2024-12-08T21:45:10.788339502Z   File "/tmp/8dd17d140035444/antenv/lib/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+2024-12-08T21:45:10.788342763Z     self.load_wsgi()
+2024-12-08T21:45:10.788345229Z   File "/tmp/8dd17d140035444/antenv/lib/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+2024-12-08T21:45:10.788348373Z     self.wsgi = self.app.wsgi()
+2024-12-08T21:45:10.788351423Z                 ^^^^^^^^^^^^^^^
+2024-12-08T21:45:10.788354721Z   File "/tmp/8dd17d140035444/antenv/lib/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+2024-12-08T21:45:10.788357953Z     self.callable = self.load()
+2024-12-08T21:45:10.788361467Z                     ^^^^^^^^^^^
+2024-12-08T21:45:10.788364214Z   File "/tmp/8dd17d140035444/antenv/lib/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+2024-12-08T21:45:10.788367065Z     return self.load_wsgiapp()
+2024-12-08T21:45:10.788370082Z            ^^^^^^^^^^^^^^^^^^^
+2024-12-08T21:45:10.788393465Z   File "/tmp/8dd17d140035444/antenv/lib/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+2024-12-08T21:45:10.788397405Z     return util.import_app(self.app_uri)
+2024-12-08T21:45:10.788400647Z            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-08T21:45:10.788403893Z   File "/tmp/8dd17d140035444/antenv/lib/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+2024-12-08T21:45:10.788407195Z     mod = importlib.import_module(module)
+2024-12-08T21:45:10.788410384Z           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-08T21:45:10.788413580Z   File "/opt/python/3.12.2/lib/python3.12/importlib/__init__.py", line 90, in import_module
+2024-12-08T21:45:10.788416975Z     return _bootstrap._gcd_import(name[level:], package, level)
+2024-12-08T21:45:10.788420047Z            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-08T21:45:10.788422929Z   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+2024-12-08T21:45:10.788426699Z   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+2024-12-08T21:45:10.788429743Z   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+2024-12-08T21:45:10.788433268Z   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+2024-12-08T21:45:10.788436608Z   File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+2024-12-08T21:45:10.788439724Z   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+2024-12-08T21:45:10.788442880Z   File "/tmp/8dd17d140035444/app.py", line 4, in <module>
+2024-12-08T21:45:10.788446259Z     import pyodbc
+2024-12-08T21:45:10.788450541Z ModuleNotFoundError: No module named 'pyodbc'
+2024-12-08T21:45:10.788458871Z [2024-12-08 21:45:10 +0000] [69] [INFO] Worker exiting (pid: 69)
+2024-12-08T21:45:10.834569202Z [2024-12-08 21:45:10 +0000] [66] [ERROR] Worker (pid:69) exited with code 3
+2024-12-08T21:45:10.834955619Z [2024-12-08 21:45:10 +0000] [66] [ERROR] Shutting down: Master
+2024-12-08T21:45:10.835261757Z [2024-12-08 21:45:10 +0000] [66] [ERROR] Reason: Worker failed to boot.
+
+2024-12-08T21:45:18.715585556Z    _____                               
+2024-12-08T21:45:18.715609522Z   /  _  \ __________ _________   ____  
+2024-12-08T21:45:18.715613162Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-08T21:45:18.715616194Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-08T21:45:18.715619252Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-08T21:45:18.715622421Z         \/      \/                  \/ 
+2024-12-08T21:45:18.715699097Z A P P   S E R V I C E   O N   L I N U X
+2024-12-08T21:45:18.715702212Z 
+2024-12-08T21:45:18.715704957Z Documentation: http://aka.ms/webapp-linux
+2024-12-08T21:45:18.715708017Z Python 3.12.2
+2024-12-08T21:45:18.715710795Z Note: Any data outside '/home' is not persisted
+2024-12-08T21:45:19.151880844Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-08T21:45:19.157048578Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-08T21:45:19.183529898Z App Command Line not configured, will attempt auto-detect
+2024-12-08T21:45:19.184387225Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite
+2024-12-08T21:45:19.190612514Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-08T21:45:19.192752498Z Build Operation ID: 4030bd2e135227b1
+2024-12-08T21:45:19.197314514Z Oryx Version: 0.2.20240501.1, Commit: f83f88d3cfb8bb6d3e2765e1dcd218eb0814a095, ReleaseTagName: 20240501.1
+2024-12-08T21:45:19.197335292Z Output is compressed. Extracting it...
+2024-12-08T21:45:19.198755044Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd17d140035444'...
+2024-12-08T21:45:20.643386731Z App path is set to '/tmp/8dd17d140035444'
+2024-12-08T21:45:21.126420731Z Detected an app based on Flask
+2024-12-08T21:45:21.126450037Z Generating `gunicorn` command for 'app:app'
+2024-12-08T21:45:21.154514757Z Writing output script to '/opt/startup/startup.sh'
+2024-12-08T21:45:21.397734818Z Using packages from virtual environment antenv located at /tmp/8dd17d140035444/antenv.
+2024-12-08T21:45:21.397767539Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd17d140035444/antenv/lib/python3.12/site-packages'
+2024-12-08T21:45:21.693291939Z [2024-12-08 21:45:21 +0000] [66] [INFO] Starting gunicorn 23.0.0
+2024-12-08T21:45:21.711017832Z [2024-12-08 21:45:21 +0000] [66] [INFO] Listening at: http://0.0.0.0:8000 (66)
+2024-12-08T21:45:21.711072322Z [2024-12-08 21:45:21 +0000] [66] [INFO] Using worker: sync
+2024-12-08T21:45:21.719787126Z [2024-12-08 21:45:21 +0000] [69] [INFO] Booting worker with pid: 69
+2024-12-08T21:45:22.085433781Z [2024-12-08 21:45:22 +0000] [69] [ERROR] Exception in worker process
+2024-12-08T21:45:22.085457979Z Traceback (most recent call last):
+2024-12-08T21:45:22.085462129Z   File "/tmp/8dd17d140035444/antenv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+2024-12-08T21:45:22.085473905Z     worker.init_process()
+2024-12-08T21:45:22.085477254Z   File "/tmp/8dd17d140035444/antenv/lib/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+2024-12-08T21:45:22.085481463Z     self.load_wsgi()
+2024-12-08T21:45:22.085483787Z   File "/tmp/8dd17d140035444/antenv/lib/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+2024-12-08T21:45:22.085486449Z     self.wsgi = self.app.wsgi()
+2024-12-08T21:45:22.085488617Z                 ^^^^^^^^^^^^^^^
+2024-12-08T21:45:22.085490648Z   File "/tmp/8dd17d140035444/antenv/lib/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+2024-12-08T21:45:22.085492878Z     self.callable = self.load()
+2024-12-08T21:45:22.085494954Z                     ^^^^^^^^^^^
+2024-12-08T21:45:22.085497085Z   File "/tmp/8dd17d140035444/antenv/lib/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+2024-12-08T21:45:22.085499609Z     return self.load_wsgiapp()
+2024-12-08T21:45:22.085501687Z            ^^^^^^^^^^^^^^^^^^^
+2024-12-08T21:45:22.085503795Z   File "/tmp/8dd17d140035444/antenv/lib/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+2024-12-08T21:45:22.085506138Z     return util.import_app(self.app_uri)
+2024-12-08T21:45:22.085508243Z            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-08T21:45:22.085510333Z   File "/tmp/8dd17d140035444/antenv/lib/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+2024-12-08T21:45:22.085512732Z     mod = importlib.import_module(module)
+2024-12-08T21:45:22.085515707Z           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-08T21:45:22.085518590Z   File "/opt/python/3.12.2/lib/python3.12/importlib/__init__.py", line 90, in import_module
+2024-12-08T21:45:22.085521798Z     return _bootstrap._gcd_import(name[level:], package, level)
+2024-12-08T21:45:22.085525159Z            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-08T21:45:22.085528150Z   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+2024-12-08T21:45:22.085531984Z   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+2024-12-08T21:45:22.085633107Z   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+2024-12-08T21:45:22.085636888Z   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+2024-12-08T21:45:22.085640189Z   File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+2024-12-08T21:45:22.085664943Z   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+2024-12-08T21:45:22.085669184Z   File "/tmp/8dd17d140035444/app.py", line 4, in <module>
+2024-12-08T21:45:22.085672756Z     import pyodbc
+2024-12-08T21:45:22.085677724Z ModuleNotFoundError: No module named 'pyodbc'
+2024-12-08T21:45:22.089192431Z [2024-12-08 21:45:22 +0000] [69] [INFO] Worker exiting (pid: 69)
+2024-12-08T21:45:22.145175967Z [2024-12-08 21:45:22 +0000] [66] [ERROR] Worker (pid:69) exited with code 3
+2024-12-08T21:45:22.145201343Z [2024-12-08 21:45:22 +0000] [66] [ERROR] Shutting down: Master
+2024-12-08T21:45:22.145205510Z [2024-12-08 21:45:22 +0000] [66] [ERROR] Reason: Worker failed to boot.
+
+2024-12-08T21:45:57.995491068Z    _____                               
+2024-12-08T21:45:57.995555065Z   /  _  \ __________ _________   ____  
+2024-12-08T21:45:57.995560162Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-08T21:45:57.995563571Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-08T21:45:57.995566828Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-08T21:45:57.995570140Z         \/      \/                  \/ 
+2024-12-08T21:45:57.995573398Z A P P   S E R V I C E   O N   L I N U X
+2024-12-08T21:45:57.995576578Z 
+2024-12-08T21:45:57.995579566Z Documentation: http://aka.ms/webapp-linux
+2024-12-08T21:45:57.995582486Z Python 3.12.2
+2024-12-08T21:45:57.995588501Z Note: Any data outside '/home' is not persisted
+2024-12-08T21:45:58.703082086Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-08T21:45:58.705437510Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-08T21:45:58.724779006Z App Command Line not configured, will attempt auto-detect
+2024-12-08T21:45:58.725416696Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite
+2024-12-08T21:45:58.730699463Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-08T21:45:58.732507907Z Build Operation ID: 4030bd2e135227b1
+2024-12-08T21:45:58.733645217Z Output is compressed. Extracting it...
+2024-12-08T21:45:58.733691538Z Oryx Version: 0.2.20240501.1, Commit: f83f88d3cfb8bb6d3e2765e1dcd218eb0814a095, ReleaseTagName: 20240501.1
+2024-12-08T21:45:58.734724477Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd17d140035444'...
+2024-12-08T21:45:59.893459932Z App path is set to '/tmp/8dd17d140035444'
+2024-12-08T21:46:00.022715955Z Detected an app based on Flask
+2024-12-08T21:46:00.022840039Z Generating `gunicorn` command for 'app:app'
+2024-12-08T21:46:00.047467136Z Writing output script to '/opt/startup/startup.sh'
+2024-12-08T21:46:01.248924512Z Using packages from virtual environment antenv located at /tmp/8dd17d140035444/antenv.
+2024-12-08T21:46:01.248960282Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd17d140035444/antenv/lib/python3.12/site-packages'
+2024-12-08T21:46:01.894105597Z [2024-12-08 21:46:01 +0000] [65] [INFO] Starting gunicorn 23.0.0
+2024-12-08T21:46:01.910082694Z [2024-12-08 21:46:01 +0000] [65] [INFO] Listening at: http://0.0.0.0:8000 (65)
+2024-12-08T21:46:01.910106258Z [2024-12-08 21:46:01 +0000] [65] [INFO] Using worker: sync
+2024-12-08T21:46:01.913061498Z [2024-12-08 21:46:01 +0000] [68] [INFO] Booting worker with pid: 68
+2024-12-08T21:46:02.232535675Z [2024-12-08 21:46:02 +0000] [68] [ERROR] Exception in worker process
+2024-12-08T21:46:02.232560831Z Traceback (most recent call last):
+2024-12-08T21:46:02.232565090Z   File "/tmp/8dd17d140035444/antenv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+2024-12-08T21:46:02.232575133Z     worker.init_process()
+2024-12-08T21:46:02.232578071Z   File "/tmp/8dd17d140035444/antenv/lib/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+2024-12-08T21:46:02.232581316Z     self.load_wsgi()
+2024-12-08T21:46:02.232584413Z   File "/tmp/8dd17d140035444/antenv/lib/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+2024-12-08T21:46:02.232587544Z     self.wsgi = self.app.wsgi()
+2024-12-08T21:46:02.232590438Z                 ^^^^^^^^^^^^^^^
+2024-12-08T21:46:02.232593566Z   File "/tmp/8dd17d140035444/antenv/lib/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+2024-12-08T21:46:02.232596952Z     self.callable = self.load()
+2024-12-08T21:46:02.232600046Z                     ^^^^^^^^^^^
+2024-12-08T21:46:02.232602686Z   File "/tmp/8dd17d140035444/antenv/lib/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+2024-12-08T21:46:02.232605536Z     return self.load_wsgiapp()
+2024-12-08T21:46:02.232608344Z            ^^^^^^^^^^^^^^^^^^^
+2024-12-08T21:46:02.232611569Z   File "/tmp/8dd17d140035444/antenv/lib/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+2024-12-08T21:46:02.232615213Z     return util.import_app(self.app_uri)
+2024-12-08T21:46:02.232618567Z            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-08T21:46:02.232621967Z   File "/tmp/8dd17d140035444/antenv/lib/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+2024-12-08T21:46:02.232625364Z     mod = importlib.import_module(module)
+2024-12-08T21:46:02.232628521Z           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-08T21:46:02.232631399Z   File "/opt/python/3.12.2/lib/python3.12/importlib/__init__.py", line 90, in import_module
+2024-12-08T21:46:02.232634687Z     return _bootstrap._gcd_import(name[level:], package, level)
+2024-12-08T21:46:02.232637641Z            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-08T21:46:02.232640916Z   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+2024-12-08T21:46:02.232644686Z   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+2024-12-08T21:46:02.232648194Z   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+2024-12-08T21:46:02.232651700Z   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+2024-12-08T21:46:02.232655202Z   File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+2024-12-08T21:46:02.232658857Z   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+2024-12-08T21:46:02.232662348Z   File "/tmp/8dd17d140035444/app.py", line 4, in <module>
+2024-12-08T21:46:02.232665826Z     import pyodbc
+2024-12-08T21:46:02.232669890Z ModuleNotFoundError: No module named 'pyodbc'
+2024-12-08T21:46:02.232677395Z [2024-12-08 21:46:02 +0000] [68] [INFO] Worker exiting (pid: 68)
+2024-12-08T21:46:02.271890363Z [2024-12-08 21:46:02 +0000] [65] [ERROR] Worker (pid:68) exited with code 3
+2024-12-08T21:46:02.271958570Z [2024-12-08 21:46:02 +0000] [65] [ERROR] Shutting down: Master
+2024-12-08T21:46:02.271963122Z [2024-12-08 21:46:02 +0000] [65] [ERROR] Reason: Worker failed to boot.
+
+2024-12-08T21:46:10.024253966Z    _____                               
+2024-12-08T21:46:10.024277521Z   /  _  \ __________ _________   ____  
+2024-12-08T21:46:10.024281129Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-08T21:46:10.024284304Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-08T21:46:10.024287283Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-08T21:46:10.024290513Z         \/      \/                  \/ 
+2024-12-08T21:46:10.024293633Z A P P   S E R V I C E   O N   L I N U X
+2024-12-08T21:46:10.024296686Z 
+2024-12-08T21:46:10.024299477Z Documentation: http://aka.ms/webapp-linux
+2024-12-08T21:46:10.024302561Z Python 3.12.2
+2024-12-08T21:46:10.024305498Z Note: Any data outside '/home' is not persisted
+2024-12-08T21:46:10.277024001Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-08T21:46:10.280919501Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-08T21:46:10.308301890Z App Command Line not configured, will attempt auto-detect
+2024-12-08T21:46:10.308665267Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite
+2024-12-08T21:46:10.313683700Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-08T21:46:10.315599786Z Build Operation ID: 4030bd2e135227b1
+2024-12-08T21:46:10.316625938Z Oryx Version: 0.2.20240501.1, Commit: f83f88d3cfb8bb6d3e2765e1dcd218eb0814a095, ReleaseTagName: 20240501.1
+2024-12-08T21:46:10.316668316Z Output is compressed. Extracting it...
+2024-12-08T21:46:10.317821848Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd17d140035444'...
+2024-12-08T21:46:11.618146062Z App path is set to '/tmp/8dd17d140035444'
+2024-12-08T21:46:11.780786392Z Detected an app based on Flask
+2024-12-08T21:46:11.780923170Z Generating `gunicorn` command for 'app:app'
+2024-12-08T21:46:11.807017443Z Writing output script to '/opt/startup/startup.sh'
+2024-12-08T21:46:12.195664126Z Using packages from virtual environment antenv located at /tmp/8dd17d140035444/antenv.
+2024-12-08T21:46:12.195723944Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd17d140035444/antenv/lib/python3.12/site-packages'
+2024-12-08T21:46:12.433475307Z [2024-12-08 21:46:12 +0000] [66] [INFO] Starting gunicorn 23.0.0
+2024-12-08T21:46:12.443622707Z [2024-12-08 21:46:12 +0000] [66] [INFO] Listening at: http://0.0.0.0:8000 (66)
+2024-12-08T21:46:12.443643984Z [2024-12-08 21:46:12 +0000] [66] [INFO] Using worker: sync
+2024-12-08T21:46:12.446068563Z [2024-12-08 21:46:12 +0000] [69] [INFO] Booting worker with pid: 69
+2024-12-08T21:46:13.441798888Z [2024-12-08 21:46:13 +0000] [69] [ERROR] Exception in worker process
+2024-12-08T21:46:13.441827259Z Traceback (most recent call last):
+2024-12-08T21:46:13.441831833Z   File "/tmp/8dd17d140035444/antenv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+2024-12-08T21:46:13.441843866Z     worker.init_process()
+2024-12-08T21:46:13.441847221Z   File "/tmp/8dd17d140035444/antenv/lib/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+2024-12-08T21:46:13.441850838Z     self.load_wsgi()
+2024-12-08T21:46:13.441853969Z   File "/tmp/8dd17d140035444/antenv/lib/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+2024-12-08T21:46:13.441857039Z     self.wsgi = self.app.wsgi()
+2024-12-08T21:46:13.441859852Z                 ^^^^^^^^^^^^^^^
+2024-12-08T21:46:13.441862917Z   File "/tmp/8dd17d140035444/antenv/lib/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+2024-12-08T21:46:13.441866010Z     self.callable = self.load()
+2024-12-08T21:46:13.441868977Z                     ^^^^^^^^^^^
+2024-12-08T21:46:13.441871944Z   File "/tmp/8dd17d140035444/antenv/lib/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+2024-12-08T21:46:13.441875192Z     return self.load_wsgiapp()
+2024-12-08T21:46:13.441878118Z            ^^^^^^^^^^^^^^^^^^^
+2024-12-08T21:46:13.441881383Z   File "/tmp/8dd17d140035444/antenv/lib/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+2024-12-08T21:46:13.441884848Z     return util.import_app(self.app_uri)
+2024-12-08T21:46:13.441887888Z            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-08T21:46:13.441891072Z   File "/tmp/8dd17d140035444/antenv/lib/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+2024-12-08T21:46:13.441894405Z     mod = importlib.import_module(module)
+2024-12-08T21:46:13.441897483Z           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-08T21:46:13.441900748Z   File "/opt/python/3.12.2/lib/python3.12/importlib/__init__.py", line 90, in import_module
+2024-12-08T21:46:13.441904330Z     return _bootstrap._gcd_import(name[level:], package, level)
+2024-12-08T21:46:13.441907684Z            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-08T21:46:13.441910857Z   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+2024-12-08T21:46:13.441914664Z   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+2024-12-08T21:46:13.441917642Z   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+2024-12-08T21:46:13.441920696Z   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+2024-12-08T21:46:13.441923763Z   File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+2024-12-08T21:46:13.441926970Z   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+2024-12-08T21:46:13.441930355Z   File "/tmp/8dd17d140035444/app.py", line 4, in <module>
+2024-12-08T21:46:13.441933738Z     import pyodbc
+2024-12-08T21:46:13.441938217Z ModuleNotFoundError: No module named 'pyodbc'
+2024-12-08T21:46:13.441945224Z [2024-12-08 21:46:13 +0000] [69] [INFO] Worker exiting (pid: 69)
+2024-12-08T21:46:13.483349718Z [2024-12-08 21:46:13 +0000] [66] [ERROR] Worker (pid:69) exited with code 3
+2024-12-08T21:46:13.484847083Z [2024-12-08 21:46:13 +0000] [66] [ERROR] Shutting down: Master
+2024-12-08T21:46:13.484863329Z [2024-12-08 21:46:13 +0000] [66] [ERROR] Reason: Worker failed to boot.
+

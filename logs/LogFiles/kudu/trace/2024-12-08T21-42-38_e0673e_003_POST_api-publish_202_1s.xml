@@ -1,0 +1,16 @@
+<step title="Incoming Request" date="2024-12-08T21:42:38.230" instance="e0673e" url="/api/publish?async=true&amp;deployer=GITHUB_ONE_DEPLOY&amp;type=zip&amp;message=%7B%22type%22%3A%22deployment%22%2C%22sha%22%3A%220e60f8bec52f37f0d7fefbe2839cfd78cb2d105b%22%2C%22repoName%22%3A%22aya7abbal%2FCCProject%22%2C%22actor%22%3A%22aya7abbal%22%2C%22slotName%22%3A%22Production%22%2C%22commitMessage%22%3A%22Add%20or%20update%20the%20Azure%20App%20Service%20build%20and%20deployment%20workflow%20config%22%7D" method="POST" type="request" pid="86,1,7" Host="retail-webapp-fvbraghnb0g0aye4.scm.centralus-01.azurewebsites.net" User-Agent="GITHUBACTIONS_DeployWebAppToAzure_07fa955058e7a9b1c6186baa3bdb95c4e9b64e2f56c76fbeb9d8f68e97497b0d" Authorization="Bas..." Content-Type="application/octet-stream" Cookie="ARRAffinity=e0673e1f74cb41099b234cccdcebb2529f890acd174966d89cb55643a6d395c5;Path=/;HttpOnly;Secure;Domain=retail-webapp-fvbraghnb0g0aye4.scm.centralus-01.azurewebsites.net; ARRAffinitySameSite=e0673e1f74cb41099b234cccdcebb2529f890acd174966d89cb55643a6d395c5;Path=/;HttpOnly;SameSite=None;Secure;Domain=retail-webapp-fvbraghnb0g0aye4.scm.centralus-01.azurewebsites.net" Transfer-Encoding="chunked" X-ARR-LOG-ID="f67fc523-8259-44b6-a9e4-7af019833475" CLIENT-IP="20.51.206.102:58432" X-SITE-DEPLOYMENT-ID="Retail-WebApp" WAS-DEFAULT-HOSTNAME="retail-webapp-fvbraghnb0g0aye4.scm.centralus-01.azurewebsites.net" X-Forwarded-Proto="https" X-AppService-Proto="https" X-Forwarded-TlsVersion="1.3" X-WAWS-Unencoded-URL="/api/publish?async=true&amp;deployer=GITHUB_ONE_DEPLOY&amp;type=zip&amp;message=%7B%22type%22%3A%22deployment%22%2C%22sha%22%3A%220e60f8bec52f37f0d7fefbe2839cfd78cb2d105b%22%2C%22repoName%22%3A%22aya7abbal%2FCCProject%22%2C%22actor%22%3A%22aya7abbal%22%2C%22slotName%22%3A%22Production%22%2C%22commitMessage%22%3A%22Add%20or%20update%20the%20Azure%20App%20Service%20build%20and%20deployment%20workflow%20config%22%7D" X-Client-IP="20.51.206.102" X-Client-Port="58432" >
+  <step title="OneDeploy" date="2024-12-08T21:42:38.298" >
+    <step title="None repository commit" date="2024-12-08T21:42:38.317" >
+      <step title="Commit id: 5c3bfdec-d343-45db-82f4-bcb378fbad25" date="2024-12-08T21:42:38.320" Message="N/A" AuthorName="N/A" AuthorEmail="N/A" /><!-- duration: 3ms -->
+    </step><!-- duration: 9ms -->
+    <step title="Starting PushDeployAsync" date="2024-12-08T21:42:38.328" /><!-- duration: 3ms -->
+    <step title="Writing artifact to /tmp/zipdeploy/665e19a9-a737-4bc6-a1c4-fe7cb760321b.zip" date="2024-12-08T21:42:39.144" >
+      <step title="Writing request body to artifacts at /tmp/zipdeploy/665e19a9-a737-4bc6-a1c4-fe7cb760321b.zip" date="2024-12-08T21:42:39.157" /><!-- duration: 4ms -->
+    </step><!-- duration: 132ms -->
+    <step title="Start deployment in the background" date="2024-12-08T21:42:39.291" >
+      <step title="Acquiring Deployment Lock" date="2024-12-08T21:42:39.317" /><!-- duration: 3ms -->
+      <step title="Acquired Deployment Lock" date="2024-12-08T21:42:39.350" /><!-- duration: 3ms -->
+    </step><!-- duration: 139ms -->
+  </step><!-- duration: 1139ms -->
+  <step title="Outgoing response" date="2024-12-08T21:42:39.450" type="response" statusCode="202" statusText="Accepted" /><!-- duration: 3ms -->
+</step><!-- duration: 1226ms -->

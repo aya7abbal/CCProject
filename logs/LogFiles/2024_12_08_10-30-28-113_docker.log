@@ -1,0 +1,763 @@
+2024-12-08T21:32:06.7958069Z Container start method called.
+2024-12-08T21:32:06.7971000Z Establishing network.
+2024-12-08T21:32:06.7986198Z Pulling image: appsvc/python:3.12_20240619.3.tuxprod.
+2024-12-08T21:32:49.2523704Z Image appsvc/python:3.12_20240619.3.tuxprod is pulled from registry 10.1.6.0:13209
+2024-12-08T21:32:49.2525811Z Container is starting.
+2024-12-08T21:32:49.2526029Z Establishing user namespace if not established already.
+2024-12-08T21:32:49.2526270Z Establishing network if not established already.
+2024-12-08T21:32:49.2526432Z Mounting volumes.
+2024-12-08T21:32:49.2528039Z Nested mountpoint 
+2024-12-08T21:32:49.2664876Z Nested mountpoint volatile/logs
+2024-12-08T21:32:49.2705774Z Nested mountpoint 
+2024-12-08T21:32:49.2996337Z Nested mountpoint 
+2024-12-08T21:32:49.3007938Z Nested mountpoint 
+2024-12-08T21:32:49.3023937Z Nested mountpoint 
+2024-12-08T21:33:01.1849739Z Creating container.
+2024-12-08T21:33:01.1850325Z Creating pipes for streaming container io.
+2024-12-08T21:33:01.1850748Z Creating stdout named pipe at /podr/container/pipe/retail-webapp_c5e69026/stdout_0097bfa633e14e4a98bdcf5fa37a81c2.
+2024-12-08T21:33:01.1954206Z Successfully created stdout named pipe at: /podr/container/pipe/retail-webapp_c5e69026/stdout_0097bfa633e14e4a98bdcf5fa37a81c2.
+2024-12-08T21:33:01.1954893Z Opening named pipe /podr/container/pipe/retail-webapp_c5e69026/stdout_0097bfa633e14e4a98bdcf5fa37a81c2 for reading in non-blocking mode.
+2024-12-08T21:33:01.1955394Z Successfully opened named pipe: /podr/container/pipe/retail-webapp_c5e69026/stdout_0097bfa633e14e4a98bdcf5fa37a81c2.
+2024-12-08T21:33:01.1955636Z Successfully removed non-blocking flag from /podr/container/pipe/retail-webapp_c5e69026/stdout_0097bfa633e14e4a98bdcf5fa37a81c2.
+2024-12-08T21:33:01.1955914Z Creating stderr named pipe at /podr/container/pipe/retail-webapp_c5e69026/stderr_5f7f18e349c9442cbc9c07dbe072bd34.
+2024-12-08T21:33:01.1956465Z Successfully created stderr named pipe at: /podr/container/pipe/retail-webapp_c5e69026/stderr_5f7f18e349c9442cbc9c07dbe072bd34.
+2024-12-08T21:33:01.1956632Z Opening named pipe /podr/container/pipe/retail-webapp_c5e69026/stderr_5f7f18e349c9442cbc9c07dbe072bd34 for reading in non-blocking mode.
+2024-12-08T21:33:01.1956927Z Successfully opened named pipe: /podr/container/pipe/retail-webapp_c5e69026/stderr_5f7f18e349c9442cbc9c07dbe072bd34.
+2024-12-08T21:33:01.1957118Z Successfully removed non-blocking flag from /podr/container/pipe/retail-webapp_c5e69026/stderr_5f7f18e349c9442cbc9c07dbe072bd34.
+2024-12-08T21:33:01.1973509Z Creating container with image: appsvc/python:3.12_20240619.3.tuxprod from registry: 10.1.6.0:13209 and fully qualified image name: 10.1.6.0:13209/appsvc/python:3.12_20240619.3.tuxprod
+2024-12-08T21:33:04.9575055Z Starting container: retail-webapp_c5e69026.
+2024-12-08T21:33:04.9705538Z Starting watchers and probes.
+2024-12-08T21:33:04.9708719Z Starting metrics collection.
+2024-12-08T21:33:04.9716051Z Container is running.
+2024-12-08T21:33:04.9947766Z Container start method finished after 58198 ms.
+2024-12-08T21:33:08.0452206Z Site startup probe succeeded after 3.0362483 seconds.
+2024-12-08T21:33:08.0977472Z Site started.
+2024-12-08T21:36:20.4122450Z Container start method called.
+2024-12-08T21:36:20.4122852Z Establishing network.
+2024-12-08T21:36:20.4123050Z Pulling image: appsvc/python:3.12_20240619.3.tuxprod.
+2024-12-08T21:36:23.1426626Z Container is starting.
+2024-12-08T21:36:23.1427167Z Establishing user namespace if not established already.
+2024-12-08T21:36:23.1427593Z Establishing network if not established already.
+2024-12-08T21:36:23.1427836Z Mounting volumes.
+2024-12-08T21:36:23.1428989Z Nested mountpoint 
+2024-12-08T21:36:23.1465085Z Nested mountpoint volatile/logs
+2024-12-08T21:36:23.1516532Z Nested mountpoint 
+2024-12-08T21:36:23.1530849Z Nested mountpoint 
+2024-12-08T21:36:23.1544759Z Nested mountpoint 
+2024-12-08T21:36:23.1570289Z Nested mountpoint 
+2024-12-08T21:36:30.1193483Z Volume: DiagnosticServer cannot be mounted at /diagServer during container: retail-webapp startup. The volume mount is required. Terminate.
+2024-12-08T21:36:30.1201269Z Container start up interrupted. Revert by terminate.
+2024-12-08T21:36:30.1551811Z Container is terminating. Grace period: 5 seconds.
+2024-12-08T21:36:30.1589693Z Container spec TerminationMessagePolicy  path 
+2024-12-08T21:36:30.1610663Z Container is terminated. Total time elapsed: 3 ms.
+2024-12-08T21:36:30.1612614Z Site container: retail-webapp terminated during site startup.
+2024-12-08T21:36:30.4975018Z Site container: retail-webapp terminated. Stopping the entire site.
+2024-12-08T21:36:31.8838904Z Container start method called.
+2024-12-08T21:36:31.8839376Z Establishing network.
+2024-12-08T21:36:31.8839635Z Pulling image: appsvc/python:3.12_20240619.3.tuxprod.
+2024-12-08T21:36:34.4759768Z Container is starting.
+2024-12-08T21:36:34.4760998Z Establishing user namespace if not established already.
+2024-12-08T21:36:34.4762046Z Establishing network if not established already.
+2024-12-08T21:36:34.4762318Z Mounting volumes.
+2024-12-08T21:36:34.4790339Z Nested mountpoint 
+2024-12-08T21:36:34.4862849Z Nested mountpoint volatile/logs
+2024-12-08T21:36:34.4889339Z Nested mountpoint 
+2024-12-08T21:36:34.4912046Z Nested mountpoint 
+2024-12-08T21:36:34.4915333Z Nested mountpoint 
+2024-12-08T21:36:34.4956874Z Nested mountpoint 
+2024-12-08T21:36:35.0940143Z Creating container.
+2024-12-08T21:36:35.0940579Z Creating pipes for streaming container io.
+2024-12-08T21:36:35.0940781Z Creating stdout named pipe at /podr/container/pipe/retail-webapp_1b52c981/stdout_32aa5ac996b343be80e4960fda1a3a3b.
+2024-12-08T21:36:35.0941599Z Successfully created stdout named pipe at: /podr/container/pipe/retail-webapp_1b52c981/stdout_32aa5ac996b343be80e4960fda1a3a3b.
+2024-12-08T21:36:35.0941795Z Opening named pipe /podr/container/pipe/retail-webapp_1b52c981/stdout_32aa5ac996b343be80e4960fda1a3a3b for reading in non-blocking mode.
+2024-12-08T21:36:35.0942152Z Successfully opened named pipe: /podr/container/pipe/retail-webapp_1b52c981/stdout_32aa5ac996b343be80e4960fda1a3a3b.
+2024-12-08T21:36:35.0942365Z Successfully removed non-blocking flag from /podr/container/pipe/retail-webapp_1b52c981/stdout_32aa5ac996b343be80e4960fda1a3a3b.
+2024-12-08T21:36:35.0942621Z Creating stderr named pipe at /podr/container/pipe/retail-webapp_1b52c981/stderr_0bde4338f2f447538ef419b48837a1db.
+2024-12-08T21:36:35.0943051Z Successfully created stderr named pipe at: /podr/container/pipe/retail-webapp_1b52c981/stderr_0bde4338f2f447538ef419b48837a1db.
+2024-12-08T21:36:35.0943234Z Opening named pipe /podr/container/pipe/retail-webapp_1b52c981/stderr_0bde4338f2f447538ef419b48837a1db for reading in non-blocking mode.
+2024-12-08T21:36:35.0943510Z Successfully opened named pipe: /podr/container/pipe/retail-webapp_1b52c981/stderr_0bde4338f2f447538ef419b48837a1db.
+2024-12-08T21:36:35.0943711Z Successfully removed non-blocking flag from /podr/container/pipe/retail-webapp_1b52c981/stderr_0bde4338f2f447538ef419b48837a1db.
+2024-12-08T21:36:35.0944069Z Creating container with image: appsvc/python:3.12_20240619.3.tuxprod from registry: 10.1.6.0:13209 and fully qualified image name: 10.1.6.0:13209/appsvc/python:3.12_20240619.3.tuxprod
+2024-12-08T21:36:35.2567350Z Starting container: retail-webapp_1b52c981.
+2024-12-08T21:36:35.2722359Z Starting watchers and probes.
+2024-12-08T21:36:35.2742239Z Starting metrics collection.
+2024-12-08T21:36:35.2745739Z Container is running.
+2024-12-08T21:36:35.2867894Z Container start method finished after 3402 ms.
+2024-12-08T21:36:40.3280424Z Site startup probe succeeded after 5.0405161 seconds.
+2024-12-08T21:36:40.5121741Z Site started.
+2024-12-08T21:37:00.5481662Z Container is terminating. Grace period: 5 seconds.
+2024-12-08T21:37:00.5515628Z Stop and delete container. Retry count = 0
+2024-12-08T21:37:00.5516124Z Stopping container: retail-webapp_c5e69026.
+2024-12-08T21:37:05.5783492Z Deleting container: retail-webapp_c5e69026. Retry count = 0
+2024-12-08T21:37:06.5656883Z Container spec TerminationMessagePolicy  path 
+2024-12-08T21:37:06.5663929Z Container is terminated. Total time elapsed: 6017 ms.
+2024-12-08T21:41:38.0688814Z Container start method called.
+2024-12-08T21:41:38.0712627Z Establishing network.
+2024-12-08T21:41:38.0713137Z Pulling image: appsvc/python:3.12_20240619.3.tuxprod.
+2024-12-08T21:41:41.8148099Z Container is starting.
+2024-12-08T21:41:41.8160522Z Establishing user namespace if not established already.
+2024-12-08T21:41:41.8162453Z Establishing network if not established already.
+2024-12-08T21:41:41.8172350Z Mounting volumes.
+2024-12-08T21:41:41.8179802Z Nested mountpoint 
+2024-12-08T21:41:41.8273304Z Nested mountpoint volatile/logs
+2024-12-08T21:41:41.8294700Z Nested mountpoint 
+2024-12-08T21:41:41.8304047Z Nested mountpoint 
+2024-12-08T21:41:41.8311166Z Nested mountpoint 
+2024-12-08T21:41:41.8327032Z Nested mountpoint 
+2024-12-08T21:41:42.7661044Z Creating container.
+2024-12-08T21:41:42.7671418Z Creating pipes for streaming container io.
+2024-12-08T21:41:42.7672039Z Creating stdout named pipe at /podr/container/pipe/retail-webapp_e0c4214b/stdout_8dcb05efac684ed09bc784060fada7e9.
+2024-12-08T21:41:42.7672948Z Successfully created stdout named pipe at: /podr/container/pipe/retail-webapp_e0c4214b/stdout_8dcb05efac684ed09bc784060fada7e9.
+2024-12-08T21:41:42.7673161Z Opening named pipe /podr/container/pipe/retail-webapp_e0c4214b/stdout_8dcb05efac684ed09bc784060fada7e9 for reading in non-blocking mode.
+2024-12-08T21:41:42.7680497Z Successfully opened named pipe: /podr/container/pipe/retail-webapp_e0c4214b/stdout_8dcb05efac684ed09bc784060fada7e9.
+2024-12-08T21:41:42.7682841Z Successfully removed non-blocking flag from /podr/container/pipe/retail-webapp_e0c4214b/stdout_8dcb05efac684ed09bc784060fada7e9.
+2024-12-08T21:41:42.7685668Z Creating stderr named pipe at /podr/container/pipe/retail-webapp_e0c4214b/stderr_a805d112bba04e638f3e22a446330607.
+2024-12-08T21:41:42.7686518Z Successfully created stderr named pipe at: /podr/container/pipe/retail-webapp_e0c4214b/stderr_a805d112bba04e638f3e22a446330607.
+2024-12-08T21:41:42.7686750Z Opening named pipe /podr/container/pipe/retail-webapp_e0c4214b/stderr_a805d112bba04e638f3e22a446330607 for reading in non-blocking mode.
+2024-12-08T21:41:42.7693269Z Successfully opened named pipe: /podr/container/pipe/retail-webapp_e0c4214b/stderr_a805d112bba04e638f3e22a446330607.
+2024-12-08T21:41:42.7695799Z Successfully removed non-blocking flag from /podr/container/pipe/retail-webapp_e0c4214b/stderr_a805d112bba04e638f3e22a446330607.
+2024-12-08T21:41:42.7696570Z Creating container with image: appsvc/python:3.12_20240619.3.tuxprod from registry: 10.1.6.0:13209 and fully qualified image name: 10.1.6.0:13209/appsvc/python:3.12_20240619.3.tuxprod
+2024-12-08T21:41:46.0307959Z Starting container: retail-webapp_e0c4214b.
+2024-12-08T21:41:46.0466276Z Starting watchers and probes.
+2024-12-08T21:41:46.0476006Z Starting metrics collection.
+2024-12-08T21:41:46.0478354Z Container is running.
+2024-12-08T21:41:46.7864857Z Container start method finished after 8715 ms.
+2024-12-08T21:41:48.8172757Z Site startup probe succeeded after 2.0276227 seconds.
+2024-12-08T21:41:48.8364026Z Site started.
+2024-12-08T21:42:08.8496206Z Container is terminating. Grace period: 5 seconds.
+2024-12-08T21:42:08.9485905Z Stop and delete container. Retry count = 0
+2024-12-08T21:42:08.9503540Z Stopping container: retail-webapp_1b52c981.
+2024-12-08T21:42:15.4288480Z Deleting container: retail-webapp_1b52c981. Retry count = 0
+2024-12-08T21:42:15.9647808Z Container spec TerminationMessagePolicy  path 
+2024-12-08T21:42:15.9650563Z Container is terminated. Total time elapsed: 7091 ms.
+2024-12-08T21:42:18.8502935Z Container start method called.
+2024-12-08T21:42:18.8601118Z Establishing network.
+2024-12-08T21:42:18.8603048Z Pulling image: appsvc/python:3.12_20240619.3.tuxprod.
+2024-12-08T21:42:21.8235421Z Container is starting.
+2024-12-08T21:42:21.8235891Z Establishing user namespace if not established already.
+2024-12-08T21:42:21.8236372Z Establishing network if not established already.
+2024-12-08T21:42:21.8236646Z Mounting volumes.
+2024-12-08T21:42:21.8237791Z Nested mountpoint 
+2024-12-08T21:42:21.8321083Z Nested mountpoint volatile/logs
+2024-12-08T21:42:21.8376101Z Nested mountpoint 
+2024-12-08T21:42:21.8378999Z Nested mountpoint 
+2024-12-08T21:42:21.8380860Z Nested mountpoint 
+2024-12-08T21:42:21.8422343Z Nested mountpoint 
+2024-12-08T21:42:22.8876178Z Creating container.
+2024-12-08T21:42:22.8876689Z Creating pipes for streaming container io.
+2024-12-08T21:42:22.8876937Z Creating stdout named pipe at /podr/container/pipe/retail-webapp_855b5c5f/stdout_bb3650414e074101a8830a6bb330784d.
+2024-12-08T21:42:22.8877658Z Successfully created stdout named pipe at: /podr/container/pipe/retail-webapp_855b5c5f/stdout_bb3650414e074101a8830a6bb330784d.
+2024-12-08T21:42:22.8877876Z Opening named pipe /podr/container/pipe/retail-webapp_855b5c5f/stdout_bb3650414e074101a8830a6bb330784d for reading in non-blocking mode.
+2024-12-08T21:42:22.8878160Z Successfully opened named pipe: /podr/container/pipe/retail-webapp_855b5c5f/stdout_bb3650414e074101a8830a6bb330784d.
+2024-12-08T21:42:22.8878392Z Successfully removed non-blocking flag from /podr/container/pipe/retail-webapp_855b5c5f/stdout_bb3650414e074101a8830a6bb330784d.
+2024-12-08T21:42:22.8878621Z Creating stderr named pipe at /podr/container/pipe/retail-webapp_855b5c5f/stderr_a501ba27306740cb8703cc80cae67392.
+2024-12-08T21:42:22.8879056Z Successfully created stderr named pipe at: /podr/container/pipe/retail-webapp_855b5c5f/stderr_a501ba27306740cb8703cc80cae67392.
+2024-12-08T21:42:22.8879304Z Opening named pipe /podr/container/pipe/retail-webapp_855b5c5f/stderr_a501ba27306740cb8703cc80cae67392 for reading in non-blocking mode.
+2024-12-08T21:42:22.8879578Z Successfully opened named pipe: /podr/container/pipe/retail-webapp_855b5c5f/stderr_a501ba27306740cb8703cc80cae67392.
+2024-12-08T21:42:22.8879807Z Successfully removed non-blocking flag from /podr/container/pipe/retail-webapp_855b5c5f/stderr_a501ba27306740cb8703cc80cae67392.
+2024-12-08T21:42:22.8880099Z Creating container with image: appsvc/python:3.12_20240619.3.tuxprod from registry: 10.1.6.0:13209 and fully qualified image name: 10.1.6.0:13209/appsvc/python:3.12_20240619.3.tuxprod
+2024-12-08T21:42:23.4056990Z Starting container: retail-webapp_855b5c5f.
+2024-12-08T21:42:23.4259948Z Starting watchers and probes.
+2024-12-08T21:42:23.4276279Z Starting metrics collection.
+2024-12-08T21:42:23.4294479Z Container is running.
+2024-12-08T21:42:23.4795151Z Container start method finished after 4620 ms.
+2024-12-08T21:42:25.5305998Z Site startup probe succeeded after 2.0487447 seconds.
+2024-12-08T21:42:25.5432259Z Site started.
+2024-12-08T21:42:45.5826341Z Container is terminating. Grace period: 5 seconds.
+2024-12-08T21:42:45.8289140Z Stop and delete container. Retry count = 0
+2024-12-08T21:42:45.8299588Z Stopping container: retail-webapp_e0c4214b.
+2024-12-08T21:42:51.2885932Z Deleting container: retail-webapp_e0c4214b. Retry count = 0
+2024-12-08T21:42:52.0378259Z Container spec TerminationMessagePolicy  path 
+2024-12-08T21:42:52.2805264Z Container is terminated. Total time elapsed: 6697 ms.
+2024-12-08T21:43:24.1162986Z Container start method called.
+2024-12-08T21:43:24.1176948Z Establishing network.
+2024-12-08T21:43:24.1177302Z Pulling image: appsvc/python:3.12_20240619.3.tuxprod.
+2024-12-08T21:43:26.7619247Z Container is starting.
+2024-12-08T21:43:26.7619876Z Establishing user namespace if not established already.
+2024-12-08T21:43:26.7620229Z Establishing network if not established already.
+2024-12-08T21:43:26.7620488Z Mounting volumes.
+2024-12-08T21:43:26.7621494Z Nested mountpoint 
+2024-12-08T21:43:26.7644624Z Nested mountpoint volatile/logs
+2024-12-08T21:43:26.7659186Z Nested mountpoint 
+2024-12-08T21:43:26.7662186Z Nested mountpoint 
+2024-12-08T21:43:26.7663884Z Nested mountpoint 
+2024-12-08T21:43:26.7699029Z Nested mountpoint 
+2024-12-08T21:43:27.4703967Z Creating container.
+2024-12-08T21:43:27.4723095Z Creating pipes for streaming container io.
+2024-12-08T21:43:27.4730915Z Creating stdout named pipe at /podr/container/pipe/retail-webapp_ecab4a9c/stdout_c80a27305a1c4ad2820c40e5defc673c.
+2024-12-08T21:43:27.4739699Z Successfully created stdout named pipe at: /podr/container/pipe/retail-webapp_ecab4a9c/stdout_c80a27305a1c4ad2820c40e5defc673c.
+2024-12-08T21:43:27.4744014Z Opening named pipe /podr/container/pipe/retail-webapp_ecab4a9c/stdout_c80a27305a1c4ad2820c40e5defc673c for reading in non-blocking mode.
+2024-12-08T21:43:27.4748669Z Successfully opened named pipe: /podr/container/pipe/retail-webapp_ecab4a9c/stdout_c80a27305a1c4ad2820c40e5defc673c.
+2024-12-08T21:43:27.4756120Z Successfully removed non-blocking flag from /podr/container/pipe/retail-webapp_ecab4a9c/stdout_c80a27305a1c4ad2820c40e5defc673c.
+2024-12-08T21:43:27.4759764Z Creating stderr named pipe at /podr/container/pipe/retail-webapp_ecab4a9c/stderr_bf6a4500c6f54365a3a3ebcdc5f7c619.
+2024-12-08T21:43:27.4763475Z Successfully created stderr named pipe at: /podr/container/pipe/retail-webapp_ecab4a9c/stderr_bf6a4500c6f54365a3a3ebcdc5f7c619.
+2024-12-08T21:43:27.4766223Z Opening named pipe /podr/container/pipe/retail-webapp_ecab4a9c/stderr_bf6a4500c6f54365a3a3ebcdc5f7c619 for reading in non-blocking mode.
+2024-12-08T21:43:27.4770902Z Successfully opened named pipe: /podr/container/pipe/retail-webapp_ecab4a9c/stderr_bf6a4500c6f54365a3a3ebcdc5f7c619.
+2024-12-08T21:43:27.4771647Z Successfully removed non-blocking flag from /podr/container/pipe/retail-webapp_ecab4a9c/stderr_bf6a4500c6f54365a3a3ebcdc5f7c619.
+2024-12-08T21:43:27.4771973Z Creating container with image: appsvc/python:3.12_20240619.3.tuxprod from registry: 10.1.6.0:13209 and fully qualified image name: 10.1.6.0:13209/appsvc/python:3.12_20240619.3.tuxprod
+2024-12-08T21:43:27.6966949Z Starting container: retail-webapp_ecab4a9c.
+2024-12-08T21:43:27.7126641Z Starting watchers and probes.
+2024-12-08T21:43:27.7132455Z Starting metrics collection.
+2024-12-08T21:43:27.7139501Z Container is running.
+2024-12-08T21:43:31.0470913Z Container start method finished after 6929 ms.
+2024-12-08T21:43:33.6384134Z Container has finished running with exit code: 3.
+2024-12-08T21:43:33.6387317Z Container is terminating. Grace period: 5 seconds.
+2024-12-08T21:43:33.6389352Z Stop and delete container. Retry count = 0
+2024-12-08T21:43:33.6389723Z Stopping container: retail-webapp_ecab4a9c.
+2024-12-08T21:43:33.6507392Z Deleting container: retail-webapp_ecab4a9c. Retry count = 0
+2024-12-08T21:43:34.2562543Z Container spec TerminationMessagePolicy  path 
+2024-12-08T21:43:34.2565263Z Container is terminated. Total time elapsed: 617 ms.
+2024-12-08T21:43:34.2567145Z Site container: retail-webapp terminated during site startup.
+2024-12-08T21:43:34.2578185Z Site startup probe failed after 3.2095404 seconds.
+2024-12-08T21:43:34.2796307Z Failed to start site. Revert by stopping site.
+2024-12-08T21:43:34.4132330Z Site: retail-webapp stopped.
+2024-12-08T21:43:54.4604879Z Container is terminating. Grace period: 5 seconds.
+2024-12-08T21:43:54.4652112Z Stop and delete container. Retry count = 0
+2024-12-08T21:43:54.4653948Z Stopping container: retail-webapp_855b5c5f.
+2024-12-08T21:43:59.9495646Z Deleting container: retail-webapp_855b5c5f. Retry count = 0
+2024-12-08T21:44:01.3049603Z Container spec TerminationMessagePolicy  path 
+2024-12-08T21:44:01.3056471Z Container is terminated. Total time elapsed: 6844 ms.
+2024-12-08T21:44:03.1187059Z Container start method called.
+2024-12-08T21:44:03.1187647Z Establishing network.
+2024-12-08T21:44:03.1187934Z Pulling image: appsvc/python:3.12_20240619.3.tuxprod.
+2024-12-08T21:44:05.1038686Z Container is starting.
+2024-12-08T21:44:05.1045252Z Establishing user namespace if not established already.
+2024-12-08T21:44:05.1046079Z Establishing network if not established already.
+2024-12-08T21:44:05.1054132Z Mounting volumes.
+2024-12-08T21:44:05.1054996Z Nested mountpoint 
+2024-12-08T21:44:05.1072144Z Nested mountpoint volatile/logs
+2024-12-08T21:44:05.1093286Z Nested mountpoint 
+2024-12-08T21:44:05.1117760Z Nested mountpoint 
+2024-12-08T21:44:05.1134458Z Nested mountpoint 
+2024-12-08T21:44:05.1142457Z Nested mountpoint 
+2024-12-08T21:44:05.7711240Z Creating container.
+2024-12-08T21:44:05.7714552Z Creating pipes for streaming container io.
+2024-12-08T21:44:05.7714843Z Creating stdout named pipe at /podr/container/pipe/retail-webapp_16b08a92/stdout_8993ce1a6a624a248d98726ffc1b7e53.
+2024-12-08T21:44:05.7720473Z Successfully created stdout named pipe at: /podr/container/pipe/retail-webapp_16b08a92/stdout_8993ce1a6a624a248d98726ffc1b7e53.
+2024-12-08T21:44:05.7720995Z Opening named pipe /podr/container/pipe/retail-webapp_16b08a92/stdout_8993ce1a6a624a248d98726ffc1b7e53 for reading in non-blocking mode.
+2024-12-08T21:44:05.7733436Z Successfully opened named pipe: /podr/container/pipe/retail-webapp_16b08a92/stdout_8993ce1a6a624a248d98726ffc1b7e53.
+2024-12-08T21:44:05.7738935Z Successfully removed non-blocking flag from /podr/container/pipe/retail-webapp_16b08a92/stdout_8993ce1a6a624a248d98726ffc1b7e53.
+2024-12-08T21:44:05.7742286Z Creating stderr named pipe at /podr/container/pipe/retail-webapp_16b08a92/stderr_f73e5f98bb444a4cb6af55c070136752.
+2024-12-08T21:44:05.7745857Z Successfully created stderr named pipe at: /podr/container/pipe/retail-webapp_16b08a92/stderr_f73e5f98bb444a4cb6af55c070136752.
+2024-12-08T21:44:05.7746958Z Opening named pipe /podr/container/pipe/retail-webapp_16b08a92/stderr_f73e5f98bb444a4cb6af55c070136752 for reading in non-blocking mode.
+2024-12-08T21:44:05.7747442Z Successfully opened named pipe: /podr/container/pipe/retail-webapp_16b08a92/stderr_f73e5f98bb444a4cb6af55c070136752.
+2024-12-08T21:44:05.7751947Z Successfully removed non-blocking flag from /podr/container/pipe/retail-webapp_16b08a92/stderr_f73e5f98bb444a4cb6af55c070136752.
+2024-12-08T21:44:05.7754480Z Creating container with image: appsvc/python:3.12_20240619.3.tuxprod from registry: 10.1.6.0:13209 and fully qualified image name: 10.1.6.0:13209/appsvc/python:3.12_20240619.3.tuxprod
+2024-12-08T21:44:05.9164926Z Starting container: retail-webapp_16b08a92.
+2024-12-08T21:44:05.9474063Z Starting watchers and probes.
+2024-12-08T21:44:05.9493229Z Starting metrics collection.
+2024-12-08T21:44:05.9495383Z Container is running.
+2024-12-08T21:44:05.9588913Z Container start method finished after 2840 ms.
+2024-12-08T21:44:14.0405680Z Container has finished running with exit code: 3.
+2024-12-08T21:44:14.0406250Z Container is terminating. Grace period: 5 seconds.
+2024-12-08T21:44:14.0408102Z Stop and delete container. Retry count = 0
+2024-12-08T21:44:14.0408410Z Stopping container: retail-webapp_16b08a92.
+2024-12-08T21:44:14.0754254Z Deleting container: retail-webapp_16b08a92. Retry count = 0
+2024-12-08T21:44:14.6095893Z Container spec TerminationMessagePolicy  path 
+2024-12-08T21:44:14.6099431Z Container is terminated. Total time elapsed: 569 ms.
+2024-12-08T21:44:14.6099837Z Site container: retail-webapp terminated during site startup.
+2024-12-08T21:44:14.6102564Z Site startup probe failed after 8.6510841 seconds.
+2024-12-08T21:44:14.6164470Z Failed to start site. Revert by stopping site.
+2024-12-08T21:44:14.7800682Z Site: retail-webapp will be blocked for 1 minutes till 12/08/2024 21:45:14
+2024-12-08T21:44:14.7979605Z Site: retail-webapp stopped.
+2024-12-08T21:44:20.174Z INFO  - 3.12_20240619.2.tuxprod Pulling from appsvc/python
+2024-12-08T21:44:20.217Z INFO  - 646e886fa3cf Pulling fs layer
+2024-12-08T21:44:20.218Z INFO  - c5a360c5f105 Pulling fs layer
+2024-12-08T21:44:20.220Z INFO  - 5cbeb8ef1d90 Pulling fs layer
+2024-12-08T21:44:20.221Z INFO  - 7a19811c6169 Pulling fs layer
+2024-12-08T21:44:20.223Z INFO  - a2277f3a66d3 Pulling fs layer
+2024-12-08T21:44:20.225Z INFO  - 67bcf9cd9a69 Pulling fs layer
+2024-12-08T21:44:20.226Z INFO  - 9d1cf186caa4 Pulling fs layer
+2024-12-08T21:44:20.228Z INFO  - 77353b713447 Pulling fs layer
+2024-12-08T21:44:20.229Z INFO  - 30a037286dae Pulling fs layer
+2024-12-08T21:44:20.230Z INFO  - b2fa8da6c27c Pulling fs layer
+2024-12-08T21:44:20.232Z INFO  - e75aa4cae548 Pulling fs layer
+2024-12-08T21:44:20.232Z INFO  - 539b38bc1681 Pulling fs layer
+2024-12-08T21:44:20.233Z INFO  - d074987a6f7b Pulling fs layer
+2024-12-08T21:44:20.234Z INFO  - 4f4fb700ef54 Pulling fs layer
+2024-12-08T21:44:20.235Z INFO  - 5f6a7f4d021d Pulling fs layer
+2024-12-08T21:44:20.236Z INFO  - b20b76276499 Pulling fs layer
+2024-12-08T21:44:20.236Z INFO  - a8c94dcc839b Pulling fs layer
+2024-12-08T21:44:20.237Z INFO  - 57fc0b804f7d Pulling fs layer
+2024-12-08T21:44:20.238Z INFO  - 441b1992acfe Pulling fs layer
+2024-12-08T21:44:20.238Z INFO  - 6154447cdfaa Pulling fs layer
+2024-12-08T21:44:20.239Z INFO  - 913ae14996b0 Pulling fs layer
+2024-12-08T21:44:20.240Z INFO  - b7b473ae1a77 Pulling fs layer
+2024-12-08T21:44:20.241Z INFO  - 49ac944ac4d1 Pulling fs layer
+2024-12-08T21:44:20.242Z INFO  - 60ebf524b8da Pulling fs layer
+2024-12-08T21:44:20.243Z INFO  - 2e2462d4679b Pulling fs layer
+2024-12-08T21:44:20.243Z INFO  - 3b1a34e456ee Pulling fs layer
+2024-12-08T21:44:20.245Z INFO  - fec334934592 Pulling fs layer
+2024-12-08T21:44:20.246Z INFO  - 50f5a5199d7b Pulling fs layer
+2024-12-08T21:44:20.247Z INFO  - feda9b56ad04 Pulling fs layer
+2024-12-08T21:44:20.247Z INFO  - 7f56cca31c9f Pulling fs layer
+2024-12-08T21:44:20.248Z INFO  - cba222f930d8 Pulling fs layer
+2024-12-08T21:44:20.249Z INFO  - 8fde21bae1dc Pulling fs layer
+2024-12-08T21:44:20.250Z INFO  - fe10b049e711 Pulling fs layer
+2024-12-08T21:44:20.250Z INFO  - 457d6b6e1522 Pulling fs layer
+2024-12-08T21:44:20.251Z INFO  - e8b463f21fe8 Pulling fs layer
+2024-12-08T21:44:20.252Z INFO  - a26ba64de147 Pulling fs layer
+2024-12-08T21:44:20.253Z INFO  - 9b2555ec6af1 Pulling fs layer
+2024-12-08T21:44:20.254Z INFO  - 78a8a91d8de0 Pulling fs layer
+2024-12-08T21:44:20.254Z INFO  - e27af7dce62a Pulling fs layer
+2024-12-08T21:44:20.255Z INFO  - c901b68fc03a Pulling fs layer
+2024-12-08T21:44:20.256Z INFO  - f3cf4b9abeab Pulling fs layer
+2024-12-08T21:44:20.257Z INFO  - f9dbcaeeff89 Pulling fs layer
+2024-12-08T21:44:20.258Z INFO  - 551f1034200b Pulling fs layer
+2024-12-08T21:44:20.259Z INFO  - bd14269ddcce Pulling fs layer
+2024-12-08T21:44:20.260Z INFO  - 5392792c20e6 Pulling fs layer
+2024-12-08T21:44:20.261Z INFO  - 07c01e0cf93b Pulling fs layer
+2024-12-08T21:44:20.262Z INFO  - dc1f28edd69a Pulling fs layer
+2024-12-08T21:44:20.263Z INFO  - c1597120857c Pulling fs layer
+2024-12-08T21:44:20.264Z INFO  - cba222f930d8 Waiting
+2024-12-08T21:44:20.266Z INFO  - 8fde21bae1dc Waiting
+2024-12-08T21:44:20.267Z INFO  - fe10b049e711 Waiting
+2024-12-08T21:44:20.268Z INFO  - 457d6b6e1522 Waiting
+2024-12-08T21:44:20.268Z INFO  - e8b463f21fe8 Waiting
+2024-12-08T21:44:20.270Z INFO  - a26ba64de147 Waiting
+2024-12-08T21:44:20.271Z INFO  - 9b2555ec6af1 Waiting
+2024-12-08T21:44:20.272Z INFO  - 78a8a91d8de0 Waiting
+2024-12-08T21:44:20.273Z INFO  - e27af7dce62a Waiting
+2024-12-08T21:44:20.277Z INFO  - c901b68fc03a Waiting
+2024-12-08T21:44:20.278Z INFO  - f3cf4b9abeab Waiting
+2024-12-08T21:44:20.280Z INFO  - f9dbcaeeff89 Waiting
+2024-12-08T21:44:20.282Z INFO  - 551f1034200b Waiting
+2024-12-08T21:44:20.291Z INFO  - bd14269ddcce Waiting
+2024-12-08T21:44:20.292Z INFO  - 5392792c20e6 Waiting
+2024-12-08T21:44:20.293Z INFO  - 07c01e0cf93b Waiting
+2024-12-08T21:44:20.294Z INFO  - dc1f28edd69a Waiting
+2024-12-08T21:44:20.296Z INFO  - c1597120857c Waiting
+2024-12-08T21:44:20.297Z INFO  - 913ae14996b0 Waiting
+2024-12-08T21:44:20.307Z INFO  - b7b473ae1a77 Waiting
+2024-12-08T21:44:20.310Z INFO  - 49ac944ac4d1 Waiting
+2024-12-08T21:44:20.312Z INFO  - 60ebf524b8da Waiting
+2024-12-08T21:44:21.307Z INFO  - 2e2462d4679b Waiting
+2024-12-08T21:44:21.310Z INFO  - 3b1a34e456ee Waiting
+2024-12-08T21:44:21.311Z INFO  - fec334934592 Waiting
+2024-12-08T21:44:21.319Z INFO  - 50f5a5199d7b Waiting
+2024-12-08T21:44:21.320Z INFO  - feda9b56ad04 Waiting
+2024-12-08T21:44:21.320Z INFO  - 7f56cca31c9f Waiting
+2024-12-08T21:44:21.378Z INFO  - d074987a6f7b Downloading 3KB / 10KB
+2024-12-08T21:44:21.379Z INFO  - d074987a6f7b Downloading 10KB / 10KB
+2024-12-08T21:44:21.380Z INFO  - d074987a6f7b Verifying Checksum
+2024-12-08T21:44:21.381Z INFO  - d074987a6f7b Download complete
+2024-12-08T21:44:21.381Z INFO  - 77353b713447 Downloading 3KB / 10KB
+2024-12-08T21:44:21.383Z INFO  - 77353b713447 Downloading 10KB / 10KB
+2024-12-08T21:44:21.384Z INFO  - 77353b713447 Verifying Checksum
+2024-12-08T21:44:21.385Z INFO  - 77353b713447 Download complete
+2024-12-08T21:44:21.386Z INFO  - 67bcf9cd9a69 Download complete
+2024-12-08T21:44:21.387Z INFO  - b20b76276499 Downloading 2KB / 2KB
+2024-12-08T21:44:21.388Z INFO  - b20b76276499 Verifying Checksum
+2024-12-08T21:44:21.389Z INFO  - b20b76276499 Download complete
+2024-12-08T21:44:21.390Z INFO  - 9d1cf186caa4 Downloading 13KB / 13KB
+2024-12-08T21:44:21.391Z INFO  - 9d1cf186caa4 Verifying Checksum
+2024-12-08T21:44:21.392Z INFO  - 9d1cf186caa4 Download complete
+2024-12-08T21:44:21.393Z INFO  - a2277f3a66d3 Downloading 3KB / 85KB
+2024-12-08T21:44:21.395Z INFO  - b2fa8da6c27c Downloading 20KB / 20KB
+2024-12-08T21:44:21.395Z INFO  - a2277f3a66d3 Downloading 85KB / 85KB
+2024-12-08T21:44:21.396Z INFO  - 539b38bc1681 Downloading 13KB / 13KB
+2024-12-08T21:44:21.398Z INFO  - b2fa8da6c27c Verifying Checksum
+2024-12-08T21:44:21.399Z INFO  - a2277f3a66d3 Verifying Checksum
+2024-12-08T21:44:21.401Z INFO  - a2277f3a66d3 Download complete
+2024-12-08T21:44:21.401Z INFO  - 539b38bc1681 Verifying Checksum
+2024-12-08T21:44:21.403Z INFO  - 539b38bc1681 Download complete
+2024-12-08T21:44:21.404Z INFO  - b2fa8da6c27c Download complete
+2024-12-08T21:44:21.405Z INFO  - 5f6a7f4d021d Downloading 1KB / 1KB
+2024-12-08T21:44:21.410Z INFO  - e75aa4cae548 Downloading 3KB / 10KB
+2024-12-08T21:44:21.411Z INFO  - 5f6a7f4d021d Verifying Checksum
+2024-12-08T21:44:21.412Z INFO  - 5f6a7f4d021d Download complete
+2024-12-08T21:44:21.413Z INFO  - 913ae14996b0 Downloading 3KB / 5KB
+2024-12-08T21:44:21.415Z INFO  - 57fc0b804f7d Downloading 529B / 529B
+2024-12-08T21:44:21.416Z INFO  - 30a037286dae Downloading 513KB / 56MB
+2024-12-08T21:44:21.417Z INFO  - 441b1992acfe Downloading 529B / 529B
+2024-12-08T21:44:21.420Z INFO  - e75aa4cae548 Downloading 10KB / 10KB
+2024-12-08T21:44:21.421Z INFO  - 913ae14996b0 Downloading 5KB / 5KB
+2024-12-08T21:44:21.422Z INFO  - 57fc0b804f7d Verifying Checksum
+2024-12-08T21:44:21.424Z INFO  - 57fc0b804f7d Download complete
+2024-12-08T21:44:21.425Z INFO  - 441b1992acfe Verifying Checksum
+2024-12-08T21:44:21.426Z INFO  - 441b1992acfe Download complete
+2024-12-08T21:44:21.427Z INFO  - 913ae14996b0 Verifying Checksum
+2024-12-08T21:44:21.428Z INFO  - 913ae14996b0 Download complete
+2024-12-08T21:44:21.428Z INFO  - e75aa4cae548 Verifying Checksum
+2024-12-08T21:44:21.430Z INFO  - e75aa4cae548 Download complete
+2024-12-08T21:44:21.430Z INFO  - fec334934592 Downloading 1KB / 1KB
+2024-12-08T21:44:21.431Z INFO  - 3b1a34e456ee Downloading 1KB / 1KB
+2024-12-08T21:44:21.432Z INFO  - fec334934592 Verifying Checksum
+2024-12-08T21:44:21.434Z INFO  - fec334934592 Download complete
+2024-12-08T21:44:21.435Z INFO  - 3b1a34e456ee Verifying Checksum
+2024-12-08T21:44:21.436Z INFO  - 3b1a34e456ee Download complete
+2024-12-08T21:44:21.437Z INFO  - 6154447cdfaa Downloading 528KB / 127MB
+2024-12-08T21:44:21.438Z INFO  - a8c94dcc839b Downloading 426B / 426B
+2024-12-08T21:44:21.439Z INFO  - 4f4fb700ef54 Downloading 32B / 32B
+2024-12-08T21:44:21.440Z INFO  - a8c94dcc839b Verifying Checksum
+2024-12-08T21:44:21.442Z INFO  - a8c94dcc839b Download complete
+2024-12-08T21:44:21.443Z INFO  - 4f4fb700ef54 Verifying Checksum
+2024-12-08T21:44:21.444Z INFO  - 4f4fb700ef54 Download complete
+2024-12-08T21:44:21.445Z INFO  - 2e2462d4679b Downloading 536KB / 60MB
+2024-12-08T21:44:21.446Z INFO  - 7a19811c6169 Verifying Checksum
+2024-12-08T21:44:21.447Z INFO  - 7a19811c6169 Download complete
+2024-12-08T21:44:21.448Z INFO  - 7f56cca31c9f Downloading 302B / 302B
+2024-12-08T21:44:21.449Z INFO  - cba222f930d8 Downloading 866B / 866B
+2024-12-08T21:44:21.451Z INFO  - 8fde21bae1dc Downloading 126B / 126B
+2024-12-08T21:44:21.452Z INFO  - 7f56cca31c9f Verifying Checksum
+2024-12-08T21:44:21.452Z INFO  - 7f56cca31c9f Download complete
+2024-12-08T21:44:21.453Z INFO  - cba222f930d8 Verifying Checksum
+2024-12-08T21:44:21.454Z INFO  - cba222f930d8 Download complete
+2024-12-08T21:44:21.454Z INFO  - 8fde21bae1dc Verifying Checksum
+2024-12-08T21:44:21.455Z INFO  - 8fde21bae1dc Download complete
+2024-12-08T21:44:21.457Z INFO  - 49ac944ac4d1 Downloading 695KB / 31MB
+2024-12-08T21:44:21.458Z INFO  - 6154447cdfaa Downloading 5MB / 127MB
+2024-12-08T21:44:21.459Z INFO  - feda9b56ad04 Downloading 271B / 271B
+2024-12-08T21:44:21.474Z INFO  - 50f5a5199d7b Downloading 133B / 133B
+2024-12-08T21:44:21.475Z INFO  - feda9b56ad04 Verifying Checksum
+2024-12-08T21:44:21.476Z INFO  - feda9b56ad04 Download complete
+2024-12-08T21:44:21.477Z INFO  - 50f5a5199d7b Verifying Checksum
+2024-12-08T21:44:21.478Z INFO  - 50f5a5199d7b Download complete
+2024-12-08T21:44:21.480Z INFO  - 30a037286dae Downloading 6MB / 56MB
+2024-12-08T21:44:21.482Z INFO  - b7b473ae1a77 Downloading 5MB / 25MB
+2024-12-08T21:44:21.521Z INFO  - c5a360c5f105 Downloading 4MB / 15MB
+2024-12-08T21:44:21.522Z INFO  - 60ebf524b8da Downloading 701KB / 5MB
+2024-12-08T21:44:21.523Z INFO  - a26ba64de147 Downloading 2KB / 2KB
+2024-12-08T21:44:21.634Z INFO  - a26ba64de147 Verifying Checksum
+2024-12-08T21:44:21.636Z INFO  - a26ba64de147 Download complete
+2024-12-08T21:44:21.637Z INFO  - 60ebf524b8da Downloading 4MB / 5MB
+2024-12-08T21:44:21.709Z INFO  - 78a8a91d8de0 Downloading 1KB / 1KB
+2024-12-08T21:44:21.710Z INFO  - 457d6b6e1522 Downloading 1KB / 1KB
+2024-12-08T21:44:21.762Z INFO  - e27af7dce62a Downloading 1KB / 1KB
+2024-12-08T21:44:21.763Z INFO  - f3cf4b9abeab Downloading 841B / 841B
+2024-12-08T21:44:21.764Z INFO  - 60ebf524b8da Verifying Checksum
+2024-12-08T21:44:21.764Z INFO  - 60ebf524b8da Download complete
+2024-12-08T21:44:21.765Z INFO  - 78a8a91d8de0 Verifying Checksum
+2024-12-08T21:44:21.766Z INFO  - 78a8a91d8de0 Download complete
+2024-12-08T21:44:21.767Z INFO  - e27af7dce62a Verifying Checksum
+2024-12-08T21:44:21.768Z INFO  - e27af7dce62a Download complete
+2024-12-08T21:44:21.768Z INFO  - f3cf4b9abeab Verifying Checksum
+2024-12-08T21:44:21.770Z INFO  - f3cf4b9abeab Download complete
+2024-12-08T21:44:21.771Z INFO  - 457d6b6e1522 Verifying Checksum
+2024-12-08T21:44:21.772Z INFO  - 457d6b6e1522 Download complete
+2024-12-08T21:44:21.774Z INFO  - c901b68fc03a Downloading 352B / 352B
+2024-12-08T21:44:21.775Z INFO  - c901b68fc03a Verifying Checksum
+2024-12-08T21:44:21.776Z INFO  - c901b68fc03a Download complete
+2024-12-08T21:44:21.777Z INFO  - 646e886fa3cf Downloading 8MB / 52MB
+2024-12-08T21:44:22.063Z INFO  - e8b463f21fe8 Downloading 1KB / 1KB
+2024-12-08T21:44:22.374Z INFO  - fe10b049e711 Downloading 419B / 419B
+2024-12-08T21:44:22.386Z INFO  - 9b2555ec6af1 Download complete
+2024-12-08T21:44:22.387Z INFO  - e8b463f21fe8 Verifying Checksum
+2024-12-08T21:44:22.388Z INFO  - e8b463f21fe8 Download complete
+2024-12-08T21:44:22.390Z INFO  - fe10b049e711 Verifying Checksum
+2024-12-08T21:44:22.391Z INFO  - fe10b049e711 Download complete
+2024-12-08T21:44:22.392Z INFO  - bd14269ddcce Downloading 154B / 154B
+2024-12-08T21:44:22.393Z INFO  - bd14269ddcce Verifying Checksum
+2024-12-08T21:44:22.394Z INFO  - bd14269ddcce Download complete
+2024-12-08T21:44:22.395Z INFO  - dc1f28edd69a Downloading 16KB / 16KB
+2024-12-08T21:44:22.401Z INFO  - 5392792c20e6 Downloading 11KB / 11KB
+2024-12-08T21:44:22.402Z INFO  - dc1f28edd69a Verifying Checksum
+2024-12-08T21:44:22.404Z INFO  - dc1f28edd69a Download complete
+2024-12-08T21:44:22.405Z INFO  - 5392792c20e6 Verifying Checksum
+2024-12-08T21:44:22.406Z INFO  - 5392792c20e6 Download complete
+2024-12-08T21:44:22.413Z INFO  - 6154447cdfaa Downloading 16MB / 127MB
+2024-12-08T21:44:22.415Z INFO  - 5cbeb8ef1d90 Downloading 14MB / 52MB
+2024-12-08T21:44:22.416Z INFO  - 2e2462d4679b Downloading 10MB / 60MB
+2024-12-08T21:44:22.422Z INFO  - 646e886fa3cf Downloading 12MB / 52MB
+2024-12-08T21:44:22.423Z INFO  - 551f1034200b Downloading 2KB / 2KB
+2024-12-08T21:44:22.424Z INFO  - f9dbcaeeff89 Downloading 150B / 150B
+2024-12-08T21:44:22.425Z INFO  - c5a360c5f105 Downloading 14MB / 15MB
+2024-12-08T21:44:22.426Z INFO  - c5a360c5f105 Verifying Checksum
+2024-12-08T21:44:22.428Z INFO  - c5a360c5f105 Download complete
+2024-12-08T21:44:22.434Z INFO  - 551f1034200b Verifying Checksum
+2024-12-08T21:44:22.435Z INFO  - 551f1034200b Download complete
+2024-12-08T21:44:22.436Z INFO  - f9dbcaeeff89 Verifying Checksum
+2024-12-08T21:44:22.438Z INFO  - f9dbcaeeff89 Download complete
+2024-12-08T21:44:22.439Z INFO  - 2e2462d4679b Downloading 16MB / 60MB
+2024-12-08T21:44:22.440Z INFO  - 6154447cdfaa Downloading 23MB / 127MB
+2024-12-08T21:44:22.441Z INFO  - 49ac944ac4d1 Downloading 2MB / 31MB
+2024-12-08T21:44:22.442Z INFO  - b7b473ae1a77 Verifying Checksum
+2024-12-08T21:44:22.459Z INFO  - b7b473ae1a77 Download complete
+2024-12-08T21:44:22.505Z INFO  - 30a037286dae Downloading 21MB / 56MB
+2024-12-08T21:44:22.899Z INFO  - 6154447cdfaa Downloading 28MB / 127MB
+2024-12-08T21:44:22.901Z INFO  - c1597120857c Downloading 1KB / 1KB
+2024-12-08T21:44:22.902Z INFO  - c1597120857c Verifying Checksum
+2024-12-08T21:44:22.904Z INFO  - c1597120857c Download complete
+2024-12-08T21:44:22.906Z INFO  - 646e886fa3cf Downloading 26MB / 52MB
+2024-12-08T21:44:22.907Z INFO  - 6154447cdfaa Downloading 31MB / 127MB
+2024-12-08T21:44:22.908Z INFO  - 5cbeb8ef1d90 Downloading 16MB / 52MB
+2024-12-08T21:44:22.910Z INFO  - 49ac944ac4d1 Downloading 12MB / 31MB
+2024-12-08T21:44:22.911Z INFO  - 07c01e0cf93b Downloading 4MB / 4MB
+2024-12-08T21:44:22.912Z INFO  - 07c01e0cf93b Downloading 4MB / 4MB
+2024-12-08T21:44:22.913Z INFO  - 07c01e0cf93b Verifying Checksum
+2024-12-08T21:44:22.915Z INFO  - 07c01e0cf93b Download complete
+2024-12-08T21:44:22.917Z INFO  - 5cbeb8ef1d90 Downloading 21MB / 52MB
+2024-12-08T21:44:22.919Z INFO  - 49ac944ac4d1 Downloading 17MB / 31MB
+2024-12-08T21:44:22.930Z INFO  - 646e886fa3cf Downloading 30MB / 52MB
+2024-12-08T21:44:22.931Z INFO  - 6154447cdfaa Downloading 41MB / 127MB
+2024-12-08T21:44:22.942Z INFO  - 49ac944ac4d1 Verifying Checksum
+2024-12-08T21:44:22.943Z INFO  - 49ac944ac4d1 Download complete
+2024-12-08T21:44:22.951Z INFO  - 5cbeb8ef1d90 Downloading 23MB / 52MB
+2024-12-08T21:44:22.953Z INFO  - 2e2462d4679b Downloading 33MB / 60MB
+2024-12-08T21:44:22.954Z INFO  - 30a037286dae Verifying Checksum
+2024-12-08T21:44:22.955Z INFO  - 30a037286dae Download complete
+2024-12-08T21:44:23.014Z INFO  - 646e886fa3cf Downloading 40MB / 52MB
+2024-12-08T21:44:23.022Z INFO  - 6154447cdfaa Downloading 51MB / 127MB
+2024-12-08T21:44:23.127Z INFO  - 646e886fa3cf Downloading 47MB / 52MB
+2024-12-08T21:44:23.137Z INFO  - 5cbeb8ef1d90 Downloading 35MB / 52MB
+2024-12-08T21:44:23.177Z INFO  - 2e2462d4679b Downloading 46MB / 60MB
+2024-12-08T21:44:23.249Z INFO  - 5cbeb8ef1d90 Downloading 40MB / 52MB
+2024-12-08T21:44:23.298Z INFO  - 646e886fa3cf Verifying Checksum
+2024-12-08T21:44:23.299Z INFO  - 646e886fa3cf Download complete
+2024-12-08T21:44:23.353Z INFO  - 6154447cdfaa Downloading 69MB / 127MB
+2024-12-08T21:44:23.390Z INFO  - 2e2462d4679b Downloading 55MB / 60MB
+2024-12-08T21:44:23.449Z INFO  - 5cbeb8ef1d90 Verifying Checksum
+2024-12-08T21:44:23.450Z INFO  - 5cbeb8ef1d90 Download complete
+2024-12-08T21:44:23.506Z INFO  - 2e2462d4679b Verifying Checksum
+2024-12-08T21:44:23.507Z INFO  - 2e2462d4679b Download complete
+2024-12-08T21:44:23.676Z INFO  - 6154447cdfaa Downloading 88MB / 127MB
+2024-12-08T21:44:23.982Z INFO  - 6154447cdfaa Verifying Checksum
+2024-12-08T21:44:23.984Z INFO  - 6154447cdfaa Download complete
+2024-12-08T21:44:26.025Z INFO  - 646e886fa3cf Extracting 2MB / 52MB
+2024-12-08T21:44:26.683Z INFO  - 646e886fa3cf Extracting 21MB / 52MB
+2024-12-08T21:44:27.269Z INFO  - 646e886fa3cf Extracting 25MB / 52MB
+2024-12-08T21:44:27.501Z INFO  - 646e886fa3cf Extracting 27MB / 52MB
+2024-12-08T21:44:27.606Z INFO  - 646e886fa3cf Extracting 35MB / 52MB
+2024-12-08T21:44:27.707Z INFO  - 646e886fa3cf Extracting 39MB / 52MB
+2024-12-08T21:44:27.824Z INFO  - 646e886fa3cf Extracting 42MB / 52MB
+2024-12-08T21:44:28.463Z INFO  - 646e886fa3cf Extracting 51MB / 52MB
+2024-12-08T21:44:28.535Z INFO  - 646e886fa3cf Extracting 52MB / 52MB
+2024-12-08T21:44:28.875Z INFO  - 646e886fa3cf Pull complete
+2024-12-08T21:44:29.179Z INFO  - c5a360c5f105 Extracting 10MB / 15MB
+2024-12-08T21:44:29.331Z INFO  - c5a360c5f105 Extracting 15MB / 15MB
+2024-12-08T21:44:30.048Z INFO  - c5a360c5f105 Pull complete
+2024-12-08T21:44:30.610Z INFO  - 5cbeb8ef1d90 Extracting 3MB / 52MB
+2024-12-08T21:44:30.725Z INFO  - 5cbeb8ef1d90 Extracting 7MB / 52MB
+2024-12-08T21:44:30.837Z INFO  - 5cbeb8ef1d90 Extracting 11MB / 52MB
+2024-12-08T21:44:30.949Z INFO  - 5cbeb8ef1d90 Extracting 15MB / 52MB
+2024-12-08T21:44:31.176Z INFO  - 5cbeb8ef1d90 Extracting 21MB / 52MB
+2024-12-08T21:44:31.584Z INFO  - 5cbeb8ef1d90 Extracting 27MB / 52MB
+2024-12-08T21:44:32.172Z INFO  - 5cbeb8ef1d90 Extracting 28MB / 52MB
+2024-12-08T21:44:32.916Z INFO  - 5cbeb8ef1d90 Extracting 29MB / 52MB
+2024-12-08T21:44:33.120Z INFO  - 5cbeb8ef1d90 Extracting 32MB / 52MB
+2024-12-08T21:44:33.230Z INFO  - 5cbeb8ef1d90 Extracting 34MB / 52MB
+2024-12-08T21:44:33.557Z INFO  - 5cbeb8ef1d90 Extracting 44MB / 52MB
+2024-12-08T21:44:33.664Z INFO  - 5cbeb8ef1d90 Extracting 47MB / 52MB
+2024-12-08T21:44:33.866Z INFO  - 5cbeb8ef1d90 Extracting 49MB / 52MB
+2024-12-08T21:44:34.133Z INFO  - 5cbeb8ef1d90 Extracting 51MB / 52MB
+2024-12-08T21:44:34.170Z INFO  - 5cbeb8ef1d90 Extracting 52MB / 52MB
+2024-12-08T21:44:34.173Z INFO  - 5cbeb8ef1d90 Extracting 52MB / 52MB
+2024-12-08T21:44:34.720Z INFO  - 5cbeb8ef1d90 Pull complete
+2024-12-08T21:44:34.825Z INFO  - 7a19811c6169 Extracting 343KB / 343KB
+2024-12-08T21:44:34.826Z INFO  - 7a19811c6169 Extracting 343KB / 343KB
+2024-12-08T21:44:34.930Z INFO  - 7a19811c6169 Pull complete
+2024-12-08T21:44:35.056Z INFO  - a2277f3a66d3 Extracting 85KB / 85KB
+2024-12-08T21:44:35.075Z INFO  - a2277f3a66d3 Extracting 85KB / 85KB
+2024-12-08T21:44:35.194Z INFO  - a2277f3a66d3 Pull complete
+2024-12-08T21:44:35.217Z INFO  - 67bcf9cd9a69 Extracting 32KB / 51KB
+2024-12-08T21:44:35.493Z INFO  - 67bcf9cd9a69 Extracting 51KB / 51KB
+2024-12-08T21:44:35.499Z INFO  - 67bcf9cd9a69 Extracting 51KB / 51KB
+2024-12-08T21:44:35.620Z INFO  - 67bcf9cd9a69 Pull complete
+2024-12-08T21:44:35.631Z INFO  - 9d1cf186caa4 Extracting 13KB / 13KB
+2024-12-08T21:44:35.701Z INFO  - 9d1cf186caa4 Extracting 13KB / 13KB
+2024-12-08T21:44:35.783Z INFO  - 9d1cf186caa4 Pull complete
+2024-12-08T21:44:35.824Z INFO  - 77353b713447 Extracting 10KB / 10KB
+2024-12-08T21:44:35.847Z INFO  - 77353b713447 Extracting 10KB / 10KB
+2024-12-08T21:44:35.970Z INFO  - 77353b713447 Pull complete
+2024-12-08T21:44:36.083Z INFO  - 30a037286dae Extracting 544KB / 56MB
+2024-12-08T21:44:36.304Z INFO  - 30a037286dae Extracting 8MB / 56MB
+2024-12-08T21:44:36.752Z INFO  - 30a037286dae Extracting 23MB / 56MB
+2024-12-08T21:44:36.863Z INFO  - 30a037286dae Extracting 25MB / 56MB
+2024-12-08T21:44:37.177Z INFO  - 30a037286dae Extracting 34MB / 56MB
+2024-12-08T21:44:37.397Z INFO  - 30a037286dae Extracting 41MB / 56MB
+2024-12-08T21:44:37.984Z INFO  - 30a037286dae Extracting 47MB / 56MB
+2024-12-08T21:44:38.854Z INFO  - 30a037286dae Extracting 56MB / 56MB
+2024-12-08T21:44:39.234Z INFO  - 30a037286dae Pull complete
+2024-12-08T21:44:39.265Z INFO  - b2fa8da6c27c Extracting 20KB / 20KB
+2024-12-08T21:44:39.328Z INFO  - b2fa8da6c27c Extracting 20KB / 20KB
+2024-12-08T21:44:39.420Z INFO  - b2fa8da6c27c Pull complete
+2024-12-08T21:44:39.433Z INFO  - e75aa4cae548 Extracting 10KB / 10KB
+2024-12-08T21:44:39.473Z INFO  - e75aa4cae548 Extracting 10KB / 10KB
+2024-12-08T21:44:39.627Z INFO  - e75aa4cae548 Pull complete
+2024-12-08T21:44:39.639Z INFO  - 539b38bc1681 Extracting 13KB / 13KB
+2024-12-08T21:44:39.707Z INFO  - 539b38bc1681 Extracting 13KB / 13KB
+2024-12-08T21:44:39.817Z INFO  - 539b38bc1681 Pull complete
+2024-12-08T21:44:39.828Z INFO  - d074987a6f7b Extracting 10KB / 10KB
+2024-12-08T21:44:39.883Z INFO  - d074987a6f7b Extracting 10KB / 10KB
+2024-12-08T21:44:40.024Z INFO  - d074987a6f7b Pull complete
+2024-12-08T21:44:40.038Z INFO  - 4f4fb700ef54 Extracting 32B / 32B
+2024-12-08T21:44:40.071Z INFO  - 4f4fb700ef54 Extracting 32B / 32B
+2024-12-08T21:44:40.234Z INFO  - 4f4fb700ef54 Pull complete
+2024-12-08T21:44:40.590Z INFO  - 5f6a7f4d021d Extracting 1KB / 1KB
+2024-12-08T21:44:40.621Z INFO  - 5f6a7f4d021d Extracting 1KB / 1KB
+2024-12-08T21:44:40.761Z INFO  - 5f6a7f4d021d Pull complete
+2024-12-08T21:44:40.932Z INFO  - b20b76276499 Extracting 2KB / 2KB
+2024-12-08T21:44:40.958Z INFO  - b20b76276499 Extracting 2KB / 2KB
+2024-12-08T21:44:41.106Z INFO  - b20b76276499 Pull complete
+2024-12-08T21:44:41.282Z INFO  - a8c94dcc839b Extracting 426B / 426B
+2024-12-08T21:44:41.309Z INFO  - a8c94dcc839b Extracting 426B / 426B
+2024-12-08T21:44:41.416Z INFO  - a8c94dcc839b Pull complete
+2024-12-08T21:44:41.766Z INFO  - 57fc0b804f7d Extracting 529B / 529B
+2024-12-08T21:44:41.787Z INFO  - 57fc0b804f7d Extracting 529B / 529B
+2024-12-08T21:44:41.926Z INFO  - 57fc0b804f7d Pull complete
+2024-12-08T21:44:42.129Z INFO  - 441b1992acfe Extracting 529B / 529B
+2024-12-08T21:44:42.148Z INFO  - 441b1992acfe Extracting 529B / 529B
+2024-12-08T21:44:42.272Z INFO  - 441b1992acfe Pull complete
+2024-12-08T21:44:42.635Z INFO  - 6154447cdfaa Extracting 544KB / 127MB
+2024-12-08T21:44:42.841Z INFO  - 6154447cdfaa Extracting 8MB / 127MB
+2024-12-08T21:44:43.073Z INFO  - 6154447cdfaa Extracting 15MB / 127MB
+2024-12-08T21:44:43.198Z INFO  - 6154447cdfaa Extracting 18MB / 127MB
+2024-12-08T21:44:43.372Z INFO  - 6154447cdfaa Extracting 21MB / 127MB
+2024-12-08T21:44:43.905Z INFO  - 6154447cdfaa Extracting 23MB / 127MB
+2024-12-08T21:44:44.016Z INFO  - 6154447cdfaa Extracting 29MB / 127MB
+2024-12-08T21:44:44.344Z INFO  - 6154447cdfaa Extracting 43MB / 127MB
+2024-12-08T21:44:44.733Z INFO  - 6154447cdfaa Extracting 54MB / 127MB
+2024-12-08T21:44:44.837Z INFO  - 6154447cdfaa Extracting 58MB / 127MB
+2024-12-08T21:44:45.358Z INFO  - 6154447cdfaa Extracting 67MB / 127MB
+2024-12-08T21:44:45.577Z INFO  - 6154447cdfaa Extracting 72MB / 127MB
+2024-12-08T21:44:45.806Z INFO  - 6154447cdfaa Extracting 79MB / 127MB
+2024-12-08T21:44:46.078Z INFO  - 6154447cdfaa Extracting 82MB / 127MB
+2024-12-08T21:44:46.179Z INFO  - 6154447cdfaa Extracting 85MB / 127MB
+2024-12-08T21:44:46.311Z INFO  - 6154447cdfaa Extracting 87MB / 127MB
+2024-12-08T21:44:47.091Z INFO  - 6154447cdfaa Extracting 98MB / 127MB
+2024-12-08T21:44:47.194Z INFO  - 6154447cdfaa Extracting 100MB / 127MB
+2024-12-08T21:44:48.015Z INFO  - 6154447cdfaa Extracting 108MB / 127MB
+2024-12-08T21:44:48.120Z INFO  - 6154447cdfaa Extracting 109MB / 127MB
+2024-12-08T21:44:48.233Z INFO  - 6154447cdfaa Extracting 113MB / 127MB
+2024-12-08T21:44:48.353Z INFO  - 6154447cdfaa Extracting 115MB / 127MB
+2024-12-08T21:44:49.348Z INFO  - 6154447cdfaa Extracting 121MB / 127MB
+2024-12-08T21:44:49.470Z INFO  - 6154447cdfaa Extracting 123MB / 127MB
+2024-12-08T21:44:49.577Z INFO  - 6154447cdfaa Extracting 125MB / 127MB
+2024-12-08T21:44:49.678Z INFO  - 6154447cdfaa Extracting 127MB / 127MB
+2024-12-08T21:44:50.540Z INFO  - 6154447cdfaa Pull complete
+2024-12-08T21:44:50.570Z INFO  - 913ae14996b0 Extracting 5KB / 5KB
+2024-12-08T21:44:50.603Z INFO  - 913ae14996b0 Extracting 5KB / 5KB
+2024-12-08T21:44:50.772Z INFO  - 913ae14996b0 Pull complete
+2024-12-08T21:44:50.982Z INFO  - b7b473ae1a77 Extracting 3MB / 25MB
+2024-12-08T21:44:51.086Z INFO  - b7b473ae1a77 Extracting 4MB / 25MB
+2024-12-08T21:44:51.190Z INFO  - b7b473ae1a77 Extracting 5MB / 25MB
+2024-12-08T21:44:51.619Z INFO  - b7b473ae1a77 Extracting 21MB / 25MB
+2024-12-08T21:44:51.725Z INFO  - b7b473ae1a77 Extracting 21MB / 25MB
+2024-12-08T21:44:51.844Z INFO  - b7b473ae1a77 Extracting 23MB / 25MB
+2024-12-08T21:44:51.949Z INFO  - b7b473ae1a77 Extracting 24MB / 25MB
+2024-12-08T21:44:52.340Z INFO  - b7b473ae1a77 Extracting 25MB / 25MB
+2024-12-08T21:44:52.689Z INFO  - b7b473ae1a77 Pull complete
+2024-12-08T21:44:53.479Z INFO  - 49ac944ac4d1 Extracting 8MB / 31MB
+2024-12-08T21:44:53.681Z INFO  - 49ac944ac4d1 Extracting 17MB / 31MB
+2024-12-08T21:44:53.777Z INFO  - 49ac944ac4d1 Extracting 31MB / 31MB
+2024-12-08T21:44:54.406Z INFO  - 49ac944ac4d1 Pull complete
+2024-12-08T21:44:54.587Z INFO  - 60ebf524b8da Extracting 5MB / 5MB
+2024-12-08T21:44:54.683Z INFO  - 60ebf524b8da Pull complete
+2024-12-08T21:44:54.834Z INFO  - 2e2462d4679b Extracting 544KB / 60MB
+2024-12-08T21:44:54.973Z INFO  - 2e2462d4679b Extracting 2MB / 60MB
+2024-12-08T21:44:55.079Z INFO  - 2e2462d4679b Extracting 11MB / 60MB
+2024-12-08T21:44:55.559Z INFO  - 2e2462d4679b Extracting 14MB / 60MB
+2024-12-08T21:44:55.823Z INFO  - 2e2462d4679b Extracting 19MB / 60MB
+2024-12-08T21:44:56.027Z INFO  - 2e2462d4679b Extracting 27MB / 60MB
+2024-12-08T21:44:56.250Z INFO  - 2e2462d4679b Extracting 35MB / 60MB
+2024-12-08T21:44:56.743Z INFO  - 2e2462d4679b Extracting 43MB / 60MB
+2024-12-08T21:44:57.235Z INFO  - 2e2462d4679b Extracting 53MB / 60MB
+2024-12-08T21:44:57.335Z INFO  - 2e2462d4679b Extracting 57MB / 60MB
+2024-12-08T21:44:57.416Z INFO  - 2e2462d4679b Extracting 60MB / 60MB
+2024-12-08T21:44:57.927Z INFO  - 2e2462d4679b Pull complete
+2024-12-08T21:44:57.941Z INFO  - 3b1a34e456ee Extracting 1KB / 1KB
+2024-12-08T21:44:57.969Z INFO  - 3b1a34e456ee Extracting 1KB / 1KB
+2024-12-08T21:44:58.133Z INFO  - 3b1a34e456ee Pull complete
+2024-12-08T21:44:58.146Z INFO  - fec334934592 Extracting 1KB / 1KB
+2024-12-08T21:44:58.178Z INFO  - fec334934592 Extracting 1KB / 1KB
+2024-12-08T21:44:58.715Z INFO  - fec334934592 Pull complete
+2024-12-08T21:44:58.734Z INFO  - 50f5a5199d7b Extracting 133B / 133B
+2024-12-08T21:44:58.764Z INFO  - 50f5a5199d7b Extracting 133B / 133B
+2024-12-08T21:44:58.884Z INFO  - 50f5a5199d7b Pull complete
+2024-12-08T21:44:58.914Z INFO  - feda9b56ad04 Extracting 271B / 271B
+2024-12-08T21:44:58.940Z INFO  - feda9b56ad04 Extracting 271B / 271B
+2024-12-08T21:44:59.074Z INFO  - feda9b56ad04 Pull complete
+2024-12-08T21:44:59.086Z INFO  - 7f56cca31c9f Extracting 302B / 302B
+2024-12-08T21:44:59.120Z INFO  - 7f56cca31c9f Extracting 302B / 302B
+2024-12-08T21:44:59.265Z INFO  - 7f56cca31c9f Pull complete
+2024-12-08T21:44:59.279Z INFO  - cba222f930d8 Extracting 866B / 866B
+2024-12-08T21:44:59.330Z INFO  - cba222f930d8 Extracting 866B / 866B
+2024-12-08T21:44:59.471Z INFO  - cba222f930d8 Pull complete
+2024-12-08T21:44:59.490Z INFO  - 8fde21bae1dc Extracting 126B / 126B
+2024-12-08T21:44:59.517Z INFO  - 8fde21bae1dc Extracting 126B / 126B
+2024-12-08T21:44:59.683Z INFO  - 8fde21bae1dc Pull complete
+2024-12-08T21:44:59.695Z INFO  - fe10b049e711 Extracting 419B / 419B
+2024-12-08T21:44:59.733Z INFO  - fe10b049e711 Extracting 419B / 419B
+2024-12-08T21:44:59.872Z INFO  - fe10b049e711 Pull complete
+2024-12-08T21:44:59.885Z INFO  - 457d6b6e1522 Extracting 1KB / 1KB
+2024-12-08T21:44:59.936Z INFO  - 457d6b6e1522 Extracting 1KB / 1KB
+2024-12-08T21:45:00.073Z INFO  - 457d6b6e1522 Pull complete
+2024-12-08T21:45:00.088Z INFO  - e8b463f21fe8 Extracting 1KB / 1KB
+2024-12-08T21:45:00.118Z INFO  - e8b463f21fe8 Extracting 1KB / 1KB
+2024-12-08T21:45:00.280Z INFO  - e8b463f21fe8 Pull complete
+2024-12-08T21:45:00.314Z INFO  - a26ba64de147 Extracting 2KB / 2KB
+2024-12-08T21:45:00.334Z INFO  - a26ba64de147 Extracting 2KB / 2KB
+2024-12-08T21:45:00.467Z INFO  - a26ba64de147 Pull complete
+2024-12-08T21:45:00.482Z INFO  - 9b2555ec6af1 Extracting 131B / 131B
+2024-12-08T21:45:00.511Z INFO  - 9b2555ec6af1 Extracting 131B / 131B
+2024-12-08T21:45:01.158Z INFO  - 9b2555ec6af1 Pull complete
+2024-12-08T21:45:01.189Z INFO  - 78a8a91d8de0 Extracting 1KB / 1KB
+2024-12-08T21:45:01.240Z INFO  - 78a8a91d8de0 Extracting 1KB / 1KB
+2024-12-08T21:45:01.424Z INFO  - 78a8a91d8de0 Pull complete
+2024-12-08T21:45:01.439Z INFO  - e27af7dce62a Extracting 1KB / 1KB
+2024-12-08T21:45:01.488Z INFO  - e27af7dce62a Extracting 1KB / 1KB
+2024-12-08T21:45:01.674Z INFO  - e27af7dce62a Pull complete
+2024-12-08T21:45:01.694Z INFO  - c901b68fc03a Extracting 352B / 352B
+2024-12-08T21:45:01.725Z INFO  - c901b68fc03a Extracting 352B / 352B
+2024-12-08T21:45:01.878Z INFO  - c901b68fc03a Pull complete
+2024-12-08T21:45:01.917Z INFO  - f3cf4b9abeab Extracting 841B / 841B
+2024-12-08T21:45:01.944Z INFO  - f3cf4b9abeab Extracting 841B / 841B
+2024-12-08T21:45:02.084Z INFO  - f3cf4b9abeab Pull complete
+2024-12-08T21:45:02.095Z INFO  - f9dbcaeeff89 Extracting 150B / 150B
+2024-12-08T21:45:02.127Z INFO  - f9dbcaeeff89 Extracting 150B / 150B
+2024-12-08T21:45:02.274Z INFO  - f9dbcaeeff89 Pull complete
+2024-12-08T21:45:02.285Z INFO  - 551f1034200b Extracting 2KB / 2KB
+2024-12-08T21:45:02.338Z INFO  - 551f1034200b Extracting 2KB / 2KB
+2024-12-08T21:45:02.470Z INFO  - 551f1034200b Pull complete
+2024-12-08T21:45:02.482Z INFO  - bd14269ddcce Extracting 154B / 154B
+2024-12-08T21:45:02.528Z INFO  - bd14269ddcce Extracting 154B / 154B
+2024-12-08T21:45:02.637Z INFO  - bd14269ddcce Pull complete
+2024-12-08T21:45:02.649Z INFO  - 5392792c20e6 Extracting 11KB / 11KB
+2024-12-08T21:45:02.683Z INFO  - 5392792c20e6 Extracting 11KB / 11KB
+2024-12-08T21:45:02.817Z INFO  - 5392792c20e6 Pull complete
+2024-12-08T21:45:02.999Z INFO  - 07c01e0cf93b Extracting 1MB / 4MB
+2024-12-08T21:45:03.101Z INFO  - 07c01e0cf93b Extracting 3MB / 4MB
+2024-12-08T21:45:03.119Z INFO  - 07c01e0cf93b Extracting 4MB / 4MB
+2024-12-08T21:45:03.296Z INFO  - 07c01e0cf93b Pull complete
+2024-12-08T21:45:03.324Z INFO  - dc1f28edd69a Extracting 16KB / 16KB
+2024-12-08T21:45:03.355Z INFO  - dc1f28edd69a Extracting 16KB / 16KB
+2024-12-08T21:45:03.469Z INFO  - dc1f28edd69a Pull complete
+2024-12-08T21:45:03.482Z INFO  - c1597120857c Extracting 1KB / 1KB
+2024-12-08T21:45:03.531Z INFO  - c1597120857c Extracting 1KB / 1KB
+2024-12-08T21:45:03.671Z INFO  - c1597120857c Pull complete
+2024-12-08T21:45:03.722Z INFO  -  Digest: sha256:3b172df233bfe595f436b57bd4e579a2f0a62e0868991d9b087e45a736081ff9
+2024-12-08T21:45:03.735Z INFO  -  Status: Downloaded newer image for 10.1.6.0:13209/appsvc/python:3.12_20240619.2.tuxprod
+2024-12-08T21:45:03.764Z INFO  - Pull Image successful, Time taken: 43 Seconds
+2024-12-08T21:45:05.646Z INFO  - Starting container for site
+2024-12-08T21:45:05.647Z INFO  - docker run -d --expose=8000 --name retail-webapp_0_b25e8609 -e WEBSITE_USE_DIAGNOSTIC_SERVER=false -e WEBSITE_SITE_NAME=Retail-WebApp -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=retail-webapp-fvbraghnb0g0aye4.centralus-01.azurewebsites.net -e WEBSITE_INSTANCE_ID=e0673e1f74cb41099b234cccdcebb2529f890acd174966d89cb55643a6d395c5 appsvc/python:3.12_20240619.2.tuxprod 
+2024-12-08T21:45:05.648Z INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2024-12-08T21:45:07.494Z INFO  - Initiating warmup request to container retail-webapp_0_b25e8609 for site retail-webapp
+2024-12-08T21:45:11.449Z ERROR - Container retail-webapp_0_b25e8609 for site retail-webapp has exited, failing site start
+2024-12-08T21:45:11.467Z ERROR - Container retail-webapp_0_b25e8609 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2024-12-08T21:45:11.502Z INFO  - Stopping site retail-webapp because it failed during startup.
+2024-12-08T21:45:14.7868103Z Site: retail-webapp is unblocked.
+2024-12-08T21:45:18.206Z INFO  - Starting container for site
+2024-12-08T21:45:18.207Z INFO  - docker run -d --expose=8000 --name retail-webapp_0_42323068 -e WEBSITE_USE_DIAGNOSTIC_SERVER=false -e WEBSITE_SITE_NAME=Retail-WebApp -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=retail-webapp-fvbraghnb0g0aye4.centralus-01.azurewebsites.net -e WEBSITE_INSTANCE_ID=e0673e1f74cb41099b234cccdcebb2529f890acd174966d89cb55643a6d395c5 appsvc/python:3.12_20240619.2.tuxprod 
+2024-12-08T21:45:18.207Z INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2024-12-08T21:45:19.136Z INFO  - Initiating warmup request to container retail-webapp_0_42323068 for site retail-webapp
+2024-12-08T21:45:22.636Z ERROR - Container retail-webapp_0_42323068 for site retail-webapp has exited, failing site start
+2024-12-08T21:45:22.648Z ERROR - Container retail-webapp_0_42323068 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2024-12-08T21:45:22.651Z INFO  - Stopping site retail-webapp because it failed during startup.
+2024-12-08T21:45:57.536Z INFO  - Starting container for site
+2024-12-08T21:45:57.537Z INFO  - docker run -d --expose=8000 --name retail-webapp_0_87ae1570 -e WEBSITE_USE_DIAGNOSTIC_SERVER=false -e WEBSITE_SITE_NAME=Retail-WebApp -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=retail-webapp-fvbraghnb0g0aye4.centralus-01.azurewebsites.net -e WEBSITE_INSTANCE_ID=e0673e1f74cb41099b234cccdcebb2529f890acd174966d89cb55643a6d395c5 appsvc/python:3.12_20240619.2.tuxprod 
+2024-12-08T21:45:57.538Z INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2024-12-08T21:45:58.393Z INFO  - Initiating warmup request to container retail-webapp_0_87ae1570 for site retail-webapp
+2024-12-08T21:46:03.312Z ERROR - Container retail-webapp_0_87ae1570 for site retail-webapp has exited, failing site start
+2024-12-08T21:46:03.319Z ERROR - Container retail-webapp_0_87ae1570 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2024-12-08T21:46:03.321Z INFO  - Stopping site retail-webapp because it failed during startup.
+2024-12-08T21:46:08.543Z INFO  - Starting container for site
+2024-12-08T21:46:08.546Z INFO  - docker run -d --expose=8000 --name retail-webapp_0_eaa9f415 -e WEBSITE_USE_DIAGNOSTIC_SERVER=false -e WEBSITE_SITE_NAME=Retail-WebApp -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=retail-webapp-fvbraghnb0g0aye4.centralus-01.azurewebsites.net -e WEBSITE_INSTANCE_ID=e0673e1f74cb41099b234cccdcebb2529f890acd174966d89cb55643a6d395c5 appsvc/python:3.12_20240619.2.tuxprod 
+2024-12-08T21:46:08.547Z INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2024-12-08T21:46:10.471Z INFO  - Initiating warmup request to container retail-webapp_0_eaa9f415 for site retail-webapp
+2024-12-08T21:46:14.508Z ERROR - Container retail-webapp_0_eaa9f415 for site retail-webapp has exited, failing site start
+2024-12-08T21:46:14.516Z ERROR - Container retail-webapp_0_eaa9f415 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2024-12-08T21:46:14.531Z INFO  - Stopping site retail-webapp because it failed during startup.

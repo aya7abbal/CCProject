@@ -1,0 +1,22 @@
+2024-12-08 21:33:07,415  [MainThread] [DEBUG] : Initializating AppServiceAppLogging 
+2024-12-08 21:33:07,415  [Thread-1 (] [DEBUG] : Did not find any previously bound socket
+2024-12-08 21:33:07,416  [MainThread] [DEBUG] : Initialized AppServiceAppLogging
+2024-12-08 21:33:07,721  [Thread-3 (] [DEBUG] : Waiting for the logs flag to be set
+2024-12-08 21:36:39,711  [MainThread] [DEBUG] : Initializating AppServiceAppLogging 
+2024-12-08 21:36:39,712  [Thread-1 (] [DEBUG] : Did not find any previously bound socket
+2024-12-08 21:36:39,712  [MainThread] [DEBUG] : Initialized AppServiceAppLogging
+2024-12-08 21:36:40,027  [Thread-3 (] [DEBUG] : Waiting for the logs flag to be set
+2024-12-08 21:41:48,337  [MainThread] [DEBUG] : Initializating AppServiceAppLogging 
+2024-12-08 21:41:48,343  [Thread-1 (] [DEBUG] : Did not find any previously bound socket
+2024-12-08 21:41:48,343  [MainThread] [DEBUG] : Initialized AppServiceAppLogging
+2024-12-08 21:41:48,569  [Thread-3 (] [DEBUG] : Waiting for the logs flag to be set
+2024-12-08 21:42:24,885  [MainThread] [DEBUG] : Initializating AppServiceAppLogging 
+2024-12-08 21:42:24,889  [Thread-1 (] [DEBUG] : Did not find any previously bound socket
+2024-12-08 21:42:24,893  [MainThread] [DEBUG] : Initialized AppServiceAppLogging
+2024-12-08 21:42:24,987  [Thread-3 (] [DEBUG] : Waiting for the logs flag to be set
+2024-12-08 21:43:32,162  [MainThread] [DEBUG] : Initializating AppServiceAppLogging 
+2024-12-08 21:43:32,163  [Thread-1 (] [DEBUG] : Did not find any previously bound socket
+2024-12-08 21:43:32,163  [MainThread] [DEBUG] : Initialized AppServiceAppLogging
+2024-12-08 21:44:09,845  [MainThread] [DEBUG] : Initializating AppServiceAppLogging 
+2024-12-08 21:44:09,846  [Thread-1 (] [DEBUG] : Did not find any previously bound socket
+2024-12-08 21:44:09,847  [MainThread] [DEBUG] : Initialized AppServiceAppLogging

@@ -1,0 +1,1753 @@
+2024-12-09T02:43:26.6781260Z    _____                               
+2024-12-09T02:43:26.6804519Z   /  _  \ __________ _________   ____  
+2024-12-09T02:43:26.6808432Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T02:43:26.6813310Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T02:43:26.6815136Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T02:43:26.6829134Z         \/      \/                  \/ 
+2024-12-09T02:43:26.6833591Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T02:43:26.6838483Z 
+2024-12-09T02:43:26.6842908Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T02:43:26.6847359Z Python 3.10.15
+2024-12-09T02:43:26.6854120Z Note: Any data outside '/home' is not persisted
+2024-12-09T02:43:27.0594275Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T02:43:27.0710298Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T02:43:27.0973895Z App Command Line not configured, will attempt auto-detect
+2024-12-09T02:43:27.2511136Z Starting periodic command scheduler: cron.
+2024-12-09T02:43:27.2512289Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite
+2024-12-09T02:43:27.3199521Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T02:43:27.3228305Z Build Operation ID: 4030bd2e135227b1
+2024-12-09T02:43:27.3250990Z Oryx Version: 0.2.20241021.2, Commit: 95c7a8852fa9194ea07f2d939a57d3fa465722df, ReleaseTagName: 20241021.2
+2024-12-09T02:43:27.3296861Z Output is compressed. Extracting it...
+2024-12-09T02:43:27.3310470Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd17d140035444'...
+2024-12-09T02:43:30.6098459Z App path is set to '/tmp/8dd17d140035444'
+2024-12-09T02:43:30.7442821Z Detected an app based on Flask
+2024-12-09T02:43:30.7445458Z Generating `gunicorn` command for 'app:app'
+2024-12-09T02:43:30.7706257Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T02:43:30.8351712Z Using packages from virtual environment antenv located at /tmp/8dd17d140035444/antenv.
+2024-12-09T02:43:30.8352846Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd17d140035444/antenv/lib/python3.10/site-packages'
+2024-12-09T02:43:30.8378105Z /tmp/8dd17d140035444/antenv/bin/python: error while loading shared libraries: libpython3.12.so.1.0: cannot open shared object file: No such file or directory
+2024-12-09T02:44:24.375451900Z    _____                               
+2024-12-09T02:44:24.375508600Z   /  _  \ __________ _________   ____  
+2024-12-09T02:44:24.375515900Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T02:44:24.375521900Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T02:44:24.375527400Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T02:44:24.375533300Z         \/      \/                  \/ 
+2024-12-09T02:44:24.375538700Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T02:44:24.375543800Z 
+2024-12-09T02:44:24.375548600Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T02:44:24.375553400Z Python 3.10.15
+2024-12-09T02:44:24.375558299Z Note: Any data outside '/home' is not persisted
+2024-12-09T02:44:24.928472367Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T02:44:24.944760498Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T02:44:25.023267067Z App Command Line not configured, will attempt auto-detect
+2024-12-09T02:44:25.026096555Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite
+2024-12-09T02:44:25.062407602Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T02:44:25.066003987Z Build Operation ID: 4030bd2e135227b1
+2024-12-09T02:44:25.066020487Z Oryx Version: 0.2.20241021.2, Commit: 95c7a8852fa9194ea07f2d939a57d3fa465722df, ReleaseTagName: 20241021.2
+2024-12-09T02:44:25.066038586Z Output is compressed. Extracting it...
+2024-12-09T02:44:25.070892666Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd17d140035444'...
+2024-12-09T02:44:28.457545169Z App path is set to '/tmp/8dd17d140035444'
+2024-12-09T02:44:28.675659455Z Detected an app based on Flask
+2024-12-09T02:44:28.675754055Z Generating `gunicorn` command for 'app:app'
+2024-12-09T02:44:28.703786337Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T02:44:28.801825326Z Using packages from virtual environment antenv located at /tmp/8dd17d140035444/antenv.
+2024-12-09T02:44:28.801848026Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd17d140035444/antenv/lib/python3.10/site-packages'
+2024-12-09T02:44:28.816949363Z /tmp/8dd17d140035444/antenv/bin/python: error while loading shared libraries: libpython3.12.so.1.0: cannot open shared object file: No such file or directory
+
+2024-12-09T02:44:45.234077979Z    _____                               
+2024-12-09T02:44:45.234124279Z   /  _  \ __________ _________   ____  
+2024-12-09T02:44:45.234130979Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T02:44:45.234136579Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T02:44:45.234141979Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T02:44:45.234147479Z         \/      \/                  \/ 
+2024-12-09T02:44:45.234152679Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T02:44:45.234157479Z 
+2024-12-09T02:44:45.234162579Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T02:44:45.234167479Z Python 3.10.15
+2024-12-09T02:44:45.234172279Z Note: Any data outside '/home' is not persisted
+2024-12-09T02:44:45.664874715Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T02:44:45.678386853Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T02:44:45.720902259Z App Command Line not configured, will attempt auto-detect
+2024-12-09T02:44:45.721525756Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite
+2024-12-09T02:44:45.743307757Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T02:44:45.744792650Z Build Operation ID: 4030bd2e135227b1
+2024-12-09T02:44:45.745700746Z Oryx Version: 0.2.20241021.2, Commit: 95c7a8852fa9194ea07f2d939a57d3fa465722df, ReleaseTagName: 20241021.2
+2024-12-09T02:44:45.745926145Z Output is compressed. Extracting it...
+2024-12-09T02:44:45.746587442Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd17d140035444'...
+2024-12-09T02:44:47.653672247Z App path is set to '/tmp/8dd17d140035444'
+2024-12-09T02:44:47.829283547Z Detected an app based on Flask
+2024-12-09T02:44:47.829316346Z Generating `gunicorn` command for 'app:app'
+2024-12-09T02:44:47.860638504Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T02:44:47.923063719Z Using packages from virtual environment antenv located at /tmp/8dd17d140035444/antenv.
+2024-12-09T02:44:47.923109719Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd17d140035444/antenv/lib/python3.10/site-packages'
+2024-12-09T02:44:47.925687807Z /tmp/8dd17d140035444/antenv/bin/python: error while loading shared libraries: libpython3.12.so.1.0: cannot open shared object file: No such file or directory
+
+2024-12-09T02:44:59.254992378Z    _____                               
+2024-12-09T02:44:59.255028178Z   /  _  \ __________ _________   ____  
+2024-12-09T02:44:59.255034378Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T02:44:59.255039978Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T02:44:59.255045678Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T02:44:59.255050978Z         \/      \/                  \/ 
+2024-12-09T02:44:59.255055978Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T02:44:59.255060678Z 
+2024-12-09T02:44:59.255065578Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T02:44:59.255070678Z Python 3.10.15
+2024-12-09T02:44:59.255075578Z Note: Any data outside '/home' is not persisted
+2024-12-09T02:44:59.720016655Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T02:44:59.723853537Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T02:44:59.751067813Z App Command Line not configured, will attempt auto-detect
+2024-12-09T02:44:59.752017509Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite
+2024-12-09T02:44:59.759258976Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T02:44:59.760896268Z Build Operation ID: 4030bd2e135227b1
+2024-12-09T02:44:59.762933059Z Oryx Version: 0.2.20241021.2, Commit: 95c7a8852fa9194ea07f2d939a57d3fa465722df, ReleaseTagName: 20241021.2
+2024-12-09T02:44:59.763501256Z Output is compressed. Extracting it...
+2024-12-09T02:44:59.764888350Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd17d140035444'...
+2024-12-09T02:45:01.673944136Z App path is set to '/tmp/8dd17d140035444'
+2024-12-09T02:45:01.810481013Z Detected an app based on Flask
+2024-12-09T02:45:01.810806811Z Generating `gunicorn` command for 'app:app'
+2024-12-09T02:45:01.842214068Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T02:45:02.033016097Z Using packages from virtual environment antenv located at /tmp/8dd17d140035444/antenv.
+2024-12-09T02:45:02.033060297Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd17d140035444/antenv/lib/python3.10/site-packages'
+2024-12-09T02:45:02.036100083Z /tmp/8dd17d140035444/antenv/bin/python: error while loading shared libraries: libpython3.12.so.1.0: cannot open shared object file: No such file or directory
+
+2024-12-09T02:45:23.057996827Z    _____                               
+2024-12-09T02:45:23.058030827Z   /  _  \ __________ _________   ____  
+2024-12-09T02:45:23.058037227Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T02:45:23.058042827Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T02:45:23.058047927Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T02:45:23.058053227Z         \/      \/                  \/ 
+2024-12-09T02:45:23.058058327Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T02:45:23.058063527Z 
+2024-12-09T02:45:23.058068327Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T02:45:23.058073627Z Python 3.10.15
+2024-12-09T02:45:23.058078727Z Note: Any data outside '/home' is not persisted
+2024-12-09T02:45:23.540757233Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T02:45:23.547437004Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T02:45:23.609711234Z App Command Line not configured, will attempt auto-detect
+2024-12-09T02:45:23.610940229Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite
+2024-12-09T02:45:23.623419474Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T02:45:23.624770269Z Build Operation ID: 4030bd2e135227b1
+2024-12-09T02:45:23.625629565Z Oryx Version: 0.2.20241021.2, Commit: 95c7a8852fa9194ea07f2d939a57d3fa465722df, ReleaseTagName: 20241021.2
+2024-12-09T02:45:23.626168963Z Output is compressed. Extracting it...
+2024-12-09T02:45:23.627502257Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd17d140035444'...
+2024-12-09T02:45:25.366571413Z App path is set to '/tmp/8dd17d140035444'
+2024-12-09T02:45:25.539662863Z Detected an app based on Flask
+2024-12-09T02:45:25.539701362Z Generating `gunicorn` command for 'app:app'
+2024-12-09T02:45:25.563728558Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T02:45:25.625354691Z Using packages from virtual environment antenv located at /tmp/8dd17d140035444/antenv.
+2024-12-09T02:45:25.625440491Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd17d140035444/antenv/lib/python3.10/site-packages'
+2024-12-09T02:45:25.628086779Z /tmp/8dd17d140035444/antenv/bin/python: error while loading shared libraries: libpython3.12.so.1.0: cannot open shared object file: No such file or directory
+
+2024-12-09T02:47:39.305735910Z    _____                               
+2024-12-09T02:47:39.305782909Z   /  _  \ __________ _________   ____  
+2024-12-09T02:47:39.305790609Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T02:47:39.305796309Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T02:47:39.305801609Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T02:47:39.305807009Z         \/      \/                  \/ 
+2024-12-09T02:47:39.305812509Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T02:47:39.305817509Z 
+2024-12-09T02:47:39.305822309Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T02:47:39.305827309Z Python 3.10.15
+2024-12-09T02:47:39.305832309Z Note: Any data outside '/home' is not persisted
+2024-12-09T02:47:39.640403977Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T02:47:39.650104456Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T02:47:39.675735700Z App Command Line not configured, will attempt auto-detect
+2024-12-09T02:47:39.678050195Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite
+2024-12-09T02:47:39.713472617Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T02:47:39.715257013Z Build Operation ID: 4030bd2e135227b1
+2024-12-09T02:47:39.717090709Z Oryx Version: 0.2.20241021.2, Commit: 95c7a8852fa9194ea07f2d939a57d3fa465722df, ReleaseTagName: 20241021.2
+2024-12-09T02:47:39.717942907Z Output is compressed. Extracting it...
+2024-12-09T02:47:39.719091305Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd17d140035444'...
+2024-12-09T02:47:41.557696481Z App path is set to '/tmp/8dd17d140035444'
+2024-12-09T02:47:41.689103394Z Detected an app based on Flask
+2024-12-09T02:47:41.689148094Z Generating `gunicorn` command for 'app:app'
+2024-12-09T02:47:41.719845826Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T02:47:41.786631180Z Using packages from virtual environment antenv located at /tmp/8dd17d140035444/antenv.
+2024-12-09T02:47:41.786655380Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd17d140035444/antenv/lib/python3.10/site-packages'
+2024-12-09T02:47:41.789087475Z /tmp/8dd17d140035444/antenv/bin/python: error while loading shared libraries: libpython3.12.so.1.0: cannot open shared object file: No such file or directory
+
+2024-12-09T02:50:12.1986925Z    _____                               
+2024-12-09T02:50:12.1988149Z   /  _  \ __________ _________   ____  
+2024-12-09T02:50:12.1988245Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T02:50:12.1988291Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T02:50:12.1988329Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T02:50:12.1988381Z         \/      \/                  \/ 
+2024-12-09T02:50:12.1988419Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T02:50:12.1988471Z 
+2024-12-09T02:50:12.1988546Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T02:50:12.1988586Z Python 3.10.15
+2024-12-09T02:50:12.1988628Z Note: Any data outside '/home' is not persisted
+2024-12-09T02:50:12.6527982Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T02:50:12.6643634Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T02:50:12.6964544Z App Command Line not configured, will attempt auto-detect
+2024-12-09T02:50:12.7878293Z Starting periodic command scheduler: cron.
+2024-12-09T02:50:12.7884466Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite
+2024-12-09T02:50:12.8136636Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T02:50:12.8156059Z Build Operation ID: 4030bd2e135227b1
+2024-12-09T02:50:12.8415207Z Output is compressed. Extracting it...
+2024-12-09T02:50:12.8415970Z Oryx Version: 0.2.20241021.2, Commit: 95c7a8852fa9194ea07f2d939a57d3fa465722df, ReleaseTagName: 20241021.2
+2024-12-09T02:50:12.8425961Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd17d140035444'...
+2024-12-09T02:50:15.8859681Z App path is set to '/tmp/8dd17d140035444'
+2024-12-09T02:50:16.0692486Z Detected an app based on Flask
+2024-12-09T02:50:16.0701493Z Generating `gunicorn` command for 'app:app'
+2024-12-09T02:50:16.0954166Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T02:50:16.6864749Z Using packages from virtual environment antenv located at /tmp/8dd17d140035444/antenv.
+2024-12-09T02:50:16.6865564Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd17d140035444/antenv/lib/python3.10/site-packages'
+2024-12-09T02:50:16.6878822Z /tmp/8dd17d140035444/antenv/bin/python: error while loading shared libraries: libpython3.12.so.1.0: cannot open shared object file: No such file or directory
+2024-12-09T02:50:19.750667908Z    _____                               
+2024-12-09T02:50:19.750748907Z   /  _  \ __________ _________   ____  
+2024-12-09T02:50:19.750756007Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T02:50:19.750762207Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T02:50:19.750767407Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T02:50:19.750773007Z         \/      \/                  \/ 
+2024-12-09T02:50:19.750804907Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T02:50:19.750811207Z 
+2024-12-09T02:50:19.750815907Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T02:50:19.750820807Z Python 3.10.15
+2024-12-09T02:50:19.750825807Z Note: Any data outside '/home' is not persisted
+2024-12-09T02:50:19.972669522Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T02:50:19.987619376Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T02:50:20.025022860Z App Command Line not configured, will attempt auto-detect
+2024-12-09T02:50:20.025348559Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite
+2024-12-09T02:50:20.040403613Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T02:50:20.041937508Z Build Operation ID: 4030bd2e135227b1
+2024-12-09T02:50:20.042902105Z Oryx Version: 0.2.20241021.2, Commit: 95c7a8852fa9194ea07f2d939a57d3fa465722df, ReleaseTagName: 20241021.2
+2024-12-09T02:50:20.042914205Z Output is compressed. Extracting it...
+2024-12-09T02:50:20.043676103Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd17d140035444'...
+2024-12-09T02:50:22.119289493Z App path is set to '/tmp/8dd17d140035444'
+2024-12-09T02:50:22.275326011Z Detected an app based on Flask
+2024-12-09T02:50:22.275406311Z Generating `gunicorn` command for 'app:app'
+2024-12-09T02:50:22.304015323Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T02:50:22.375612302Z Using packages from virtual environment antenv located at /tmp/8dd17d140035444/antenv.
+2024-12-09T02:50:22.375639302Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd17d140035444/antenv/lib/python3.10/site-packages'
+2024-12-09T02:50:22.378035294Z /tmp/8dd17d140035444/antenv/bin/python: error while loading shared libraries: libpython3.12.so.1.0: cannot open shared object file: No such file or directory
+
+2024-12-09T02:53:32.760649101Z    _____                               
+2024-12-09T02:53:32.760677601Z   /  _  \ __________ _________   ____  
+2024-12-09T02:53:32.760684801Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T02:53:32.760691001Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T02:53:32.760696101Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T02:53:32.760701201Z         \/      \/                  \/ 
+2024-12-09T02:53:32.760706301Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T02:53:32.760710901Z 
+2024-12-09T02:53:32.760715301Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T02:53:32.760720001Z Python 3.9.20
+2024-12-09T02:53:32.760724801Z Note: Any data outside '/home' is not persisted
+2024-12-09T02:53:33.165450012Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T02:53:33.172451185Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T02:53:33.191672809Z Updating certificates in /etc/ssl/certs...
+2024-12-09T02:53:35.563989795Z 1 added, 0 removed; done.
+2024-12-09T02:53:35.564883692Z Running hooks in /etc/ca-certificates/update.d...
+2024-12-09T02:53:35.566833784Z done.
+2024-12-09T02:53:35.570725969Z CA certificates copied and updated successfully.
+2024-12-09T02:53:35.589255696Z App Command Line not configured, will attempt auto-detect
+2024-12-09T02:53:35.590106893Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite
+2024-12-09T02:53:35.595456472Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T02:53:35.597562264Z Build Operation ID: 4030bd2e135227b1
+2024-12-09T02:53:35.598021562Z Oryx Version: 0.2.20241021.2, Commit: 95c7a8852fa9194ea07f2d939a57d3fa465722df, ReleaseTagName: 20241021.2
+2024-12-09T02:53:35.598345760Z Output is compressed. Extracting it...
+2024-12-09T02:53:35.599498356Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd17d140035444'...
+2024-12-09T02:53:37.934681595Z App path is set to '/tmp/8dd17d140035444'
+2024-12-09T02:53:38.056042776Z Detected an app based on Flask
+2024-12-09T02:53:38.056101875Z Generating `gunicorn` command for 'app:app'
+2024-12-09T02:53:38.082227192Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T02:53:38.171081231Z Using packages from virtual environment antenv located at /tmp/8dd17d140035444/antenv.
+2024-12-09T02:53:38.171108931Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd17d140035444/antenv/lib/python3.9/site-packages'
+2024-12-09T02:53:38.175222886Z /tmp/8dd17d140035444/antenv/bin/python: error while loading shared libraries: libpython3.12.so.1.0: cannot open shared object file: No such file or directory
+
+2024-12-09T03:29:10.0174968Z    _____                               
+2024-12-09T03:29:10.0190722Z   /  _  \ __________ _________   ____  
+2024-12-09T03:29:10.0190897Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T03:29:10.0190950Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T03:29:10.0190983Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T03:29:10.0191015Z         \/      \/                  \/ 
+2024-12-09T03:29:10.0191048Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T03:29:10.0191098Z 
+2024-12-09T03:29:10.0191133Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T03:29:10.0191165Z Python 3.9.20
+2024-12-09T03:29:10.0191197Z Note: Any data outside '/home' is not persisted
+2024-12-09T03:29:10.2467785Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T03:29:10.2572150Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T03:29:10.2674207Z Updating certificates in /etc/ssl/certs...
+2024-12-09T03:29:12.2696412Z 1 added, 0 removed; done.
+2024-12-09T03:29:12.2709638Z Running hooks in /etc/ca-certificates/update.d...
+2024-12-09T03:29:12.2754881Z done.
+2024-12-09T03:29:12.2796728Z CA certificates copied and updated successfully.
+2024-12-09T03:29:12.3434034Z App Command Line not configured, will attempt auto-detect
+2024-12-09T03:29:12.8798243Z Starting periodic command scheduler: cron.
+2024-12-09T03:29:12.8903460Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite
+2024-12-09T03:29:12.8912530Z Output is compressed. Extracting it...
+2024-12-09T03:29:12.8919256Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T03:29:12.8925014Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd17d140035444'...
+2024-12-09T03:29:12.8929040Z Build Operation ID: 4030bd2e135227b1
+2024-12-09T03:29:12.8929157Z Oryx Version: 0.2.20241021.2, Commit: 95c7a8852fa9194ea07f2d939a57d3fa465722df, ReleaseTagName: 20241021.2
+2024-12-09T03:29:15.5365192Z App path is set to '/tmp/8dd17d140035444'
+2024-12-09T03:29:15.7105621Z Detected an app based on Flask
+2024-12-09T03:29:15.7109854Z Generating `gunicorn` command for 'app:app'
+2024-12-09T03:29:15.7397624Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T03:29:15.9657199Z Using packages from virtual environment antenv located at /tmp/8dd17d140035444/antenv.
+2024-12-09T03:29:15.9667327Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd17d140035444/antenv/lib/python3.9/site-packages'
+2024-12-09T03:29:15.9698480Z /tmp/8dd17d140035444/antenv/bin/python: error while loading shared libraries: libpython3.12.so.1.0: cannot open shared object file: No such file or directory
+2024-12-09T03:29:21.124384986Z    _____                               
+2024-12-09T03:29:21.128135673Z   /  _  \ __________ _________   ____  
+2024-12-09T03:29:21.128143673Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T03:29:21.128149973Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T03:29:21.128155773Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T03:29:21.128161673Z         \/      \/                  \/ 
+2024-12-09T03:29:21.128167073Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T03:29:21.128172273Z 
+2024-12-09T03:29:21.128176873Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T03:29:21.128182073Z Python 3.9.20
+2024-12-09T03:29:21.128187273Z Note: Any data outside '/home' is not persisted
+2024-12-09T03:29:21.470177138Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T03:29:21.474921522Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T03:29:21.492980862Z Updating certificates in /etc/ssl/certs...
+2024-12-09T03:29:24.136203883Z 1 added, 0 removed; done.
+2024-12-09T03:29:24.141510365Z Running hooks in /etc/ca-certificates/update.d...
+2024-12-09T03:29:24.149125641Z done.
+2024-12-09T03:29:24.155121721Z CA certificates copied and updated successfully.
+2024-12-09T03:29:24.227268988Z App Command Line not configured, will attempt auto-detect
+2024-12-09T03:29:24.227834686Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite
+2024-12-09T03:29:24.275341732Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T03:29:24.276952227Z Build Operation ID: 4030bd2e135227b1
+2024-12-09T03:29:24.278018222Z Oryx Version: 0.2.20241021.2, Commit: 95c7a8852fa9194ea07f2d939a57d3fa465722df, ReleaseTagName: 20241021.2
+2024-12-09T03:29:24.278043321Z Output is compressed. Extracting it...
+2024-12-09T03:29:24.279349814Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd17d140035444'...
+2024-12-09T03:29:26.648293323Z App path is set to '/tmp/8dd17d140035444'
+2024-12-09T03:29:26.784041265Z Detected an app based on Flask
+2024-12-09T03:29:26.784079365Z Generating `gunicorn` command for 'app:app'
+2024-12-09T03:29:26.811511612Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T03:29:26.894026452Z Using packages from virtual environment antenv located at /tmp/8dd17d140035444/antenv.
+2024-12-09T03:29:26.894075651Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd17d140035444/antenv/lib/python3.9/site-packages'
+2024-12-09T03:29:26.994041993Z /tmp/8dd17d140035444/antenv/bin/python: error while loading shared libraries: libpython3.12.so.1.0: cannot open shared object file: No such file or directory
+
+2024-12-09T03:52:00.5132552Z    _____                               
+2024-12-09T03:52:00.5137193Z   /  _  \ __________ _________   ____  
+2024-12-09T03:52:00.5137406Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T03:52:00.5137453Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T03:52:00.5137487Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T03:52:00.5137536Z         \/      \/                  \/ 
+2024-12-09T03:52:00.5137571Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T03:52:00.5137607Z 
+2024-12-09T03:52:00.5137643Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T03:52:00.5137676Z Python 3.9.20
+2024-12-09T03:52:00.5137708Z Note: Any data outside '/home' is not persisted
+2024-12-09T03:52:00.6808404Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T03:52:00.6853424Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T03:52:00.6955626Z Updating certificates in /etc/ssl/certs...
+2024-12-09T03:52:03.5651571Z 1 added, 0 removed; done.
+2024-12-09T03:52:03.5658911Z Running hooks in /etc/ca-certificates/update.d...
+2024-12-09T03:52:03.5699809Z done.
+2024-12-09T03:52:03.5736906Z CA certificates copied and updated successfully.
+2024-12-09T03:52:03.6612675Z App Command Line not configured, will attempt auto-detect
+2024-12-09T03:52:03.8488570Z Starting periodic command scheduler: cron.
+2024-12-09T03:52:03.8505102Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite
+2024-12-09T03:52:03.9110869Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T03:52:03.9180566Z Output is compressed. Extracting it...
+2024-12-09T03:52:03.9196827Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd17d140035444'...
+2024-12-09T03:52:04.8213479Z Build Operation ID: 4030bd2e135227b1
+2024-12-09T03:52:04.8214190Z Oryx Version: 0.2.20241021.2, Commit: 95c7a8852fa9194ea07f2d939a57d3fa465722df, ReleaseTagName: 20241021.2
+2024-12-09T03:52:06.7321523Z App path is set to '/tmp/8dd17d140035444'
+2024-12-09T03:52:07.8101183Z Detected an app based on Flask
+2024-12-09T03:52:07.8108513Z Generating `gunicorn` command for 'app:app'
+2024-12-09T03:52:07.8387313Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T03:52:08.4332982Z Using packages from virtual environment antenv located at /tmp/8dd17d140035444/antenv.
+2024-12-09T03:52:08.4334578Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd17d140035444/antenv/lib/python3.9/site-packages'
+2024-12-09T03:52:08.4362344Z /tmp/8dd17d140035444/antenv/bin/python: error while loading shared libraries: libpython3.12.so.1.0: cannot open shared object file: No such file or directory
+2024-12-09T03:52:13.344930533Z    _____                               
+2024-12-09T03:52:13.344965133Z   /  _  \ __________ _________   ____  
+2024-12-09T03:52:13.344971633Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T03:52:13.344977133Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T03:52:13.344982733Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T03:52:13.344988133Z         \/      \/                  \/ 
+2024-12-09T03:52:13.344994233Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T03:52:13.344999533Z 
+2024-12-09T03:52:13.345004333Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T03:52:13.345009033Z Python 3.9.20
+2024-12-09T03:52:13.345014333Z Note: Any data outside '/home' is not persisted
+2024-12-09T03:52:13.912564484Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T03:52:13.940316364Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T03:52:14.015739337Z Updating certificates in /etc/ssl/certs...
+2024-12-09T03:52:16.640897283Z 1 added, 0 removed; done.
+2024-12-09T03:52:16.640924183Z Running hooks in /etc/ca-certificates/update.d...
+2024-12-09T03:52:16.643132773Z done.
+2024-12-09T03:52:16.646676358Z CA certificates copied and updated successfully.
+2024-12-09T03:52:16.712082275Z App Command Line not configured, will attempt auto-detect
+2024-12-09T03:52:16.712677373Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite
+2024-12-09T03:52:16.734677977Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T03:52:16.736492170Z Build Operation ID: 4030bd2e135227b1
+2024-12-09T03:52:16.737686164Z Oryx Version: 0.2.20241021.2, Commit: 95c7a8852fa9194ea07f2d939a57d3fa465722df, ReleaseTagName: 20241021.2
+2024-12-09T03:52:16.738012063Z Output is compressed. Extracting it...
+2024-12-09T03:52:16.738905659Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd17d140035444'...
+2024-12-09T03:52:18.670318114Z App path is set to '/tmp/8dd17d140035444'
+2024-12-09T03:52:18.826494239Z Detected an app based on Flask
+2024-12-09T03:52:18.827249136Z Generating `gunicorn` command for 'app:app'
+2024-12-09T03:52:18.850958134Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T03:52:18.924098318Z Using packages from virtual environment antenv located at /tmp/8dd17d140035444/antenv.
+2024-12-09T03:52:18.924150418Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd17d140035444/antenv/lib/python3.9/site-packages'
+2024-12-09T03:52:18.926610507Z /tmp/8dd17d140035444/antenv/bin/python: error while loading shared libraries: libpython3.12.so.1.0: cannot open shared object file: No such file or directory
+
+2024-12-09T04:05:40.0075824Z    _____                               
+2024-12-09T04:05:40.0077035Z   /  _  \ __________ _________   ____  
+2024-12-09T04:05:40.0077111Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T04:05:40.0077146Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T04:05:40.0077195Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T04:05:40.0077225Z         \/      \/                  \/ 
+2024-12-09T04:05:40.0077254Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T04:05:40.0077287Z 
+2024-12-09T04:05:40.0077318Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T04:05:40.0077351Z Python 3.9.20
+2024-12-09T04:05:40.0077395Z Note: Any data outside '/home' is not persisted
+2024-12-09T04:05:40.2145667Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T04:05:40.2184469Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T04:05:40.2347003Z Updating certificates in /etc/ssl/certs...
+2024-12-09T04:05:42.7498890Z 1 added, 0 removed; done.
+2024-12-09T04:05:42.7499644Z Running hooks in /etc/ca-certificates/update.d...
+2024-12-09T04:05:42.7541905Z done.
+2024-12-09T04:05:42.7606975Z CA certificates copied and updated successfully.
+2024-12-09T04:05:42.8109364Z App Command Line not configured, will attempt auto-detect
+2024-12-09T04:05:42.9188980Z Starting periodic command scheduler: cron.
+2024-12-09T04:05:42.9189590Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite
+2024-12-09T04:05:42.9502228Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T04:05:42.9530262Z Build Operation ID: 4030bd2e135227b1
+2024-12-09T04:05:42.9548125Z Oryx Version: 0.2.20241021.2, Commit: 95c7a8852fa9194ea07f2d939a57d3fa465722df, ReleaseTagName: 20241021.2
+2024-12-09T04:05:42.9556672Z Output is compressed. Extracting it...
+2024-12-09T04:05:42.9570886Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd17d140035444'...
+2024-12-09T04:05:46.0488776Z App path is set to '/tmp/8dd17d140035444'
+2024-12-09T04:05:46.1812229Z Detected an app based on Flask
+2024-12-09T04:05:46.1814409Z Generating `gunicorn` command for 'app:app'
+2024-12-09T04:05:46.2098672Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T04:05:46.2949569Z Using packages from virtual environment antenv located at /tmp/8dd17d140035444/antenv.
+2024-12-09T04:05:46.2950108Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd17d140035444/antenv/lib/python3.9/site-packages'
+2024-12-09T04:05:46.2965504Z /tmp/8dd17d140035444/antenv/bin/python: error while loading shared libraries: libpython3.12.so.1.0: cannot open shared object file: No such file or directory
+2024-12-09T04:05:49.242965108Z    _____                               
+2024-12-09T04:05:49.243000008Z   /  _  \ __________ _________   ____  
+2024-12-09T04:05:49.243007607Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T04:05:49.243013607Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T04:05:49.243017107Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T04:05:49.243020807Z         \/      \/                  \/ 
+2024-12-09T04:05:49.243024407Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T04:05:49.243324206Z 
+2024-12-09T04:05:49.243336106Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T04:05:49.243342706Z Python 3.9.20
+2024-12-09T04:05:49.243347706Z Note: Any data outside '/home' is not persisted
+2024-12-09T04:05:49.443598830Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T04:05:49.456091587Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T04:05:49.466601152Z Updating certificates in /etc/ssl/certs...
+2024-12-09T04:05:52.031225693Z 1 added, 0 removed; done.
+2024-12-09T04:05:52.031958888Z Running hooks in /etc/ca-certificates/update.d...
+2024-12-09T04:05:52.036975954Z done.
+2024-12-09T04:05:52.036996454Z CA certificates copied and updated successfully.
+2024-12-09T04:05:52.066802453Z App Command Line not configured, will attempt auto-detect
+2024-12-09T04:05:52.068346243Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite
+2024-12-09T04:05:52.079205070Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T04:05:52.114098934Z Build Operation ID: 4030bd2e135227b1
+2024-12-09T04:05:52.115329426Z Oryx Version: 0.2.20241021.2, Commit: 95c7a8852fa9194ea07f2d939a57d3fa465722df, ReleaseTagName: 20241021.2
+2024-12-09T04:05:52.115355326Z Output is compressed. Extracting it...
+2024-12-09T04:05:52.115887022Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd17d140035444'...
+2024-12-09T04:05:54.353147035Z App path is set to '/tmp/8dd17d140035444'
+2024-12-09T04:05:54.480117375Z Detected an app based on Flask
+2024-12-09T04:05:54.480306575Z Generating `gunicorn` command for 'app:app'
+2024-12-09T04:05:54.504714186Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T04:05:54.565067368Z Using packages from virtual environment antenv located at /tmp/8dd17d140035444/antenv.
+2024-12-09T04:05:54.565101568Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd17d140035444/antenv/lib/python3.9/site-packages'
+2024-12-09T04:05:54.567767658Z /tmp/8dd17d140035444/antenv/bin/python: error while loading shared libraries: libpython3.12.so.1.0: cannot open shared object file: No such file or directory
+
+2024-12-09T04:11:30.713293664Z    _____                               
+2024-12-09T04:11:30.713319363Z   /  _  \ __________ _________   ____  
+2024-12-09T04:11:30.713325763Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T04:11:30.713331463Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T04:11:30.713336663Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T04:11:30.713342163Z         \/      \/                  \/ 
+2024-12-09T04:11:30.713347063Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T04:11:30.713352263Z 
+2024-12-09T04:11:30.713357463Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T04:11:30.713409963Z Python 3.9.20
+2024-12-09T04:11:30.713421263Z Note: Any data outside '/home' is not persisted
+2024-12-09T04:11:30.972551007Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T04:11:30.991950851Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T04:11:31.010752996Z Updating certificates in /etc/ssl/certs...
+2024-12-09T04:11:34.578443276Z 1 added, 0 removed; done.
+2024-12-09T04:11:34.579952072Z Running hooks in /etc/ca-certificates/update.d...
+2024-12-09T04:11:34.609888686Z done.
+2024-12-09T04:11:34.616317067Z CA certificates copied and updated successfully.
+2024-12-09T04:11:34.727623547Z App Command Line not configured, will attempt auto-detect
+2024-12-09T04:11:34.728985543Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite
+2024-12-09T04:11:34.777414204Z Could not find build manifest file at '/home/site/wwwroot/oryx-manifest.toml'
+2024-12-09T04:11:34.782632589Z Could not find operation ID in manifest. Generating an operation id...
+2024-12-09T04:11:34.782964888Z Build Operation ID: e07441d4-5ac4-4273-9d2a-ad970b48fb86
+2024-12-09T04:11:35.011377231Z Oryx Version: 0.2.20241021.2, Commit: 95c7a8852fa9194ea07f2d939a57d3fa465722df, ReleaseTagName: 20241021.2
+2024-12-09T04:11:35.020045307Z No framework detected; using default app from /opt/defaultsite
+2024-12-09T04:11:35.020067006Z Generating `gunicorn` command for 'application:app'
+2024-12-09T04:11:35.063184983Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T04:11:35.129351593Z WARNING: Could not find virtual environment directory /home/site/wwwroot/antenv.
+2024-12-09T04:11:35.131576987Z WARNING: Could not find package directory /home/site/wwwroot/__oryx_packages__.
+2024-12-09T04:11:35.930895472Z [2024-12-09 04:11:35 +0000] [1056] [INFO] Starting gunicorn 23.0.0
+2024-12-09T04:11:35.944889121Z [2024-12-09 04:11:35 +0000] [1056] [INFO] Listening at: http://0.0.0.0:8000 (1056)
+2024-12-09T04:11:35.944911521Z [2024-12-09 04:11:35 +0000] [1056] [INFO] Using worker: sync
+2024-12-09T04:11:35.952964491Z [2024-12-09 04:11:35 +0000] [1059] [INFO] Booting worker with pid: 1059
+2024-12-09T04:11:36.762780915Z 169.254.130.1 - - [09/Dec/2024:04:11:36 +0000] "GET /robots933456.txt HTTP/1.1" 404 207 "-" "HealthCheck/1.0"
+2024-12-09T04:11:36.860984754Z 169.254.130.1 - - [09/Dec/2024:04:11:36 +0000] "GET / HTTP/1.1" 200 0 "https://sandbox-3.reactblade.portal.azure.net/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+2024-12-09T04:11:52.939005817Z 169.254.130.1 - - [09/Dec/2024:04:11:52 +0000] "GET / HTTP/1.1" 304 0 "https://sandbox-3.reactblade.portal.azure.net/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+2024-12-09T04:12:03.307224688Z    _____                               
+2024-12-09T04:12:03.307252288Z   /  _  \ __________ _________   ____  
+2024-12-09T04:12:03.307258588Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T04:12:03.307263788Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T04:12:03.307268788Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T04:12:03.307273888Z         \/      \/                  \/ 
+2024-12-09T04:12:03.307279588Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T04:12:03.307284788Z 
+2024-12-09T04:12:03.307290188Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T04:12:03.307295488Z Python 3.9.20
+2024-12-09T04:12:03.307300687Z Note: Any data outside '/home' is not persisted
+2024-12-09T04:12:03.615519025Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T04:12:03.625442685Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T04:12:03.654288566Z Updating certificates in /etc/ssl/certs...
+2024-12-09T04:12:06.523663958Z 1 added, 0 removed; done.
+2024-12-09T04:12:06.524178056Z Running hooks in /etc/ca-certificates/update.d...
+2024-12-09T04:12:06.528020041Z done.
+2024-12-09T04:12:06.534374915Z CA certificates copied and updated successfully.
+2024-12-09T04:12:06.748376944Z App Command Line not configured, will attempt auto-detect
+2024-12-09T04:12:06.748402644Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite
+2024-12-09T04:12:06.756654011Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T04:12:06.758777802Z Build Operation ID: 6d720923098e27ea
+2024-12-09T04:12:06.764094080Z Output is compressed. Extracting it...
+2024-12-09T04:12:06.764120080Z Oryx Version: 0.2.20241021.2, Commit: 95c7a8852fa9194ea07f2d939a57d3fa465722df, ReleaseTagName: 20241021.2
+2024-12-09T04:12:06.777952824Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd18078fe7e0f6'...
+2024-12-09T04:12:09.553882847Z App path is set to '/tmp/8dd18078fe7e0f6'
+2024-12-09T04:12:09.690160406Z Detected an app based on Flask
+2024-12-09T04:12:09.691964099Z Generating `gunicorn` command for 'app:app'
+2024-12-09T04:12:09.716305803Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T04:12:09.787089222Z Using packages from virtual environment antenv located at /tmp/8dd18078fe7e0f6/antenv.
+2024-12-09T04:12:09.787113722Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages'
+2024-12-09T04:12:10.481744471Z [2024-12-09 04:12:10 +0000] [1057] [INFO] Starting gunicorn 23.0.0
+2024-12-09T04:12:10.517281630Z [2024-12-09 04:12:10 +0000] [1057] [INFO] Listening at: http://0.0.0.0:8000 (1057)
+2024-12-09T04:12:10.517301730Z [2024-12-09 04:12:10 +0000] [1057] [INFO] Using worker: sync
+2024-12-09T04:12:10.523040508Z [2024-12-09 04:12:10 +0000] [1060] [INFO] Booting worker with pid: 1060
+2024-12-09T04:12:11.233618598Z [2024-12-09 04:12:11 +0000] [1060] [ERROR] Exception in worker process
+2024-12-09T04:12:11.233659498Z Traceback (most recent call last):
+2024-12-09T04:12:11.233668898Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+2024-12-09T04:12:11.233680298Z     worker.init_process()
+2024-12-09T04:12:11.233687698Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 135, in init_process
+2024-12-09T04:12:11.233694398Z     self.load_wsgi()
+2024-12-09T04:12:11.233700598Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+2024-12-09T04:12:11.233707898Z     self.wsgi = self.app.wsgi()
+2024-12-09T04:12:11.233713498Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/app/base.py", line 66, in wsgi
+2024-12-09T04:12:11.233719298Z     self.callable = self.load()
+2024-12-09T04:12:11.233725298Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+2024-12-09T04:12:11.233732298Z     return self.load_wsgiapp()
+2024-12-09T04:12:11.233738798Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+2024-12-09T04:12:11.233745298Z     return util.import_app(self.app_uri)
+2024-12-09T04:12:11.233751798Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/util.py", line 370, in import_app
+2024-12-09T04:12:11.233758397Z     mod = importlib.import_module(module)
+2024-12-09T04:12:11.233764097Z   File "/opt/python/3.9.20/lib/python3.9/importlib/__init__.py", line 127, in import_module
+2024-12-09T04:12:11.233770797Z     return _bootstrap._gcd_import(name[level:], package, level)
+2024-12-09T04:12:11.233777297Z   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+2024-12-09T04:12:11.233789197Z   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+2024-12-09T04:12:11.233796297Z   File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+2024-12-09T04:12:11.233803197Z   File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+2024-12-09T04:12:11.233809997Z   File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+2024-12-09T04:12:11.233816597Z   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+2024-12-09T04:12:11.233823297Z   File "/tmp/8dd18078fe7e0f6/app.py", line 2, in <module>
+2024-12-09T04:12:11.233829697Z     from flask_sqlalchemy import SQLAlchemy
+2024-12-09T04:12:11.233836097Z ModuleNotFoundError: No module named 'flask_sqlalchemy'
+2024-12-09T04:12:11.236118688Z [2024-12-09 04:12:11 +0000] [1060] [INFO] Worker exiting (pid: 1060)
+2024-12-09T04:12:11.324197540Z [2024-12-09 04:12:11 +0000] [1057] [ERROR] Worker (pid:1060) exited with code 3
+2024-12-09T04:12:11.324223040Z [2024-12-09 04:12:11 +0000] [1057] [ERROR] Shutting down: Master
+2024-12-09T04:12:11.324230340Z [2024-12-09 04:12:11 +0000] [1057] [ERROR] Reason: Worker failed to boot.
+
+2024-12-09T04:13:38.318957741Z    _____                               
+2024-12-09T04:13:38.318986141Z   /  _  \ __________ _________   ____  
+2024-12-09T04:13:38.319021041Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T04:13:38.319028040Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T04:13:38.319033340Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T04:13:38.319049340Z         \/      \/                  \/ 
+2024-12-09T04:13:38.319054640Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T04:13:38.319059740Z 
+2024-12-09T04:13:38.319064940Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T04:13:38.319070040Z Python 3.9.20
+2024-12-09T04:13:38.319075140Z Note: Any data outside '/home' is not persisted
+2024-12-09T04:13:38.482394612Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T04:13:38.487065297Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T04:13:38.522879081Z Updating certificates in /etc/ssl/certs...
+2024-12-09T04:13:40.967274202Z 1 added, 0 removed; done.
+2024-12-09T04:13:40.967301202Z Running hooks in /etc/ca-certificates/update.d...
+2024-12-09T04:13:40.970988290Z done.
+2024-12-09T04:13:40.978242867Z CA certificates copied and updated successfully.
+2024-12-09T04:13:41.016804143Z App Command Line not configured, will attempt auto-detect
+2024-12-09T04:13:41.019173635Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite
+2024-12-09T04:13:41.044970752Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T04:13:41.047443744Z Build Operation ID: 6d720923098e27ea
+2024-12-09T04:13:41.048956339Z Oryx Version: 0.2.20241021.2, Commit: 95c7a8852fa9194ea07f2d939a57d3fa465722df, ReleaseTagName: 20241021.2
+2024-12-09T04:13:41.048979639Z Output is compressed. Extracting it...
+2024-12-09T04:13:41.050097336Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd18078fe7e0f6'...
+2024-12-09T04:13:43.289515461Z App path is set to '/tmp/8dd18078fe7e0f6'
+2024-12-09T04:13:43.413461653Z Detected an app based on Flask
+2024-12-09T04:13:43.413491652Z Generating `gunicorn` command for 'app:app'
+2024-12-09T04:13:43.438816640Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T04:13:43.500569465Z Using packages from virtual environment antenv located at /tmp/8dd18078fe7e0f6/antenv.
+2024-12-09T04:13:43.500589065Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages'
+2024-12-09T04:13:43.761133307Z [2024-12-09 04:13:43 +0000] [1058] [INFO] Starting gunicorn 23.0.0
+2024-12-09T04:13:43.769818668Z [2024-12-09 04:13:43 +0000] [1058] [INFO] Listening at: http://0.0.0.0:8000 (1058)
+2024-12-09T04:13:43.769906968Z [2024-12-09 04:13:43 +0000] [1058] [INFO] Using worker: sync
+2024-12-09T04:13:43.772814555Z [2024-12-09 04:13:43 +0000] [1061] [INFO] Booting worker with pid: 1061
+2024-12-09T04:13:44.064361659Z [2024-12-09 04:13:44 +0000] [1061] [ERROR] Exception in worker process
+2024-12-09T04:13:44.064387859Z Traceback (most recent call last):
+2024-12-09T04:13:44.064398059Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+2024-12-09T04:13:44.064410159Z     worker.init_process()
+2024-12-09T04:13:44.064418458Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 135, in init_process
+2024-12-09T04:13:44.064425658Z     self.load_wsgi()
+2024-12-09T04:13:44.064432258Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+2024-12-09T04:13:44.064438858Z     self.wsgi = self.app.wsgi()
+2024-12-09T04:13:44.064444858Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/app/base.py", line 66, in wsgi
+2024-12-09T04:13:44.064451258Z     self.callable = self.load()
+2024-12-09T04:13:44.064457358Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+2024-12-09T04:13:44.064463858Z     return self.load_wsgiapp()
+2024-12-09T04:13:44.064470358Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+2024-12-09T04:13:44.064476758Z     return util.import_app(self.app_uri)
+2024-12-09T04:13:44.064482858Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/util.py", line 370, in import_app
+2024-12-09T04:13:44.064588058Z     mod = importlib.import_module(module)
+2024-12-09T04:13:44.064615858Z   File "/opt/python/3.9.20/lib/python3.9/importlib/__init__.py", line 127, in import_module
+2024-12-09T04:13:44.064627358Z     return _bootstrap._gcd_import(name[level:], package, level)
+2024-12-09T04:13:44.064633558Z   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+2024-12-09T04:13:44.064640857Z   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+2024-12-09T04:13:44.064647357Z   File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+2024-12-09T04:13:44.064653557Z   File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+2024-12-09T04:13:44.064660157Z   File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+2024-12-09T04:13:44.064666057Z   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+2024-12-09T04:13:44.064672057Z   File "/tmp/8dd18078fe7e0f6/app.py", line 2, in <module>
+2024-12-09T04:13:44.064678157Z     from flask_sqlalchemy import SQLAlchemy
+2024-12-09T04:13:44.064684657Z ModuleNotFoundError: No module named 'flask_sqlalchemy'
+2024-12-09T04:13:44.064693457Z [2024-12-09 04:13:44 +0000] [1061] [INFO] Worker exiting (pid: 1061)
+2024-12-09T04:13:44.102663089Z [2024-12-09 04:13:44 +0000] [1058] [ERROR] Worker (pid:1061) exited with code 3
+2024-12-09T04:13:44.103487285Z [2024-12-09 04:13:44 +0000] [1058] [ERROR] Shutting down: Master
+2024-12-09T04:13:44.103502885Z [2024-12-09 04:13:44 +0000] [1058] [ERROR] Reason: Worker failed to boot.
+
+2024-12-09T04:14:18.871981545Z    _____                               
+2024-12-09T04:14:18.872007145Z   /  _  \ __________ _________   ____  
+2024-12-09T04:14:18.872013345Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T04:14:18.872018545Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T04:14:18.872023345Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T04:14:18.872047845Z         \/      \/                  \/ 
+2024-12-09T04:14:18.872053745Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T04:14:18.872058745Z 
+2024-12-09T04:14:18.872063845Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T04:14:18.872072545Z Python 3.9.20
+2024-12-09T04:14:18.872079245Z Note: Any data outside '/home' is not persisted
+2024-12-09T04:14:19.160315075Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T04:14:19.164218160Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T04:14:19.177865110Z Updating certificates in /etc/ssl/certs...
+2024-12-09T04:14:21.525610019Z 1 added, 0 removed; done.
+2024-12-09T04:14:21.526395916Z Running hooks in /etc/ca-certificates/update.d...
+2024-12-09T04:14:21.529695303Z done.
+2024-12-09T04:14:21.535170583Z CA certificates copied and updated successfully.
+2024-12-09T04:14:21.613668293Z App Command Line not configured, will attempt auto-detect
+2024-12-09T04:14:21.614208391Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite
+2024-12-09T04:14:21.630830130Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T04:14:21.635978811Z Build Operation ID: 6d720923098e27ea
+2024-12-09T04:14:21.639843597Z Oryx Version: 0.2.20241021.2, Commit: 95c7a8852fa9194ea07f2d939a57d3fa465722df, ReleaseTagName: 20241021.2
+2024-12-09T04:14:21.641170992Z Output is compressed. Extracting it...
+2024-12-09T04:14:21.643046985Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd18078fe7e0f6'...
+2024-12-09T04:14:24.053083016Z App path is set to '/tmp/8dd18078fe7e0f6'
+2024-12-09T04:14:24.224143991Z Detected an app based on Flask
+2024-12-09T04:14:24.224903788Z Generating `gunicorn` command for 'app:app'
+2024-12-09T04:14:24.249668112Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T04:14:24.330546564Z Using packages from virtual environment antenv located at /tmp/8dd18078fe7e0f6/antenv.
+2024-12-09T04:14:24.330578264Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages'
+2024-12-09T04:14:24.606233918Z [2024-12-09 04:14:24 +0000] [1057] [INFO] Starting gunicorn 23.0.0
+2024-12-09T04:14:24.614644693Z [2024-12-09 04:14:24 +0000] [1057] [INFO] Listening at: http://0.0.0.0:8000 (1057)
+2024-12-09T04:14:24.614742092Z [2024-12-09 04:14:24 +0000] [1057] [INFO] Using worker: sync
+2024-12-09T04:14:24.617792183Z [2024-12-09 04:14:24 +0000] [1060] [INFO] Booting worker with pid: 1060
+2024-12-09T04:14:24.938521099Z [2024-12-09 04:14:24 +0000] [1060] [ERROR] Exception in worker process
+2024-12-09T04:14:24.938553299Z Traceback (most recent call last):
+2024-12-09T04:14:24.938564399Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+2024-12-09T04:14:24.938571699Z     worker.init_process()
+2024-12-09T04:14:24.938577899Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 135, in init_process
+2024-12-09T04:14:24.938584399Z     self.load_wsgi()
+2024-12-09T04:14:24.938589999Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+2024-12-09T04:14:24.938595599Z     self.wsgi = self.app.wsgi()
+2024-12-09T04:14:24.938600999Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/app/base.py", line 66, in wsgi
+2024-12-09T04:14:24.938606599Z     self.callable = self.load()
+2024-12-09T04:14:24.938611999Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+2024-12-09T04:14:24.938617499Z     return self.load_wsgiapp()
+2024-12-09T04:14:24.938622799Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+2024-12-09T04:14:24.938628299Z     return util.import_app(self.app_uri)
+2024-12-09T04:14:24.938633599Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/util.py", line 370, in import_app
+2024-12-09T04:14:24.938639099Z     mod = importlib.import_module(module)
+2024-12-09T04:14:24.938644399Z   File "/opt/python/3.9.20/lib/python3.9/importlib/__init__.py", line 127, in import_module
+2024-12-09T04:14:24.938649699Z     return _bootstrap._gcd_import(name[level:], package, level)
+2024-12-09T04:14:24.938654998Z   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+2024-12-09T04:14:24.938660998Z   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+2024-12-09T04:14:24.938666598Z   File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+2024-12-09T04:14:24.938672498Z   File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+2024-12-09T04:14:24.938677998Z   File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+2024-12-09T04:14:24.938683498Z   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+2024-12-09T04:14:24.938689698Z   File "/tmp/8dd18078fe7e0f6/app.py", line 2, in <module>
+2024-12-09T04:14:24.938695898Z     from flask_sqlalchemy import SQLAlchemy
+2024-12-09T04:14:24.938701798Z ModuleNotFoundError: No module named 'flask_sqlalchemy'
+2024-12-09T04:14:24.946541274Z [2024-12-09 04:14:24 +0000] [1060] [INFO] Worker exiting (pid: 1060)
+2024-12-09T04:14:24.981818566Z [2024-12-09 04:14:24 +0000] [1057] [ERROR] Worker (pid:1060) exited with code 3
+2024-12-09T04:14:24.982647064Z [2024-12-09 04:14:24 +0000] [1057] [ERROR] Shutting down: Master
+2024-12-09T04:14:24.982836563Z [2024-12-09 04:14:24 +0000] [1057] [ERROR] Reason: Worker failed to boot.
+
+2024-12-09T04:14:31.741108681Z    _____                               
+2024-12-09T04:14:31.741139781Z   /  _  \ __________ _________   ____  
+2024-12-09T04:14:31.741146081Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T04:14:31.741151281Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T04:14:31.741156981Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T04:14:31.741162481Z         \/      \/                  \/ 
+2024-12-09T04:14:31.741167581Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T04:14:31.741172981Z 
+2024-12-09T04:14:31.741177881Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T04:14:31.741182481Z Python 3.9.20
+2024-12-09T04:14:31.741187181Z Note: Any data outside '/home' is not persisted
+2024-12-09T04:14:31.974450648Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T04:14:31.981171310Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T04:14:32.029738132Z Updating certificates in /etc/ssl/certs...
+2024-12-09T04:14:34.760950729Z 1 added, 0 removed; done.
+2024-12-09T04:14:34.765088616Z Running hooks in /etc/ca-certificates/update.d...
+2024-12-09T04:14:34.770391299Z done.
+2024-12-09T04:14:34.809805774Z CA certificates copied and updated successfully.
+2024-12-09T04:14:34.870047482Z App Command Line not configured, will attempt auto-detect
+2024-12-09T04:14:34.871608777Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite
+2024-12-09T04:14:34.913004546Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T04:14:34.914788140Z Build Operation ID: 6d720923098e27ea
+2024-12-09T04:14:34.921742018Z Oryx Version: 0.2.20241021.2, Commit: 95c7a8852fa9194ea07f2d939a57d3fa465722df, ReleaseTagName: 20241021.2
+2024-12-09T04:14:34.921769018Z Output is compressed. Extracting it...
+2024-12-09T04:14:34.922920615Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd18078fe7e0f6'...
+2024-12-09T04:14:36.813999931Z App path is set to '/tmp/8dd18078fe7e0f6'
+2024-12-09T04:14:36.957409378Z Detected an app based on Flask
+2024-12-09T04:14:36.957437777Z Generating `gunicorn` command for 'app:app'
+2024-12-09T04:14:36.985055490Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T04:14:37.067093731Z Using packages from virtual environment antenv located at /tmp/8dd18078fe7e0f6/antenv.
+2024-12-09T04:14:37.067739429Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages'
+2024-12-09T04:14:37.336562582Z [2024-12-09 04:14:37 +0000] [1058] [INFO] Starting gunicorn 23.0.0
+2024-12-09T04:14:37.346792950Z [2024-12-09 04:14:37 +0000] [1058] [INFO] Listening at: http://0.0.0.0:8000 (1058)
+2024-12-09T04:14:37.346894149Z [2024-12-09 04:14:37 +0000] [1058] [INFO] Using worker: sync
+2024-12-09T04:14:37.352097733Z [2024-12-09 04:14:37 +0000] [1061] [INFO] Booting worker with pid: 1061
+2024-12-09T04:14:37.654429980Z [2024-12-09 04:14:37 +0000] [1061] [ERROR] Exception in worker process
+2024-12-09T04:14:37.654525579Z Traceback (most recent call last):
+2024-12-09T04:14:37.654536079Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+2024-12-09T04:14:37.654542979Z     worker.init_process()
+2024-12-09T04:14:37.654549179Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 135, in init_process
+2024-12-09T04:14:37.654555479Z     self.load_wsgi()
+2024-12-09T04:14:37.654561179Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+2024-12-09T04:14:37.654567279Z     self.wsgi = self.app.wsgi()
+2024-12-09T04:14:37.654572779Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/app/base.py", line 66, in wsgi
+2024-12-09T04:14:37.654578579Z     self.callable = self.load()
+2024-12-09T04:14:37.654584379Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+2024-12-09T04:14:37.654590679Z     return self.load_wsgiapp()
+2024-12-09T04:14:37.654596579Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+2024-12-09T04:14:37.654602679Z     return util.import_app(self.app_uri)
+2024-12-09T04:14:37.654609079Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/util.py", line 370, in import_app
+2024-12-09T04:14:37.654615479Z     mod = importlib.import_module(module)
+2024-12-09T04:14:37.654621579Z   File "/opt/python/3.9.20/lib/python3.9/importlib/__init__.py", line 127, in import_module
+2024-12-09T04:14:37.654627979Z     return _bootstrap._gcd_import(name[level:], package, level)
+2024-12-09T04:14:37.654633779Z   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+2024-12-09T04:14:37.654640579Z   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+2024-12-09T04:14:37.654647079Z   File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+2024-12-09T04:14:37.654653779Z   File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+2024-12-09T04:14:37.654660479Z   File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+2024-12-09T04:14:37.654666979Z   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+2024-12-09T04:14:37.654673279Z   File "/tmp/8dd18078fe7e0f6/app.py", line 2, in <module>
+2024-12-09T04:14:37.654679779Z     from flask_sqlalchemy import SQLAlchemy
+2024-12-09T04:14:37.654686279Z ModuleNotFoundError: No module named 'flask_sqlalchemy'
+2024-12-09T04:14:37.654696279Z [2024-12-09 04:14:37 +0000] [1061] [INFO] Worker exiting (pid: 1061)
+2024-12-09T04:14:37.691240564Z [2024-12-09 04:14:37 +0000] [1058] [ERROR] Worker (pid:1061) exited with code 3
+2024-12-09T04:14:37.691786762Z [2024-12-09 04:14:37 +0000] [1058] [ERROR] Shutting down: Master
+2024-12-09T04:14:37.691801762Z [2024-12-09 04:14:37 +0000] [1058] [ERROR] Reason: Worker failed to boot.
+
+2024-12-09T04:17:03.331737916Z    _____                               
+2024-12-09T04:17:03.331762716Z   /  _  \ __________ _________   ____  
+2024-12-09T04:17:03.331768516Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T04:17:03.331773716Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T04:17:03.331778916Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T04:17:03.331794016Z         \/      \/                  \/ 
+2024-12-09T04:17:03.331799016Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T04:17:03.331803716Z 
+2024-12-09T04:17:03.331808216Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T04:17:03.331813016Z Python 3.9.20
+2024-12-09T04:17:03.331818316Z Note: Any data outside '/home' is not persisted
+2024-12-09T04:17:03.577428312Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T04:17:03.612424763Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T04:17:03.638046254Z Updating certificates in /etc/ssl/certs...
+2024-12-09T04:17:06.113696045Z 1 added, 0 removed; done.
+2024-12-09T04:17:06.113723645Z Running hooks in /etc/ca-certificates/update.d...
+2024-12-09T04:17:06.116029635Z done.
+2024-12-09T04:17:06.120259217Z CA certificates copied and updated successfully.
+2024-12-09T04:17:06.146772405Z App Command Line not configured, will attempt auto-detect
+2024-12-09T04:17:06.146793704Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite
+2024-12-09T04:17:06.154071274Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T04:17:06.156049865Z Build Operation ID: 6d720923098e27ea
+2024-12-09T04:17:06.157133961Z Oryx Version: 0.2.20241021.2, Commit: 95c7a8852fa9194ea07f2d939a57d3fa465722df, ReleaseTagName: 20241021.2
+2024-12-09T04:17:06.157160561Z Output is compressed. Extracting it...
+2024-12-09T04:17:06.158138256Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd18078fe7e0f6'...
+2024-12-09T04:17:08.861482918Z App path is set to '/tmp/8dd18078fe7e0f6'
+2024-12-09T04:17:09.170647613Z Detected an app based on Flask
+2024-12-09T04:17:09.170676613Z Generating `gunicorn` command for 'app:app'
+2024-12-09T04:17:09.170694513Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T04:17:09.170700912Z Using packages from virtual environment antenv located at /tmp/8dd18078fe7e0f6/antenv.
+2024-12-09T04:17:09.170709512Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages'
+2024-12-09T04:17:09.740575644Z [2024-12-09 04:17:09 +0000] [1058] [INFO] Starting gunicorn 23.0.0
+2024-12-09T04:17:09.754080294Z [2024-12-09 04:17:09 +0000] [1058] [INFO] Listening at: http://0.0.0.0:8000 (1058)
+2024-12-09T04:17:09.754579192Z [2024-12-09 04:17:09 +0000] [1058] [INFO] Using worker: sync
+2024-12-09T04:17:09.762889961Z [2024-12-09 04:17:09 +0000] [1061] [INFO] Booting worker with pid: 1061
+2024-12-09T04:17:10.486114272Z [2024-12-09 04:17:10 +0000] [1061] [ERROR] Exception in worker process
+2024-12-09T04:17:10.486175472Z Traceback (most recent call last):
+2024-12-09T04:17:10.486190172Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+2024-12-09T04:17:10.486197672Z     worker.init_process()
+2024-12-09T04:17:10.486203672Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 135, in init_process
+2024-12-09T04:17:10.486209772Z     self.load_wsgi()
+2024-12-09T04:17:10.486215672Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+2024-12-09T04:17:10.486221472Z     self.wsgi = self.app.wsgi()
+2024-12-09T04:17:10.486227072Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/app/base.py", line 66, in wsgi
+2024-12-09T04:17:10.486242972Z     self.callable = self.load()
+2024-12-09T04:17:10.486249372Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+2024-12-09T04:17:10.486255572Z     return self.load_wsgiapp()
+2024-12-09T04:17:10.486261172Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+2024-12-09T04:17:10.486267172Z     return util.import_app(self.app_uri)
+2024-12-09T04:17:10.486273172Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/util.py", line 370, in import_app
+2024-12-09T04:17:10.486279172Z     mod = importlib.import_module(module)
+2024-12-09T04:17:10.486285072Z   File "/opt/python/3.9.20/lib/python3.9/importlib/__init__.py", line 127, in import_module
+2024-12-09T04:17:10.486291172Z     return _bootstrap._gcd_import(name[level:], package, level)
+2024-12-09T04:17:10.486296972Z   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+2024-12-09T04:17:10.486303072Z   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+2024-12-09T04:17:10.486310072Z   File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+2024-12-09T04:17:10.486316772Z   File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+2024-12-09T04:17:10.486323472Z   File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+2024-12-09T04:17:10.486330072Z   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+2024-12-09T04:17:10.486336272Z   File "/tmp/8dd18078fe7e0f6/app.py", line 2, in <module>
+2024-12-09T04:17:10.486342572Z     from flask_sqlalchemy import SQLAlchemy
+2024-12-09T04:17:10.486349172Z ModuleNotFoundError: No module named 'flask_sqlalchemy'
+2024-12-09T04:17:10.486628370Z [2024-12-09 04:17:10 +0000] [1061] [INFO] Worker exiting (pid: 1061)
+2024-12-09T04:17:10.555800713Z [2024-12-09 04:17:10 +0000] [1058] [ERROR] Worker (pid:1061) exited with code 3
+2024-12-09T04:17:10.558948202Z [2024-12-09 04:17:10 +0000] [1058] [ERROR] Shutting down: Master
+2024-12-09T04:17:10.558969302Z [2024-12-09 04:17:10 +0000] [1058] [ERROR] Reason: Worker failed to boot.
+
+2024-12-09T04:20:47.398572693Z    _____                               
+2024-12-09T04:20:47.398600693Z   /  _  \ __________ _________   ____  
+2024-12-09T04:20:47.398606993Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T04:20:47.398613093Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T04:20:47.398618793Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T04:20:47.398624393Z         \/      \/                  \/ 
+2024-12-09T04:20:47.398629893Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T04:20:47.398635093Z 
+2024-12-09T04:20:47.398640293Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T04:20:47.398645593Z Python 3.9.20
+2024-12-09T04:20:47.398651293Z Note: Any data outside '/home' is not persisted
+2024-12-09T04:20:47.786177551Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T04:20:47.815118528Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T04:20:47.832573954Z Updating certificates in /etc/ssl/certs...
+2024-12-09T04:20:50.220900671Z 1 added, 0 removed; done.
+2024-12-09T04:20:50.220928271Z Running hooks in /etc/ca-certificates/update.d...
+2024-12-09T04:20:50.222536565Z done.
+2024-12-09T04:20:50.227448045Z CA certificates copied and updated successfully.
+2024-12-09T04:20:50.287108104Z App Command Line not configured, will attempt auto-detect
+2024-12-09T04:20:50.290609289Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite
+2024-12-09T04:20:50.332992618Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T04:20:50.334979810Z Build Operation ID: 6d720923098e27ea
+2024-12-09T04:20:50.336040606Z Output is compressed. Extracting it...
+2024-12-09T04:20:50.336068605Z Oryx Version: 0.2.20241021.2, Commit: 95c7a8852fa9194ea07f2d939a57d3fa465722df, ReleaseTagName: 20241021.2
+2024-12-09T04:20:50.343244876Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd18078fe7e0f6'...
+2024-12-09T04:20:52.554280835Z App path is set to '/tmp/8dd18078fe7e0f6'
+2024-12-09T04:20:52.717436176Z Detected an app based on Flask
+2024-12-09T04:20:52.717462576Z Generating `gunicorn` command for 'app:app'
+2024-12-09T04:20:52.742315576Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T04:20:52.818033570Z Using packages from virtual environment antenv located at /tmp/8dd18078fe7e0f6/antenv.
+2024-12-09T04:20:52.818055169Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages'
+2024-12-09T04:20:53.152879517Z [2024-12-09 04:20:53 +0000] [1058] [INFO] Starting gunicorn 23.0.0
+2024-12-09T04:20:53.162228079Z [2024-12-09 04:20:53 +0000] [1058] [INFO] Listening at: http://0.0.0.0:8000 (1058)
+2024-12-09T04:20:53.162315979Z [2024-12-09 04:20:53 +0000] [1058] [INFO] Using worker: sync
+2024-12-09T04:20:53.167268059Z [2024-12-09 04:20:53 +0000] [1061] [INFO] Booting worker with pid: 1061
+2024-12-09T04:20:53.563561359Z [2024-12-09 04:20:53 +0000] [1061] [ERROR] Exception in worker process
+2024-12-09T04:20:53.563604059Z Traceback (most recent call last):
+2024-12-09T04:20:53.563613259Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+2024-12-09T04:20:53.563620559Z     worker.init_process()
+2024-12-09T04:20:53.563627259Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 135, in init_process
+2024-12-09T04:20:53.563633859Z     self.load_wsgi()
+2024-12-09T04:20:53.563640159Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+2024-12-09T04:20:53.563646759Z     self.wsgi = self.app.wsgi()
+2024-12-09T04:20:53.563653259Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/app/base.py", line 66, in wsgi
+2024-12-09T04:20:53.563659559Z     self.callable = self.load()
+2024-12-09T04:20:53.563665459Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+2024-12-09T04:20:53.563671759Z     return self.load_wsgiapp()
+2024-12-09T04:20:53.563677559Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+2024-12-09T04:20:53.563683559Z     return util.import_app(self.app_uri)
+2024-12-09T04:20:53.563689259Z   File "/tmp/8dd18078fe7e0f6/antenv/lib/python3.9/site-packages/gunicorn/util.py", line 370, in import_app
+2024-12-09T04:20:53.563695659Z     mod = importlib.import_module(module)
+2024-12-09T04:20:53.563702059Z   File "/opt/python/3.9.20/lib/python3.9/importlib/__init__.py", line 127, in import_module
+2024-12-09T04:20:53.563708459Z     return _bootstrap._gcd_import(name[level:], package, level)
+2024-12-09T04:20:53.563714559Z   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+2024-12-09T04:20:53.563721159Z   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+2024-12-09T04:20:53.563727359Z   File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+2024-12-09T04:20:53.563733459Z   File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+2024-12-09T04:20:53.563739959Z   File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+2024-12-09T04:20:53.563746359Z   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+2024-12-09T04:20:53.563752959Z   File "/tmp/8dd18078fe7e0f6/app.py", line 2, in <module>
+2024-12-09T04:20:53.563759659Z     from flask_sqlalchemy import SQLAlchemy
+2024-12-09T04:20:53.563765159Z ModuleNotFoundError: No module named 'flask_sqlalchemy'
+2024-12-09T04:20:53.563771258Z [2024-12-09 04:20:53 +0000] [1061] [INFO] Worker exiting (pid: 1061)
+2024-12-09T04:20:53.605128392Z [2024-12-09 04:20:53 +0000] [1058] [ERROR] Worker (pid:1061) exited with code 3
+2024-12-09T04:20:53.605971888Z [2024-12-09 04:20:53 +0000] [1058] [ERROR] Shutting down: Master
+2024-12-09T04:20:53.606066988Z [2024-12-09 04:20:53 +0000] [1058] [ERROR] Reason: Worker failed to boot.
+
+2024-12-09T04:24:48.156694097Z    _____                               
+2024-12-09T04:24:48.156719797Z   /  _  \ __________ _________   ____  
+2024-12-09T04:24:48.156737297Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T04:24:48.156742897Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T04:24:48.156748197Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T04:24:48.156753797Z         \/      \/                  \/ 
+2024-12-09T04:24:48.156759497Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T04:24:48.156764996Z 
+2024-12-09T04:24:48.156770096Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T04:24:48.156775296Z Python 3.9.20
+2024-12-09T04:24:48.156780396Z Note: Any data outside '/home' is not persisted
+2024-12-09T04:24:48.466142247Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T04:24:48.472450120Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T04:24:48.486006061Z Updating certificates in /etc/ssl/certs...
+2024-12-09T04:24:50.977616985Z 1 added, 0 removed; done.
+2024-12-09T04:24:50.979186478Z Running hooks in /etc/ca-certificates/update.d...
+2024-12-09T04:24:51.013825527Z done.
+2024-12-09T04:24:51.024381981Z CA certificates copied and updated successfully.
+2024-12-09T04:24:51.073416267Z App Command Line not configured, will attempt auto-detect
+2024-12-09T04:24:51.074359563Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite
+2024-12-09T04:24:51.134384601Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T04:24:51.136284693Z Build Operation ID: a0591c64734bc957
+2024-12-09T04:24:51.137457288Z Output is compressed. Extracting it...
+2024-12-09T04:24:51.137483988Z Oryx Version: 0.2.20241021.2, Commit: 95c7a8852fa9194ea07f2d939a57d3fa465722df, ReleaseTagName: 20241021.2
+2024-12-09T04:24:51.138806782Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd18094cb22f5d'...
+2024-12-09T04:24:53.596915867Z App path is set to '/tmp/8dd18094cb22f5d'
+2024-12-09T04:24:53.726887601Z Detected an app based on Flask
+2024-12-09T04:24:53.727131300Z Generating `gunicorn` command for 'app:app'
+2024-12-09T04:24:53.754080882Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T04:24:53.829974552Z Using packages from virtual environment antenv located at /tmp/8dd18094cb22f5d/antenv.
+2024-12-09T04:24:53.829996752Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd18094cb22f5d/antenv/lib/python3.9/site-packages'
+2024-12-09T04:24:54.159830515Z [2024-12-09 04:24:54 +0000] [1058] [INFO] Starting gunicorn 23.0.0
+2024-12-09T04:24:54.169967271Z [2024-12-09 04:24:54 +0000] [1058] [INFO] Listening at: http://0.0.0.0:8000 (1058)
+2024-12-09T04:24:54.170050870Z [2024-12-09 04:24:54 +0000] [1058] [INFO] Using worker: sync
+2024-12-09T04:24:54.175538447Z [2024-12-09 04:24:54 +0000] [1061] [INFO] Booting worker with pid: 1061
+2024-12-09T04:24:54.471875156Z [2024-12-09 04:24:54 +0000] [1061] [ERROR] Exception in worker process
+2024-12-09T04:24:54.471905756Z Traceback (most recent call last):
+2024-12-09T04:24:54.471993356Z   File "/tmp/8dd18094cb22f5d/antenv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+2024-12-09T04:24:54.472003456Z     worker.init_process()
+2024-12-09T04:24:54.472010056Z   File "/tmp/8dd18094cb22f5d/antenv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 135, in init_process
+2024-12-09T04:24:54.472027055Z     self.load_wsgi()
+2024-12-09T04:24:54.472033755Z   File "/tmp/8dd18094cb22f5d/antenv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+2024-12-09T04:24:54.472040355Z     self.wsgi = self.app.wsgi()
+2024-12-09T04:24:54.472046655Z   File "/tmp/8dd18094cb22f5d/antenv/lib/python3.9/site-packages/gunicorn/app/base.py", line 66, in wsgi
+2024-12-09T04:24:54.472052655Z     self.callable = self.load()
+2024-12-09T04:24:54.472058455Z   File "/tmp/8dd18094cb22f5d/antenv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+2024-12-09T04:24:54.472064955Z     return self.load_wsgiapp()
+2024-12-09T04:24:54.472070555Z   File "/tmp/8dd18094cb22f5d/antenv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+2024-12-09T04:24:54.472076355Z     return util.import_app(self.app_uri)
+2024-12-09T04:24:54.472082555Z   File "/tmp/8dd18094cb22f5d/antenv/lib/python3.9/site-packages/gunicorn/util.py", line 370, in import_app
+2024-12-09T04:24:54.472088655Z     mod = importlib.import_module(module)
+2024-12-09T04:24:54.472094555Z   File "/opt/python/3.9.20/lib/python3.9/importlib/__init__.py", line 127, in import_module
+2024-12-09T04:24:54.472101055Z     return _bootstrap._gcd_import(name[level:], package, level)
+2024-12-09T04:24:54.472106855Z   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+2024-12-09T04:24:54.472112955Z   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+2024-12-09T04:24:54.472119455Z   File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+2024-12-09T04:24:54.472125855Z   File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+2024-12-09T04:24:54.472131755Z   File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+2024-12-09T04:24:54.472138055Z   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+2024-12-09T04:24:54.472144355Z   File "/tmp/8dd18094cb22f5d/app.py", line 2, in <module>
+2024-12-09T04:24:54.472150955Z     from flask_sqlalchemy import SQLAlchemy
+2024-12-09T04:24:54.472157355Z ModuleNotFoundError: No module named 'flask_sqlalchemy'
+2024-12-09T04:24:54.472163255Z [2024-12-09 04:24:54 +0000] [1061] [INFO] Worker exiting (pid: 1061)
+2024-12-09T04:24:54.585203163Z [2024-12-09 04:24:54 +0000] [1058] [ERROR] Worker (pid:1061) exited with code 3
+2024-12-09T04:24:54.586147558Z [2024-12-09 04:24:54 +0000] [1058] [ERROR] Shutting down: Master
+2024-12-09T04:24:54.586166658Z [2024-12-09 04:24:54 +0000] [1058] [ERROR] Reason: Worker failed to boot.
+
+2024-12-09T04:28:04.858819116Z    _____                               
+2024-12-09T04:28:04.858904115Z   /  _  \ __________ _________   ____  
+2024-12-09T04:28:04.858915315Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T04:28:04.858922015Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T04:28:04.858927815Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T04:28:04.858943615Z         \/      \/                  \/ 
+2024-12-09T04:28:04.858949515Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T04:28:04.858955115Z 
+2024-12-09T04:28:04.858960615Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T04:28:04.858965715Z Python 3.9.20
+2024-12-09T04:28:04.858970815Z Note: Any data outside '/home' is not persisted
+2024-12-09T04:28:05.140324305Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T04:28:05.143363792Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T04:28:05.158219828Z Updating certificates in /etc/ssl/certs...
+2024-12-09T04:28:07.765656815Z 1 added, 0 removed; done.
+2024-12-09T04:28:07.765914814Z Running hooks in /etc/ca-certificates/update.d...
+2024-12-09T04:28:07.773992780Z done.
+2024-12-09T04:28:07.779147857Z CA certificates copied and updated successfully.
+2024-12-09T04:28:07.877929533Z App Command Line not configured, will attempt auto-detect
+2024-12-09T04:28:07.878535430Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite
+2024-12-09T04:28:07.926658623Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T04:28:07.928007218Z Build Operation ID: a0591c64734bc957
+2024-12-09T04:28:07.928902414Z Output is compressed. Extracting it...
+2024-12-09T04:28:07.928933514Z Oryx Version: 0.2.20241021.2, Commit: 95c7a8852fa9194ea07f2d939a57d3fa465722df, ReleaseTagName: 20241021.2
+2024-12-09T04:28:07.929850910Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd18094cb22f5d'...
+2024-12-09T04:28:10.116025150Z App path is set to '/tmp/8dd18094cb22f5d'
+2024-12-09T04:28:10.261180721Z Detected an app based on Flask
+2024-12-09T04:28:10.261283421Z Generating `gunicorn` command for 'app:app'
+2024-12-09T04:28:10.286527211Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T04:28:10.368072158Z Using packages from virtual environment antenv located at /tmp/8dd18094cb22f5d/antenv.
+2024-12-09T04:28:10.368141357Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd18094cb22f5d/antenv/lib/python3.9/site-packages'
+2024-12-09T04:28:10.734424770Z [2024-12-09 04:28:10 +0000] [1058] [INFO] Starting gunicorn 23.0.0
+2024-12-09T04:28:10.743577430Z [2024-12-09 04:28:10 +0000] [1058] [INFO] Listening at: http://0.0.0.0:8000 (1058)
+2024-12-09T04:28:10.744067828Z [2024-12-09 04:28:10 +0000] [1058] [INFO] Using worker: sync
+2024-12-09T04:28:10.747321714Z [2024-12-09 04:28:10 +0000] [1061] [INFO] Booting worker with pid: 1061
+2024-12-09T04:28:11.046381218Z [2024-12-09 04:28:11 +0000] [1061] [ERROR] Exception in worker process
+2024-12-09T04:28:11.046489618Z Traceback (most recent call last):
+2024-12-09T04:28:11.046498318Z   File "/tmp/8dd18094cb22f5d/antenv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+2024-12-09T04:28:11.046768716Z     worker.init_process()
+2024-12-09T04:28:11.046779116Z   File "/tmp/8dd18094cb22f5d/antenv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 135, in init_process
+2024-12-09T04:28:11.046786216Z     self.load_wsgi()
+2024-12-09T04:28:11.046792116Z   File "/tmp/8dd18094cb22f5d/antenv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+2024-12-09T04:28:11.046798216Z     self.wsgi = self.app.wsgi()
+2024-12-09T04:28:11.046804116Z   File "/tmp/8dd18094cb22f5d/antenv/lib/python3.9/site-packages/gunicorn/app/base.py", line 66, in wsgi
+2024-12-09T04:28:11.046810016Z     self.callable = self.load()
+2024-12-09T04:28:11.046815516Z   File "/tmp/8dd18094cb22f5d/antenv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+2024-12-09T04:28:11.046821216Z     return self.load_wsgiapp()
+2024-12-09T04:28:11.046826716Z   File "/tmp/8dd18094cb22f5d/antenv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+2024-12-09T04:28:11.046968916Z     return util.import_app(self.app_uri)
+2024-12-09T04:28:11.046975516Z   File "/tmp/8dd18094cb22f5d/antenv/lib/python3.9/site-packages/gunicorn/util.py", line 370, in import_app
+2024-12-09T04:28:11.046981615Z     mod = importlib.import_module(module)
+2024-12-09T04:28:11.046987115Z   File "/opt/python/3.9.20/lib/python3.9/importlib/__init__.py", line 127, in import_module
+2024-12-09T04:28:11.046993215Z     return _bootstrap._gcd_import(name[level:], package, level)
+2024-12-09T04:28:11.047000315Z   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+2024-12-09T04:28:11.047015415Z   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+2024-12-09T04:28:11.047021915Z   File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+2024-12-09T04:28:11.047027615Z   File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+2024-12-09T04:28:11.047033615Z   File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+2024-12-09T04:28:11.047039415Z   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+2024-12-09T04:28:11.047045315Z   File "/tmp/8dd18094cb22f5d/app.py", line 2, in <module>
+2024-12-09T04:28:11.047051315Z     from flask_sqlalchemy import SQLAlchemy
+2024-12-09T04:28:11.047056815Z ModuleNotFoundError: No module named 'flask_sqlalchemy'
+2024-12-09T04:28:11.047065715Z [2024-12-09 04:28:11 +0000] [1061] [INFO] Worker exiting (pid: 1061)
+2024-12-09T04:28:11.084480553Z [2024-12-09 04:28:11 +0000] [1058] [ERROR] Worker (pid:1061) exited with code 3
+2024-12-09T04:28:11.085629348Z [2024-12-09 04:28:11 +0000] [1058] [ERROR] Shutting down: Master
+2024-12-09T04:28:11.085883347Z [2024-12-09 04:28:11 +0000] [1058] [ERROR] Reason: Worker failed to boot.
+
+2024-12-09T04:30:45.821637752Z    _____                               
+2024-12-09T04:30:45.821663852Z   /  _  \ __________ _________   ____  
+2024-12-09T04:30:45.821668352Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T04:30:45.821672252Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T04:30:45.821675752Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T04:30:45.821679352Z         \/      \/                  \/ 
+2024-12-09T04:30:45.821682852Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T04:30:45.821686252Z 
+2024-12-09T04:30:45.821689452Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T04:30:45.821692852Z Python 3.9.20
+2024-12-09T04:30:45.821696052Z Note: Any data outside '/home' is not persisted
+2024-12-09T04:30:46.246411751Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T04:30:46.251881333Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T04:30:46.275035757Z Updating certificates in /etc/ssl/certs...
+2024-12-09T04:30:48.630127994Z 1 added, 0 removed; done.
+2024-12-09T04:30:48.630193094Z Running hooks in /etc/ca-certificates/update.d...
+2024-12-09T04:30:48.633322084Z done.
+2024-12-09T04:30:48.638184968Z CA certificates copied and updated successfully.
+2024-12-09T04:30:48.711459128Z App Command Line not configured, will attempt auto-detect
+2024-12-09T04:30:48.714906317Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite
+2024-12-09T04:30:48.729463469Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T04:30:48.732009861Z Build Operation ID: a0591c64734bc957
+2024-12-09T04:30:48.733768355Z Output is compressed. Extracting it...
+2024-12-09T04:30:48.733792755Z Oryx Version: 0.2.20241021.2, Commit: 95c7a8852fa9194ea07f2d939a57d3fa465722df, ReleaseTagName: 20241021.2
+2024-12-09T04:30:48.736972345Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd18094cb22f5d'...
+2024-12-09T04:30:51.396009953Z App path is set to '/tmp/8dd18094cb22f5d'
+2024-12-09T04:30:51.556891927Z Detected an app based on Flask
+2024-12-09T04:30:51.557014427Z Generating `gunicorn` command for 'app:app'
+2024-12-09T04:30:51.584810136Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T04:30:51.797671341Z Using packages from virtual environment antenv located at /tmp/8dd18094cb22f5d/antenv.
+2024-12-09T04:30:51.797708640Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd18094cb22f5d/antenv/lib/python3.9/site-packages'
+2024-12-09T04:30:52.072412143Z [2024-12-09 04:30:52 +0000] [1058] [INFO] Starting gunicorn 23.0.0
+2024-12-09T04:30:52.082049112Z [2024-12-09 04:30:52 +0000] [1058] [INFO] Listening at: http://0.0.0.0:8000 (1058)
+2024-12-09T04:30:52.082305111Z [2024-12-09 04:30:52 +0000] [1058] [INFO] Using worker: sync
+2024-12-09T04:30:52.089427687Z [2024-12-09 04:30:52 +0000] [1061] [INFO] Booting worker with pid: 1061
+2024-12-09T04:30:52.393317895Z [2024-12-09 04:30:52 +0000] [1061] [ERROR] Exception in worker process
+2024-12-09T04:30:52.393479694Z Traceback (most recent call last):
+2024-12-09T04:30:52.393489594Z   File "/tmp/8dd18094cb22f5d/antenv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+2024-12-09T04:30:52.393559094Z     worker.init_process()
+2024-12-09T04:30:52.393566594Z   File "/tmp/8dd18094cb22f5d/antenv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 135, in init_process
+2024-12-09T04:30:52.393573494Z     self.load_wsgi()
+2024-12-09T04:30:52.393579894Z   File "/tmp/8dd18094cb22f5d/antenv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+2024-12-09T04:30:52.393586094Z     self.wsgi = self.app.wsgi()
+2024-12-09T04:30:52.393591994Z   File "/tmp/8dd18094cb22f5d/antenv/lib/python3.9/site-packages/gunicorn/app/base.py", line 66, in wsgi
+2024-12-09T04:30:52.393598694Z     self.callable = self.load()
+2024-12-09T04:30:52.393604894Z   File "/tmp/8dd18094cb22f5d/antenv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+2024-12-09T04:30:52.393622294Z     return self.load_wsgiapp()
+2024-12-09T04:30:52.393629194Z   File "/tmp/8dd18094cb22f5d/antenv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+2024-12-09T04:30:52.393635794Z     return util.import_app(self.app_uri)
+2024-12-09T04:30:52.393642294Z   File "/tmp/8dd18094cb22f5d/antenv/lib/python3.9/site-packages/gunicorn/util.py", line 370, in import_app
+2024-12-09T04:30:52.393648894Z     mod = importlib.import_module(module)
+2024-12-09T04:30:52.393655394Z   File "/opt/python/3.9.20/lib/python3.9/importlib/__init__.py", line 127, in import_module
+2024-12-09T04:30:52.393661994Z     return _bootstrap._gcd_import(name[level:], package, level)
+2024-12-09T04:30:52.393667894Z   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+2024-12-09T04:30:52.393674594Z   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+2024-12-09T04:30:52.393680694Z   File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+2024-12-09T04:30:52.393686994Z   File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+2024-12-09T04:30:52.393692794Z   File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+2024-12-09T04:30:52.393698294Z   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+2024-12-09T04:30:52.393704594Z   File "/tmp/8dd18094cb22f5d/app.py", line 2, in <module>
+2024-12-09T04:30:52.393710494Z     from flask_sqlalchemy import SQLAlchemy
+2024-12-09T04:30:52.393715994Z ModuleNotFoundError: No module named 'flask_sqlalchemy'
+2024-12-09T04:30:52.393724894Z [2024-12-09 04:30:52 +0000] [1061] [INFO] Worker exiting (pid: 1061)
+2024-12-09T04:30:52.432004869Z [2024-12-09 04:30:52 +0000] [1058] [ERROR] Worker (pid:1061) exited with code 3
+2024-12-09T04:30:52.432028268Z [2024-12-09 04:30:52 +0000] [1058] [ERROR] Shutting down: Master
+2024-12-09T04:30:52.432035568Z [2024-12-09 04:30:52 +0000] [1058] [ERROR] Reason: Worker failed to boot.
+
+2024-12-09T04:34:33.298077190Z    _____                               
+2024-12-09T04:34:33.298104890Z   /  _  \ __________ _________   ____  
+2024-12-09T04:34:33.298110990Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T04:34:33.298116290Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T04:34:33.298121490Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T04:34:33.298126890Z         \/      \/                  \/ 
+2024-12-09T04:34:33.298132590Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T04:34:33.298137790Z 
+2024-12-09T04:34:33.298143290Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T04:34:33.298148990Z Python 3.9.20
+2024-12-09T04:34:33.298154590Z Note: Any data outside '/home' is not persisted
+2024-12-09T04:34:33.586563254Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T04:34:33.591956333Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T04:34:33.624106406Z Updating certificates in /etc/ssl/certs...
+2024-12-09T04:34:35.945989466Z 1 added, 0 removed; done.
+2024-12-09T04:34:35.946208166Z Running hooks in /etc/ca-certificates/update.d...
+2024-12-09T04:34:35.950862547Z done.
+2024-12-09T04:34:35.965693189Z CA certificates copied and updated successfully.
+2024-12-09T04:34:36.041622590Z App Command Line not configured, will attempt auto-detect
+2024-12-09T04:34:36.042794085Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite
+2024-12-09T04:34:36.059527120Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T04:34:36.065651496Z Build Operation ID: a0591c64734bc957
+2024-12-09T04:34:36.067089390Z Oryx Version: 0.2.20241021.2, Commit: 95c7a8852fa9194ea07f2d939a57d3fa465722df, ReleaseTagName: 20241021.2
+2024-12-09T04:34:36.067113490Z Output is compressed. Extracting it...
+2024-12-09T04:34:36.068482784Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd18094cb22f5d'...
+2024-12-09T04:34:38.548105428Z App path is set to '/tmp/8dd18094cb22f5d'
+2024-12-09T04:34:38.698834135Z Detected an app based on Flask
+2024-12-09T04:34:38.698985835Z Generating `gunicorn` command for 'app:app'
+2024-12-09T04:34:38.724081136Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T04:34:38.807905606Z Using packages from virtual environment antenv located at /tmp/8dd18094cb22f5d/antenv.
+2024-12-09T04:34:38.807925906Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd18094cb22f5d/antenv/lib/python3.9/site-packages'
+2024-12-09T04:34:39.125334258Z [2024-12-09 04:34:39 +0000] [1058] [INFO] Starting gunicorn 23.0.0
+2024-12-09T04:34:39.138460506Z [2024-12-09 04:34:39 +0000] [1058] [INFO] Listening at: http://0.0.0.0:8000 (1058)
+2024-12-09T04:34:39.138541306Z [2024-12-09 04:34:39 +0000] [1058] [INFO] Using worker: sync
+2024-12-09T04:34:39.141499494Z [2024-12-09 04:34:39 +0000] [1061] [INFO] Booting worker with pid: 1061
+2024-12-09T04:34:39.435864936Z [2024-12-09 04:34:39 +0000] [1061] [ERROR] Exception in worker process
+2024-12-09T04:34:39.435964136Z Traceback (most recent call last):
+2024-12-09T04:34:39.435973236Z   File "/tmp/8dd18094cb22f5d/antenv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+2024-12-09T04:34:39.435980436Z     worker.init_process()
+2024-12-09T04:34:39.435986336Z   File "/tmp/8dd18094cb22f5d/antenv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 135, in init_process
+2024-12-09T04:34:39.436003536Z     self.load_wsgi()
+2024-12-09T04:34:39.436009436Z   File "/tmp/8dd18094cb22f5d/antenv/lib/python3.9/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+2024-12-09T04:34:39.436015536Z     self.wsgi = self.app.wsgi()
+2024-12-09T04:34:39.436021636Z   File "/tmp/8dd18094cb22f5d/antenv/lib/python3.9/site-packages/gunicorn/app/base.py", line 66, in wsgi
+2024-12-09T04:34:39.436028036Z     self.callable = self.load()
+2024-12-09T04:34:39.436034136Z   File "/tmp/8dd18094cb22f5d/antenv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+2024-12-09T04:34:39.436040535Z     return self.load_wsgiapp()
+2024-12-09T04:34:39.436046635Z   File "/tmp/8dd18094cb22f5d/antenv/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+2024-12-09T04:34:39.436053235Z     return util.import_app(self.app_uri)
+2024-12-09T04:34:39.436059635Z   File "/tmp/8dd18094cb22f5d/antenv/lib/python3.9/site-packages/gunicorn/util.py", line 370, in import_app
+2024-12-09T04:34:39.436065935Z     mod = importlib.import_module(module)
+2024-12-09T04:34:39.436071935Z   File "/opt/python/3.9.20/lib/python3.9/importlib/__init__.py", line 127, in import_module
+2024-12-09T04:34:39.436078135Z     return _bootstrap._gcd_import(name[level:], package, level)
+2024-12-09T04:34:39.436084235Z   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+2024-12-09T04:34:39.436090835Z   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+2024-12-09T04:34:39.436097535Z   File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+2024-12-09T04:34:39.436103835Z   File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+2024-12-09T04:34:39.436110335Z   File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+2024-12-09T04:34:39.436117035Z   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+2024-12-09T04:34:39.436123435Z   File "/tmp/8dd18094cb22f5d/app.py", line 2, in <module>
+2024-12-09T04:34:39.436130335Z     from flask_sqlalchemy import SQLAlchemy
+2024-12-09T04:34:39.436136835Z ModuleNotFoundError: No module named 'flask_sqlalchemy'
+2024-12-09T04:34:39.436145435Z [2024-12-09 04:34:39 +0000] [1061] [INFO] Worker exiting (pid: 1061)
+2024-12-09T04:34:39.475306981Z [2024-12-09 04:34:39 +0000] [1058] [ERROR] Worker (pid:1061) exited with code 3
+2024-12-09T04:34:39.476312777Z [2024-12-09 04:34:39 +0000] [1058] [ERROR] Shutting down: Master
+2024-12-09T04:34:39.476329077Z [2024-12-09 04:34:39 +0000] [1058] [ERROR] Reason: Worker failed to boot.
+
+2024-12-09T04:37:58.303035794Z    _____                               
+2024-12-09T04:37:58.303063494Z   /  _  \ __________ _________   ____  
+2024-12-09T04:37:58.303069994Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T04:37:58.303075094Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T04:37:58.303079994Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T04:37:58.303085894Z         \/      \/                  \/ 
+2024-12-09T04:37:58.303091094Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T04:37:58.303096594Z 
+2024-12-09T04:37:58.303101494Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T04:37:58.303106194Z Python 3.9.20
+2024-12-09T04:37:58.303110994Z Note: Any data outside '/home' is not persisted
+2024-12-09T04:37:58.733901152Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T04:37:58.741869127Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T04:37:58.757720777Z Updating certificates in /etc/ssl/certs...
+2024-12-09T04:38:01.450636067Z 1 added, 0 removed; done.
+2024-12-09T04:38:01.451291164Z Running hooks in /etc/ca-certificates/update.d...
+2024-12-09T04:38:01.457584234Z done.
+2024-12-09T04:38:01.459449825Z CA certificates copied and updated successfully.
+2024-12-09T04:38:01.518607640Z Site's appCommandLine: python app.py
+2024-12-09T04:38:01.519712235Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'python app.py'
+2024-12-09T04:38:01.551059384Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T04:38:01.552965375Z Build Operation ID: 53cd04fa9bb4cf84
+2024-12-09T04:38:01.553662271Z Oryx Version: 0.2.20241021.2, Commit: 95c7a8852fa9194ea07f2d939a57d3fa465722df, ReleaseTagName: 20241021.2
+2024-12-09T04:38:01.553688571Z Output is compressed. Extracting it...
+2024-12-09T04:38:01.554635267Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd180acf759973'...
+2024-12-09T04:38:03.957030531Z App path is set to '/tmp/8dd180acf759973'
+2024-12-09T04:38:04.098577566Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T04:38:04.171059727Z Using packages from virtual environment antenv located at /tmp/8dd180acf759973/antenv.
+2024-12-09T04:38:04.171082127Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd180acf759973/antenv/lib/python3.9/site-packages'
+2024-12-09T04:38:04.639802231Z Traceback (most recent call last):
+2024-12-09T04:38:04.639834330Z   File "/tmp/8dd180acf759973/app.py", line 2, in <module>
+2024-12-09T04:38:04.640465927Z     from flask_sqlalchemy import SQLAlchemy
+2024-12-09T04:38:04.640493627Z ModuleNotFoundError: No module named 'flask_sqlalchemy'
+
+2024-12-09T04:52:21.081066256Z    _____                               
+2024-12-09T04:52:21.081092956Z   /  _  \ __________ _________   ____  
+2024-12-09T04:52:21.081101856Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T04:52:21.081107456Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T04:52:21.081112156Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T04:52:21.081117156Z         \/      \/                  \/ 
+2024-12-09T04:52:21.081121956Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T04:52:21.081126656Z 
+2024-12-09T04:52:21.081131256Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T04:52:21.081135756Z Python 3.12.2
+2024-12-09T04:52:21.081140256Z Note: Any data outside '/home' is not persisted
+2024-12-09T04:52:21.945547987Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T04:52:22.013806437Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T04:52:22.131883905Z Site's appCommandLine: python app.py
+2024-12-09T04:52:22.132713402Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'python app.py'
+2024-12-09T04:52:22.138523180Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T04:52:22.140379274Z Build Operation ID: 53cd04fa9bb4cf84
+2024-12-09T04:52:22.141272870Z Oryx Version: 0.2.20240501.1, Commit: f83f88d3cfb8bb6d3e2765e1dcd218eb0814a095, ReleaseTagName: 20240501.1
+2024-12-09T04:52:22.141484769Z Output is compressed. Extracting it...
+2024-12-09T04:52:22.142443566Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd180acf759973'...
+2024-12-09T04:52:23.947154271Z App path is set to '/tmp/8dd180acf759973'
+2024-12-09T04:52:24.121019438Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T04:52:24.180641820Z Using packages from virtual environment antenv located at /tmp/8dd180acf759973/antenv.
+2024-12-09T04:52:24.180682220Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd180acf759973/antenv/lib/python3.12/site-packages'
+2024-12-09T04:52:24.183687709Z python: error while loading shared libraries: libpython3.9.so.1.0: cannot open shared object file: No such file or directory
+
+2024-12-09T05:02:44.139314544Z    _____                               
+2024-12-09T05:02:44.139342344Z   /  _  \ __________ _________   ____  
+2024-12-09T05:02:44.139362044Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T05:02:44.139368444Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T05:02:44.139373644Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T05:02:44.139379044Z         \/      \/                  \/ 
+2024-12-09T05:02:44.139384244Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T05:02:44.139389144Z 
+2024-12-09T05:02:44.139393944Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T05:02:44.139398744Z Python 3.12.2
+2024-12-09T05:02:44.139403544Z Note: Any data outside '/home' is not persisted
+2024-12-09T05:02:44.460616949Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T05:02:44.464658532Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T05:02:44.514015518Z Site's appCommandLine: python app.py
+2024-12-09T05:02:44.514038617Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'python app.py'
+2024-12-09T05:02:44.519378494Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T05:02:44.520835488Z Build Operation ID: 53cd04fa9bb4cf84
+2024-12-09T05:02:44.521623085Z Oryx Version: 0.2.20240501.1, Commit: f83f88d3cfb8bb6d3e2765e1dcd218eb0814a095, ReleaseTagName: 20240501.1
+2024-12-09T05:02:44.521760684Z Output is compressed. Extracting it...
+2024-12-09T05:02:44.522683280Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd180acf759973'...
+2024-12-09T05:02:46.325044559Z App path is set to '/tmp/8dd180acf759973'
+2024-12-09T05:02:46.469453633Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T05:02:46.529530472Z Using packages from virtual environment antenv located at /tmp/8dd180acf759973/antenv.
+2024-12-09T05:02:46.529588572Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd180acf759973/antenv/lib/python3.12/site-packages'
+2024-12-09T05:02:46.530832266Z python: error while loading shared libraries: libpython3.9.so.1.0: cannot open shared object file: No such file or directory
+
+2024-12-09T05:37:35.651034079Z    _____                               
+2024-12-09T05:37:35.651057979Z   /  _  \ __________ _________   ____  
+2024-12-09T05:37:35.651064279Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T05:37:35.651070179Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T05:37:35.651075779Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T05:37:35.651207878Z         \/      \/                  \/ 
+2024-12-09T05:37:35.651213878Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T05:37:35.651219278Z 
+2024-12-09T05:37:35.651224378Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T05:37:35.651229078Z Python 3.12.2
+2024-12-09T05:37:35.651438977Z Note: Any data outside '/home' is not persisted
+2024-12-09T05:37:35.983359550Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T05:37:35.988668527Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T05:37:36.017912301Z Site's appCommandLine: python app.py
+2024-12-09T05:37:36.018878197Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'python app.py'
+2024-12-09T05:37:36.025421669Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T05:37:36.026903063Z Build Operation ID: 53cd04fa9bb4cf84
+2024-12-09T05:37:36.027746759Z Oryx Version: 0.2.20240501.1, Commit: f83f88d3cfb8bb6d3e2765e1dcd218eb0814a095, ReleaseTagName: 20240501.1
+2024-12-09T05:37:36.028335857Z Output is compressed. Extracting it...
+2024-12-09T05:37:36.029643851Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd180acf759973'...
+2024-12-09T05:37:37.867841852Z App path is set to '/tmp/8dd180acf759973'
+2024-12-09T05:37:38.038143721Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T05:37:38.406773438Z Using packages from virtual environment antenv located at /tmp/8dd180acf759973/antenv.
+2024-12-09T05:37:38.406807437Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd180acf759973/antenv/lib/python3.12/site-packages'
+2024-12-09T05:37:38.409017328Z python: error while loading shared libraries: libpython3.9.so.1.0: cannot open shared object file: No such file or directory
+
+2024-12-09T06:12:37.104701687Z    _____                               
+2024-12-09T06:12:37.104728687Z   /  _  \ __________ _________   ____  
+2024-12-09T06:12:37.104734687Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T06:12:37.104740187Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T06:12:37.104745387Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T06:12:37.104750687Z         \/      \/                  \/ 
+2024-12-09T06:12:37.104755987Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T06:12:37.104761187Z 
+2024-12-09T06:12:37.104765887Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T06:12:37.104770687Z Python 3.12.2
+2024-12-09T06:12:37.104775587Z Note: Any data outside '/home' is not persisted
+2024-12-09T06:12:37.697305682Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T06:12:37.709413833Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T06:12:37.729515351Z Site's appCommandLine: python app.py
+2024-12-09T06:12:37.730062949Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'python app.py'
+2024-12-09T06:12:37.736549323Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T06:12:37.737779818Z Build Operation ID: 53cd04fa9bb4cf84
+2024-12-09T06:12:37.738445615Z Oryx Version: 0.2.20240501.1, Commit: f83f88d3cfb8bb6d3e2765e1dcd218eb0814a095, ReleaseTagName: 20240501.1
+2024-12-09T06:12:37.738467815Z Output is compressed. Extracting it...
+2024-12-09T06:12:37.739352511Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd180acf759973'...
+2024-12-09T06:12:39.535194830Z App path is set to '/tmp/8dd180acf759973'
+2024-12-09T06:12:39.714929908Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T06:12:39.780377645Z Using packages from virtual environment antenv located at /tmp/8dd180acf759973/antenv.
+2024-12-09T06:12:39.780412445Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd180acf759973/antenv/lib/python3.12/site-packages'
+2024-12-09T06:12:39.782604936Z python: error while loading shared libraries: libpython3.9.so.1.0: cannot open shared object file: No such file or directory
+
+2024-12-09T06:47:34.491029074Z    _____                               
+2024-12-09T06:47:34.491054774Z   /  _  \ __________ _________   ____  
+2024-12-09T06:47:34.491060874Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T06:47:34.491066174Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T06:47:34.491070874Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T06:47:34.491075774Z         \/      \/                  \/ 
+2024-12-09T06:47:34.491080474Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T06:47:34.491084974Z 
+2024-12-09T06:47:34.491089474Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T06:47:34.491094274Z Python 3.12.2
+2024-12-09T06:47:34.491098674Z Note: Any data outside '/home' is not persisted
+2024-12-09T06:47:35.058332957Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T06:47:35.062841038Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T06:47:35.083520650Z Site's appCommandLine: python app.py
+2024-12-09T06:47:35.083540150Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'python app.py'
+2024-12-09T06:47:35.089539724Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T06:47:35.091116318Z Build Operation ID: 53cd04fa9bb4cf84
+2024-12-09T06:47:35.091902314Z Oryx Version: 0.2.20240501.1, Commit: f83f88d3cfb8bb6d3e2765e1dcd218eb0814a095, ReleaseTagName: 20240501.1
+2024-12-09T06:47:35.091932714Z Output is compressed. Extracting it...
+2024-12-09T06:47:35.092720611Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd180acf759973'...
+2024-12-09T06:47:36.889261507Z App path is set to '/tmp/8dd180acf759973'
+2024-12-09T06:47:37.015770205Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T06:47:37.111609925Z Using packages from virtual environment antenv located at /tmp/8dd180acf759973/antenv.
+2024-12-09T06:47:37.111636125Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd180acf759973/antenv/lib/python3.12/site-packages'
+2024-12-09T06:47:37.113124019Z python: error while loading shared libraries: libpython3.9.so.1.0: cannot open shared object file: No such file or directory
+
+2024-12-09T07:22:38.836376765Z    _____                               
+2024-12-09T07:22:38.836406465Z   /  _  \ __________ _________   ____  
+2024-12-09T07:22:38.836413565Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T07:22:38.836419165Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T07:22:38.836424565Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T07:22:38.836430165Z         \/      \/                  \/ 
+2024-12-09T07:22:38.836435465Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T07:22:38.836441465Z 
+2024-12-09T07:22:38.836447065Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T07:22:38.836452765Z Python 3.12.2
+2024-12-09T07:22:38.836458265Z Note: Any data outside '/home' is not persisted
+2024-12-09T07:22:39.417296727Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T07:22:39.430508767Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T07:22:39.459824334Z Site's appCommandLine: python app.py
+2024-12-09T07:22:39.460775329Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'python app.py'
+2024-12-09T07:22:39.480840738Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T07:22:39.482528931Z Build Operation ID: 53cd04fa9bb4cf84
+2024-12-09T07:22:39.483490226Z Oryx Version: 0.2.20240501.1, Commit: f83f88d3cfb8bb6d3e2765e1dcd218eb0814a095, ReleaseTagName: 20240501.1
+2024-12-09T07:22:39.483521826Z Output is compressed. Extracting it...
+2024-12-09T07:22:39.484302322Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd180acf759973'...
+2024-12-09T07:22:41.266145831Z App path is set to '/tmp/8dd180acf759973'
+2024-12-09T07:22:41.431904627Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T07:22:41.498778366Z Using packages from virtual environment antenv located at /tmp/8dd180acf759973/antenv.
+2024-12-09T07:22:41.499014765Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd180acf759973/antenv/lib/python3.12/site-packages'
+2024-12-09T07:22:41.502699250Z python: error while loading shared libraries: libpython3.9.so.1.0: cannot open shared object file: No such file or directory
+
+2024-12-09T07:57:38.754192285Z    _____                               
+2024-12-09T07:57:38.754220485Z   /  _  \ __________ _________   ____  
+2024-12-09T07:57:38.754227885Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T07:57:38.754233685Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T07:57:38.754238985Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T07:57:38.754244785Z         \/      \/                  \/ 
+2024-12-09T07:57:38.754250085Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T07:57:38.754255585Z 
+2024-12-09T07:57:38.754260685Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T07:57:38.754265485Z Python 3.12.2
+2024-12-09T07:57:38.754270185Z Note: Any data outside '/home' is not persisted
+2024-12-09T07:57:39.510537225Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T07:57:39.514610108Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T07:57:39.545173485Z Site's appCommandLine: python app.py
+2024-12-09T07:57:39.546376680Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'python app.py'
+2024-12-09T07:57:39.552780854Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T07:57:39.554453947Z Build Operation ID: 53cd04fa9bb4cf84
+2024-12-09T07:57:39.555777642Z Oryx Version: 0.2.20240501.1, Commit: f83f88d3cfb8bb6d3e2765e1dcd218eb0814a095, ReleaseTagName: 20240501.1
+2024-12-09T07:57:39.556207940Z Output is compressed. Extracting it...
+2024-12-09T07:57:39.557177636Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd180acf759973'...
+2024-12-09T07:57:41.352774973Z App path is set to '/tmp/8dd180acf759973'
+2024-12-09T07:57:41.494484400Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T07:57:41.546725588Z Using packages from virtual environment antenv located at /tmp/8dd180acf759973/antenv.
+2024-12-09T07:57:41.546746988Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd180acf759973/antenv/lib/python3.12/site-packages'
+2024-12-09T07:57:41.548716280Z python: error while loading shared libraries: libpython3.9.so.1.0: cannot open shared object file: No such file or directory
+
+2024-12-09T08:32:39.131389169Z    _____                               
+2024-12-09T08:32:39.131415169Z   /  _  \ __________ _________   ____  
+2024-12-09T08:32:39.131421469Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T08:32:39.131426969Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T08:32:39.131432369Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T08:32:39.131437969Z         \/      \/                  \/ 
+2024-12-09T08:32:39.131443269Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T08:32:39.131448169Z 
+2024-12-09T08:32:39.131452969Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T08:32:39.131458069Z Python 3.12.2
+2024-12-09T08:32:39.131462569Z Note: Any data outside '/home' is not persisted
+2024-12-09T08:32:39.684987421Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T08:32:39.688491207Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T08:32:39.729430941Z Site's appCommandLine: python app.py
+2024-12-09T08:32:39.729827439Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'python app.py'
+2024-12-09T08:32:39.742996086Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T08:32:39.744890478Z Build Operation ID: 53cd04fa9bb4cf84
+2024-12-09T08:32:39.745801874Z Oryx Version: 0.2.20240501.1, Commit: f83f88d3cfb8bb6d3e2765e1dcd218eb0814a095, ReleaseTagName: 20240501.1
+2024-12-09T08:32:39.745835974Z Output is compressed. Extracting it...
+2024-12-09T08:32:39.747022469Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd180acf759973'...
+2024-12-09T08:32:41.543290367Z App path is set to '/tmp/8dd180acf759973'
+2024-12-09T08:32:41.717597541Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T08:32:41.788521206Z Using packages from virtual environment antenv located at /tmp/8dd180acf759973/antenv.
+2024-12-09T08:32:41.788601305Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd180acf759973/antenv/lib/python3.12/site-packages'
+2024-12-09T08:32:41.790457296Z python: error while loading shared libraries: libpython3.9.so.1.0: cannot open shared object file: No such file or directory
+
+2024-12-09T09:07:45.042237310Z    _____                               
+2024-12-09T09:07:45.042264010Z   /  _  \ __________ _________   ____  
+2024-12-09T09:07:45.042270510Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T09:07:45.042275710Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T09:07:45.042281210Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T09:07:45.042286710Z         \/      \/                  \/ 
+2024-12-09T09:07:45.042292310Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T09:07:45.042297710Z 
+2024-12-09T09:07:45.042302710Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T09:07:45.042307910Z Python 3.12.2
+2024-12-09T09:07:45.042313410Z Note: Any data outside '/home' is not persisted
+2024-12-09T09:07:45.238131586Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T09:07:45.249697232Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T09:07:45.266147554Z Site's appCommandLine: python app.py
+2024-12-09T09:07:45.266403853Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'python app.py'
+2024-12-09T09:07:45.281764580Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T09:07:45.282886075Z Build Operation ID: 53cd04fa9bb4cf84
+2024-12-09T09:07:45.283691971Z Oryx Version: 0.2.20240501.1, Commit: f83f88d3cfb8bb6d3e2765e1dcd218eb0814a095, ReleaseTagName: 20240501.1
+2024-12-09T09:07:45.283805571Z Output is compressed. Extracting it...
+2024-12-09T09:07:45.284727066Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd180acf759973'...
+2024-12-09T09:07:47.381292776Z App path is set to '/tmp/8dd180acf759973'
+2024-12-09T09:07:47.527664508Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T09:07:47.598694884Z Using packages from virtual environment antenv located at /tmp/8dd180acf759973/antenv.
+2024-12-09T09:07:47.598718683Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd180acf759973/antenv/lib/python3.12/site-packages'
+2024-12-09T09:07:47.600918173Z python: error while loading shared libraries: libpython3.9.so.1.0: cannot open shared object file: No such file or directory
+
+2024-12-09T09:24:15.135426559Z    _____                               
+2024-12-09T09:24:15.135464359Z   /  _  \ __________ _________   ____  
+2024-12-09T09:24:15.135501659Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T09:24:15.135507959Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T09:24:15.135512859Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T09:24:15.135518759Z         \/      \/                  \/ 
+2024-12-09T09:24:15.135524059Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T09:24:15.135529359Z 
+2024-12-09T09:24:15.135534159Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T09:24:15.135538659Z Python 3.12.2
+2024-12-09T09:24:15.135543459Z Note: Any data outside '/home' is not persisted
+2024-12-09T09:24:15.658186797Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T09:24:15.661916182Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T09:24:15.681037408Z Site's appCommandLine: python app.py
+2024-12-09T09:24:15.681649406Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'python app.py'
+2024-12-09T09:24:15.701992827Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T09:24:15.711623690Z Build Operation ID: 53cd04fa9bb4cf84
+2024-12-09T09:24:15.713466883Z Oryx Version: 0.2.20240501.1, Commit: f83f88d3cfb8bb6d3e2765e1dcd218eb0814a095, ReleaseTagName: 20240501.1
+2024-12-09T09:24:15.713521082Z Output is compressed. Extracting it...
+2024-12-09T09:24:15.714845277Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd180acf759973'...
+2024-12-09T09:24:17.528233564Z App path is set to '/tmp/8dd180acf759973'
+2024-12-09T09:24:17.685050858Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T09:24:17.788601558Z Using packages from virtual environment antenv located at /tmp/8dd180acf759973/antenv.
+2024-12-09T09:24:17.796988325Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd180acf759973/antenv/lib/python3.12/site-packages'
+2024-12-09T09:24:17.789828153Z python: error while loading shared libraries: libpython3.9.so.1.0: cannot open shared object file: No such file or directory
+
+2024-12-09T09:24:17.796988325Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd180acf759973/antenv/lib/python3.12/site-packages'
+2024-12-09T09:24:17.789828153Z python: error while loading shared libraries: libpython3.9.so.1.0: cannot open shared object file: No such file or directory
+
+2024-12-09T09:57:47.835549644Z    _____                               
+2024-12-09T09:57:47.835577944Z   /  _  \ __________ _________   ____  
+2024-12-09T09:57:47.835584444Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T09:57:47.835589844Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T09:57:47.835595044Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T09:57:47.835600144Z         \/      \/                  \/ 
+2024-12-09T09:57:47.835605444Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T09:57:47.835610744Z 
+2024-12-09T09:57:47.835615744Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T09:57:47.835620944Z Python 3.12.2
+2024-12-09T09:57:47.835626044Z Note: Any data outside '/home' is not persisted
+2024-12-09T09:57:48.103021144Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T09:57:48.115477692Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T09:57:48.135696209Z Site's appCommandLine: python app.py
+2024-12-09T09:57:48.136174307Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'python app.py'
+2024-12-09T09:57:48.152292141Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T09:57:48.153872634Z Build Operation ID: 53cd04fa9bb4cf84
+2024-12-09T09:57:48.154596132Z Oryx Version: 0.2.20240501.1, Commit: f83f88d3cfb8bb6d3e2765e1dcd218eb0814a095, ReleaseTagName: 20240501.1
+2024-12-09T09:57:48.154619231Z Output is compressed. Extracting it...
+2024-12-09T09:57:48.155388128Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd180acf759973'...
+2024-12-09T09:57:50.318134021Z App path is set to '/tmp/8dd180acf759973'
+2024-12-09T09:57:50.489640441Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T09:57:50.558185449Z Using packages from virtual environment antenv located at /tmp/8dd180acf759973/antenv.
+2024-12-09T09:57:50.558205749Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd180acf759973/antenv/lib/python3.12/site-packages'
+2024-12-09T09:57:50.561122332Z python: error while loading shared libraries: libpython3.9.so.1.0: cannot open shared object file: No such file or directory
+
+2024-12-09T10:32:48.470739576Z    _____                               
+2024-12-09T10:32:48.470767376Z   /  _  \ __________ _________   ____  
+2024-12-09T10:32:48.470773776Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T10:32:48.470779176Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T10:32:48.470784176Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T10:32:48.470789876Z         \/      \/                  \/ 
+2024-12-09T10:32:48.470794876Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T10:32:48.470799876Z 
+2024-12-09T10:32:48.470804776Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T10:32:48.470809576Z Python 3.12.2
+2024-12-09T10:32:48.470814476Z Note: Any data outside '/home' is not persisted
+2024-12-09T10:32:49.177351355Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T10:32:49.189685802Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T10:32:49.210231915Z Site's appCommandLine: python app.py
+2024-12-09T10:32:49.210252015Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'python app.py'
+2024-12-09T10:32:49.442426623Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T10:32:49.444121115Z Build Operation ID: 53cd04fa9bb4cf84
+2024-12-09T10:32:49.445643909Z Oryx Version: 0.2.20240501.1, Commit: f83f88d3cfb8bb6d3e2765e1dcd218eb0814a095, ReleaseTagName: 20240501.1
+2024-12-09T10:32:49.445722908Z Output is compressed. Extracting it...
+2024-12-09T10:32:49.446509705Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd180acf759973'...
+2024-12-09T10:32:51.255512083Z App path is set to '/tmp/8dd180acf759973'
+2024-12-09T10:32:51.407811333Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T10:32:51.468743873Z Using packages from virtual environment antenv located at /tmp/8dd180acf759973/antenv.
+2024-12-09T10:32:51.468769173Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd180acf759973/antenv/lib/python3.12/site-packages'
+2024-12-09T10:32:51.470718265Z python: error while loading shared libraries: libpython3.9.so.1.0: cannot open shared object file: No such file or directory
+
+2024-12-09T11:07:49.281297423Z    _____                               
+2024-12-09T11:07:49.281333323Z   /  _  \ __________ _________   ____  
+2024-12-09T11:07:49.281339523Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T11:07:49.281344723Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T11:07:49.281350023Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T11:07:49.281355423Z         \/      \/                  \/ 
+2024-12-09T11:07:49.281360423Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T11:07:49.281390023Z 
+2024-12-09T11:07:49.281397423Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T11:07:49.281402723Z Python 3.12.2
+2024-12-09T11:07:49.281407823Z Note: Any data outside '/home' is not persisted
+2024-12-09T11:07:49.555207375Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T11:07:49.560144554Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T11:07:49.581967262Z Site's appCommandLine: python app.py
+2024-12-09T11:07:49.582776559Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'python app.py'
+2024-12-09T11:07:49.596188603Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T11:07:49.597915696Z Build Operation ID: 53cd04fa9bb4cf84
+2024-12-09T11:07:49.599253790Z Oryx Version: 0.2.20240501.1, Commit: f83f88d3cfb8bb6d3e2765e1dcd218eb0814a095, ReleaseTagName: 20240501.1
+2024-12-09T11:07:49.599800988Z Output is compressed. Extracting it...
+2024-12-09T11:07:49.605379164Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd180acf759973'...
+2024-12-09T11:07:51.746579197Z App path is set to '/tmp/8dd180acf759973'
+2024-12-09T11:07:51.908645819Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T11:07:51.976730334Z Using packages from virtual environment antenv located at /tmp/8dd180acf759973/antenv.
+2024-12-09T11:07:51.976760434Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd180acf759973/antenv/lib/python3.12/site-packages'
+2024-12-09T11:07:51.978961724Z python: error while loading shared libraries: libpython3.9.so.1.0: cannot open shared object file: No such file or directory
+
+2024-12-09T11:42:50.888425880Z    _____                               
+2024-12-09T11:42:50.888450980Z   /  _  \ __________ _________   ____  
+2024-12-09T11:42:50.888457480Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T11:42:50.888462980Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T11:42:50.888468680Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T11:42:50.888474180Z         \/      \/                  \/ 
+2024-12-09T11:42:50.888479380Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T11:42:50.888484480Z 
+2024-12-09T11:42:50.888489880Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T11:42:50.888495080Z Python 3.12.2
+2024-12-09T11:42:50.888500080Z Note: Any data outside '/home' is not persisted
+2024-12-09T11:42:51.224263126Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T11:42:51.237760971Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T11:42:51.261256277Z Site's appCommandLine: python app.py
+2024-12-09T11:42:51.261278977Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'python app.py'
+2024-12-09T11:42:51.288592966Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T11:42:51.290906257Z Build Operation ID: 53cd04fa9bb4cf84
+2024-12-09T11:42:51.291972953Z Oryx Version: 0.2.20240501.1, Commit: f83f88d3cfb8bb6d3e2765e1dcd218eb0814a095, ReleaseTagName: 20240501.1
+2024-12-09T11:42:51.292279052Z Output is compressed. Extracting it...
+2024-12-09T11:42:51.293230548Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd180acf759973'...
+2024-12-09T11:42:53.181758409Z App path is set to '/tmp/8dd180acf759973'
+2024-12-09T11:42:53.338384742Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T11:42:53.396726493Z Using packages from virtual environment antenv located at /tmp/8dd180acf759973/antenv.
+2024-12-09T11:42:53.396750393Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd180acf759973/antenv/lib/python3.12/site-packages'
+2024-12-09T11:42:53.398797984Z python: error while loading shared libraries: libpython3.9.so.1.0: cannot open shared object file: No such file or directory
+
+2024-12-09T12:17:53.380882054Z    _____                               
+2024-12-09T12:17:53.380909953Z   /  _  \ __________ _________   ____  
+2024-12-09T12:17:53.380916353Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T12:17:53.380952653Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T12:17:53.380958553Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T12:17:53.380964053Z         \/      \/                  \/ 
+2024-12-09T12:17:53.380969553Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T12:17:53.380974453Z 
+2024-12-09T12:17:53.380979253Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T12:17:53.380984053Z Python 3.12.2
+2024-12-09T12:17:53.380989353Z Note: Any data outside '/home' is not persisted
+2024-12-09T12:17:53.803205801Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T12:17:53.816557949Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T12:17:53.843511743Z Site's appCommandLine: python app.py
+2024-12-09T12:17:53.843565543Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'python app.py'
+2024-12-09T12:17:53.864410262Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T12:17:53.865692957Z Build Operation ID: 53cd04fa9bb4cf84
+2024-12-09T12:17:53.866743453Z Oryx Version: 0.2.20240501.1, Commit: f83f88d3cfb8bb6d3e2765e1dcd218eb0814a095, ReleaseTagName: 20240501.1
+2024-12-09T12:17:53.866773752Z Output is compressed. Extracting it...
+2024-12-09T12:17:53.867559849Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd180acf759973'...
+2024-12-09T12:17:55.679742469Z App path is set to '/tmp/8dd180acf759973'
+2024-12-09T12:17:55.980886593Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T12:17:56.054302507Z Using packages from virtual environment antenv located at /tmp/8dd180acf759973/antenv.
+2024-12-09T12:17:56.054435906Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd180acf759973/antenv/lib/python3.12/site-packages'
+2024-12-09T12:17:56.055881001Z python: error while loading shared libraries: libpython3.9.so.1.0: cannot open shared object file: No such file or directory
+
+2024-12-09T12:52:53.877642078Z    _____                               
+2024-12-09T12:52:53.877697978Z   /  _  \ __________ _________   ____  
+2024-12-09T12:52:53.877705478Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T12:52:53.877710978Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T12:52:53.877716278Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T12:52:53.877722278Z         \/      \/                  \/ 
+2024-12-09T12:52:53.877727878Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T12:52:53.877732978Z 
+2024-12-09T12:52:53.877738178Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T12:52:53.877743178Z Python 3.12.2
+2024-12-09T12:52:53.877747878Z Note: Any data outside '/home' is not persisted
+2024-12-09T12:52:54.272950554Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T12:52:54.276465739Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T12:52:54.301742536Z Site's appCommandLine: python app.py
+2024-12-09T12:52:54.309522804Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'python app.py'
+2024-12-09T12:52:54.323344947Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T12:52:54.324717241Z Build Operation ID: 53cd04fa9bb4cf84
+2024-12-09T12:52:54.325698237Z Output is compressed. Extracting it...
+2024-12-09T12:52:54.325736637Z Oryx Version: 0.2.20240501.1, Commit: f83f88d3cfb8bb6d3e2765e1dcd218eb0814a095, ReleaseTagName: 20240501.1
+2024-12-09T12:52:54.326583234Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd180acf759973'...
+2024-12-09T12:52:56.217485569Z App path is set to '/tmp/8dd180acf759973'
+2024-12-09T12:52:56.384623683Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T12:52:56.445892332Z Using packages from virtual environment antenv located at /tmp/8dd180acf759973/antenv.
+2024-12-09T12:52:56.446000632Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd180acf759973/antenv/lib/python3.12/site-packages'
+2024-12-09T12:52:56.448270222Z python: error while loading shared libraries: libpython3.9.so.1.0: cannot open shared object file: No such file or directory
+
+2024-12-09T13:28:00.732730673Z    _____                               
+2024-12-09T13:28:00.732758073Z   /  _  \ __________ _________   ____  
+2024-12-09T13:28:00.732764073Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T13:28:00.732769373Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T13:28:00.732775073Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T13:28:00.732782573Z         \/      \/                  \/ 
+2024-12-09T13:28:00.732787873Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T13:28:00.732792573Z 
+2024-12-09T13:28:00.732797373Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T13:28:00.732802173Z Python 3.12.2
+2024-12-09T13:28:00.732807373Z Note: Any data outside '/home' is not persisted
+2024-12-09T13:28:01.300948170Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T13:28:01.305510553Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T13:28:01.337819532Z Site's appCommandLine: python app.py
+2024-12-09T13:28:01.338013631Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'python app.py'
+2024-12-09T13:28:01.350241685Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T13:28:01.351780080Z Build Operation ID: 53cd04fa9bb4cf84
+2024-12-09T13:28:01.352485877Z Oryx Version: 0.2.20240501.1, Commit: f83f88d3cfb8bb6d3e2765e1dcd218eb0814a095, ReleaseTagName: 20240501.1
+2024-12-09T13:28:01.352509677Z Output is compressed. Extracting it...
+2024-12-09T13:28:01.353299274Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd180acf759973'...
+2024-12-09T13:28:03.591528993Z App path is set to '/tmp/8dd180acf759973'
+2024-12-09T13:28:03.747633009Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T13:28:03.832394192Z Using packages from virtual environment antenv located at /tmp/8dd180acf759973/antenv.
+2024-12-09T13:28:03.832426292Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd180acf759973/antenv/lib/python3.12/site-packages'
+2024-12-09T13:28:03.837776972Z python: error while loading shared libraries: libpython3.9.so.1.0: cannot open shared object file: No such file or directory
+
+2024-12-09T14:02:57.713206704Z    _____                               
+2024-12-09T14:02:57.713233304Z   /  _  \ __________ _________   ____  
+2024-12-09T14:02:57.713240304Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T14:02:57.713245404Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T14:02:57.713249004Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T14:02:57.713252504Z         \/      \/                  \/ 
+2024-12-09T14:02:57.713256004Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T14:02:57.713259504Z 
+2024-12-09T14:02:57.713262804Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T14:02:57.713266104Z Python 3.12.2
+2024-12-09T14:02:57.713269504Z Note: Any data outside '/home' is not persisted
+2024-12-09T14:02:58.283837761Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T14:02:58.290496735Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T14:02:58.306356472Z Site's appCommandLine: python app.py
+2024-12-09T14:02:58.307055770Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'python app.py'
+2024-12-09T14:02:58.325525897Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T14:02:58.325615497Z Build Operation ID: 53cd04fa9bb4cf84
+2024-12-09T14:02:58.326140095Z Oryx Version: 0.2.20240501.1, Commit: f83f88d3cfb8bb6d3e2765e1dcd218eb0814a095, ReleaseTagName: 20240501.1
+2024-12-09T14:02:58.326490093Z Output is compressed. Extracting it...
+2024-12-09T14:02:58.329394682Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd180acf759973'...
+2024-12-09T14:03:00.296391295Z App path is set to '/tmp/8dd180acf759973'
+2024-12-09T14:03:00.478269366Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T14:03:00.563024273Z Using packages from virtual environment antenv located at /tmp/8dd180acf759973/antenv.
+2024-12-09T14:03:00.563062973Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd180acf759973/antenv/lib/python3.12/site-packages'
+2024-12-09T14:03:00.566234662Z python: error while loading shared libraries: libpython3.9.so.1.0: cannot open shared object file: No such file or directory
+
+2024-12-09T14:38:00.055648603Z    _____                               
+2024-12-09T14:38:00.055675903Z   /  _  \ __________ _________   ____  
+2024-12-09T14:38:00.055716303Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T14:38:00.055724403Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T14:38:00.055729403Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T14:38:00.055734703Z         \/      \/                  \/ 
+2024-12-09T14:38:00.055739603Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T14:38:00.055744703Z 
+2024-12-09T14:38:00.055749303Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T14:38:00.055754103Z Python 3.12.2
+2024-12-09T14:38:00.055759203Z Note: Any data outside '/home' is not persisted
+2024-12-09T14:38:00.691877777Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T14:38:00.706094132Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T14:38:00.730812453Z Site's appCommandLine: python app.py
+2024-12-09T14:38:00.730887353Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'python app.py'
+2024-12-09T14:38:00.743329713Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T14:38:00.744746709Z Build Operation ID: 53cd04fa9bb4cf84
+2024-12-09T14:38:00.745885605Z Oryx Version: 0.2.20240501.1, Commit: f83f88d3cfb8bb6d3e2765e1dcd218eb0814a095, ReleaseTagName: 20240501.1
+2024-12-09T14:38:00.745959505Z Output is compressed. Extracting it...
+2024-12-09T14:38:00.746902202Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd180acf759973'...
+2024-12-09T14:38:03.098848684Z App path is set to '/tmp/8dd180acf759973'
+2024-12-09T14:38:03.263482837Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T14:38:03.325863430Z Using packages from virtual environment antenv located at /tmp/8dd180acf759973/antenv.
+2024-12-09T14:38:03.326092430Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd180acf759973/antenv/lib/python3.12/site-packages'
+2024-12-09T14:38:03.327648724Z python: error while loading shared libraries: libpython3.9.so.1.0: cannot open shared object file: No such file or directory
+
+2024-12-09T15:13:01.702071945Z    _____                               
+2024-12-09T15:13:01.702096245Z   /  _  \ __________ _________   ____  
+2024-12-09T15:13:01.702100845Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T15:13:01.702217745Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T15:13:01.702221745Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T15:13:01.702225345Z         \/      \/                  \/ 
+2024-12-09T15:13:01.702228845Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T15:13:01.702232245Z 
+2024-12-09T15:13:01.702235445Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T15:13:01.702238845Z Python 3.12.2
+2024-12-09T15:13:01.702242145Z Note: Any data outside '/home' is not persisted
+2024-12-09T15:13:02.273080051Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T15:13:02.285973408Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T15:13:02.322461787Z Site's appCommandLine: python app.py
+2024-12-09T15:13:02.323152885Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'python app.py'
+2024-12-09T15:13:02.344377215Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T15:13:02.346946406Z Build Operation ID: 53cd04fa9bb4cf84
+2024-12-09T15:13:02.348533101Z Oryx Version: 0.2.20240501.1, Commit: f83f88d3cfb8bb6d3e2765e1dcd218eb0814a095, ReleaseTagName: 20240501.1
+2024-12-09T15:13:02.348569801Z Output is compressed. Extracting it...
+2024-12-09T15:13:02.349629597Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd180acf759973'...
+2024-12-09T15:13:04.474085254Z App path is set to '/tmp/8dd180acf759973'
+2024-12-09T15:13:04.642259996Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T15:13:04.725683320Z Using packages from virtual environment antenv located at /tmp/8dd180acf759973/antenv.
+2024-12-09T15:13:04.725734320Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd180acf759973/antenv/lib/python3.12/site-packages'
+2024-12-09T15:13:04.728485111Z python: error while loading shared libraries: libpython3.9.so.1.0: cannot open shared object file: No such file or directory
+
+2024-12-09T15:47:32.109208925Z    _____                               
+2024-12-09T15:47:32.109246525Z   /  _  \ __________ _________   ____  
+2024-12-09T15:47:32.109254925Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2024-12-09T15:47:32.109475624Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2024-12-09T15:47:32.109488524Z \____|__  /_____ \____/ |__|    \___  >
+2024-12-09T15:47:32.109494224Z         \/      \/                  \/ 
+2024-12-09T15:47:32.109499124Z A P P   S E R V I C E   O N   L I N U X
+2024-12-09T15:47:32.109504024Z 
+2024-12-09T15:47:32.109508924Z Documentation: http://aka.ms/webapp-linux
+2024-12-09T15:47:32.109514024Z Python 3.12.2
+2024-12-09T15:47:32.109518824Z Note: Any data outside '/home' is not persisted
+2024-12-09T15:47:32.397948114Z Starting OpenBSD Secure Shell server: sshd.
+2024-12-09T15:47:32.418975648Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2024-12-09T15:47:32.450705448Z Site's appCommandLine: python app.py
+2024-12-09T15:47:32.450729648Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -userStartupCommand 'python app.py'
+2024-12-09T15:47:32.469171990Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2024-12-09T15:47:32.471107884Z Build Operation ID: ba3929e545d1f073
+2024-12-09T15:47:32.472051681Z Oryx Version: 0.2.20240501.1, Commit: f83f88d3cfb8bb6d3e2765e1dcd218eb0814a095, ReleaseTagName: 20240501.1
+2024-12-09T15:47:32.472105981Z Output is compressed. Extracting it...
+2024-12-09T15:47:32.475992168Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8dd186852e3157f'...
+2024-12-09T15:47:34.189998132Z App path is set to '/tmp/8dd186852e3157f'
+2024-12-09T15:47:34.367934967Z Writing output script to '/opt/startup/startup.sh'
+2024-12-09T15:47:34.438215205Z Using packages from virtual environment antenv located at /tmp/8dd186852e3157f/antenv.
+2024-12-09T15:47:34.438260805Z Updated PYTHONPATH to '/opt/startup/app_logs:/tmp/8dd186852e3157f/antenv/lib/python3.12/site-packages'
+2024-12-09T15:47:36.071978403Z  * Serving Flask app 'app'
+2024-12-09T15:47:36.072012003Z  * Debug mode: on
+2024-12-09T15:47:36.108070068Z [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2024-12-09T15:47:36.108115868Z  * Running on http://127.0.0.1:5000
+2024-12-09T15:47:36.108126568Z [33mPress CTRL+C to quit[0m
+2024-12-09T15:47:36.114334645Z  * Restarting with stat
+2024-12-09T15:47:36.647368955Z  * Debugger is active!
+2024-12-09T15:47:36.654874727Z  * Debugger PIN: 873-165-476
+

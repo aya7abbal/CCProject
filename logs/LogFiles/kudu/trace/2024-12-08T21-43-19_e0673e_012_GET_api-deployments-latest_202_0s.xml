@@ -1,0 +1,10 @@
+<step title="Incoming Request" date="2024-12-08T21:43:19.251" instance="e0673e" url="/api/deployments/latest?deployer=OneDeploy&amp;time=2024-12-08_21-42-39Z" method="GET" type="request" pid="86,1,16" Host="retail-webapp-fvbraghnb0g0aye4.scm.centralus-01.azurewebsites.net" User-Agent="GITHUBACTIONS_DeployWebAppToAzure_07fa955058e7a9b1c6186baa3bdb95c4e9b64e2f56c76fbeb9d8f68e97497b0d" Authorization="Bas..." Content-Type="application/json; charset=utf-8" Cookie="ARRAffinity=e0673e1f74cb41099b234cccdcebb2529f890acd174966d89cb55643a6d395c5;Path=/;HttpOnly;Secure;Domain=retail-webapp-fvbraghnb0g0aye4.scm.centralus-01.azurewebsites.net; ARRAffinitySameSite=e0673e1f74cb41099b234cccdcebb2529f890acd174966d89cb55643a6d395c5;Path=/;HttpOnly;SameSite=None;Secure;Domain=retail-webapp-fvbraghnb0g0aye4.scm.centralus-01.azurewebsites.net" Content-Length="0" X-ARR-LOG-ID="17580f7f-7231-418b-a309-839ca19cb7ed" CLIENT-IP="20.51.206.102:58433" X-SITE-DEPLOYMENT-ID="Retail-WebApp" WAS-DEFAULT-HOSTNAME="retail-webapp-fvbraghnb0g0aye4.scm.centralus-01.azurewebsites.net" X-Forwarded-Proto="https" X-AppService-Proto="https" X-Forwarded-TlsVersion="1.3" X-WAWS-Unencoded-URL="/api/deployments/latest?deployer=OneDeploy&amp;time=2024-12-08_21-42-39Z" X-Client-IP="20.51.206.102" X-Client-Port="58433" >
+  <step title="Cleanup Xml Logs" date="2024-12-08T21:43:19.254" /><!-- duration: 5ms -->
+  <step title="DeploymentService.GetResult" date="2024-12-08T21:43:19.266" >
+    <step title="DeploymentService.GetLatestDeployment" date="2024-12-08T21:43:19.269" >
+      <step title="DeploymentManager.GetResults" date="2024-12-08T21:43:19.273" /><!-- duration: 86ms -->
+      <step title="Deployment temp-315edc87 is Pending" date="2024-12-08T21:43:19.361" /><!-- duration: 3ms -->
+    </step><!-- duration: 99ms -->
+  </step><!-- duration: 104ms -->
+  <step title="Outgoing response" date="2024-12-08T21:43:19.375" type="response" statusCode="202" statusText="Accepted" /><!-- duration: 3ms -->
+</step><!-- duration: 129ms -->

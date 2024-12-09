@@ -1,0 +1,10 @@
+<step title="Incoming Request" date="2024-12-09T04:35:03.111" instance="69d805" url="/api/deployments/latest?deployer=OneDeploy&amp;time=2024-12-09_04-34-41Z" method="GET" type="request" pid="85,1,32" Host="retail-webapp-fvbraghnb0g0aye4.scm.centralus-01.azurewebsites.net" User-Agent="GITHUBACTIONS_DeployWebAppToAzure_07fa955058e7a9b1c6186baa3bdb95c4e9b64e2f56c76fbeb9d8f68e97497b0d" Authorization="Bas..." Content-Type="application/json; charset=utf-8" Cookie="ARRAffinity=69d8052e780e3c5632539e276bc018c2c09d69571a6977d598960a99a68a5152;Path=/;HttpOnly;Secure;Domain=retail-webapp-fvbraghnb0g0aye4.scm.centralus-01.azurewebsites.net; ARRAffinitySameSite=69d8052e780e3c5632539e276bc018c2c09d69571a6977d598960a99a68a5152;Path=/;HttpOnly;SameSite=None;Secure;Domain=retail-webapp-fvbraghnb0g0aye4.scm.centralus-01.azurewebsites.net" Content-Length="0" X-ARR-LOG-ID="98814c7a-f9c1-40dd-8e86-8468d8fa9229" CLIENT-IP="20.55.213.87:41145" X-SITE-DEPLOYMENT-ID="Retail-WebApp" WAS-DEFAULT-HOSTNAME="retail-webapp-fvbraghnb0g0aye4.scm.centralus-01.azurewebsites.net" X-Forwarded-Proto="https" X-AppService-Proto="https" X-Forwarded-TlsVersion="1.3" X-WAWS-Unencoded-URL="/api/deployments/latest?deployer=OneDeploy&amp;time=2024-12-09_04-34-41Z" X-Client-IP="20.55.213.87" X-Client-Port="41145" >
+  <step title="Cleanup Xml Logs" date="2024-12-09T04:35:03.114" /><!-- duration: 6ms -->
+  <step title="DeploymentService.GetResult" date="2024-12-09T04:35:03.127" >
+    <step title="DeploymentService.GetLatestDeployment" date="2024-12-09T04:35:03.129" >
+      <step title="DeploymentManager.GetResults" date="2024-12-09T04:35:03.132" /><!-- duration: 169ms -->
+      <step title="Deployment 2c411eb2-e942-4d7d-a7e1-143c5811b56f is Building" date="2024-12-09T04:35:03.304" /><!-- duration: 2ms -->
+    </step><!-- duration: 178ms -->
+  </step><!-- duration: 187ms -->
+  <step title="Outgoing response" date="2024-12-09T04:35:03.318" type="response" statusCode="202" statusText="Accepted" /><!-- duration: 2ms -->
+</step><!-- duration: 212ms -->

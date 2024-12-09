@@ -1,0 +1,3 @@
+<step title="Startup Request" date="2024-12-09T04:23:13.143" instance="69d805" url="/api/deployments/?api-version=2022-03-01" method="GET" type="request" pid="85,1,5" SCM_DO_BUILD_DURING_DEPLOYMENT="True" ScmType="GitHubAction" >
+  <step title="Cleanup Xml Logs" date="2024-12-09T04:23:13.147" /><!-- duration: 4ms -->
+</step><!-- duration: 10ms -->

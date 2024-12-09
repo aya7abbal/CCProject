@@ -1,0 +1,16 @@
+2024-12-09T00:01:11.566Z INFO  - Starting container for site
+2024-12-09T00:01:11.566Z INFO  - docker run -d --expose=8000 --name retail-webapp_0_e30f82f7 -e WEBSITE_USE_DIAGNOSTIC_SERVER=false -e WEBSITE_SITE_NAME=Retail-WebApp -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=retail-webapp-fvbraghnb0g0aye4.centralus-01.azurewebsites.net -e WEBSITE_INSTANCE_ID=e0673e1f74cb41099b234cccdcebb2529f890acd174966d89cb55643a6d395c5 appsvc/python:3.12_20240619.2.tuxprod 
+2024-12-09T00:01:11.566Z INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2024-12-09T00:01:13.988Z INFO  - Initiating warmup request to container retail-webapp_0_e30f82f7 for site retail-webapp
+2024-12-09T00:01:19.270Z ERROR - Container retail-webapp_0_e30f82f7 for site retail-webapp has exited, failing site start
+2024-12-09T00:01:19.291Z ERROR - Container retail-webapp_0_e30f82f7 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2024-12-09T00:01:19.325Z INFO  - Stopping site retail-webapp because it failed during startup.
+2024-12-09T02:13:06.282Z INFO  - Starting container for site
+2024-12-09T02:13:06.302Z INFO  - docker run -d --expose=8000 --name retail-webapp_0_9045116e -e WEBSITE_USE_DIAGNOSTIC_SERVER=false -e WEBSITE_SITE_NAME=Retail-WebApp -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=retail-webapp-fvbraghnb0g0aye4.centralus-01.azurewebsites.net -e WEBSITE_INSTANCE_ID=e0673e1f74cb41099b234cccdcebb2529f890acd174966d89cb55643a6d395c5 appsvc/python:3.12_20240619.2.tuxprod 
+2024-12-09T02:13:06.303Z INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2024-12-09T02:13:08.222Z INFO  - Initiating warmup request to container retail-webapp_0_9045116e for site retail-webapp
+2024-12-09T02:13:12.670Z ERROR - Container retail-webapp_0_9045116e for site retail-webapp has exited, failing site start
+2024-12-09T02:13:12.713Z ERROR - Container retail-webapp_0_9045116e didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2024-12-09T02:13:12.760Z INFO  - Stopping site retail-webapp because it failed during startup.

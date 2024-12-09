@@ -17,8 +17,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = f'sqlite:///{db_path}'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 # Initialize SQLAlchemy
-db = SQLAlchemy()
-db.init_app(app)  # Correct initialization
+db = SQLAlchemy(app)
 
 # Define the User model for authentication
 class User(db.Model):
@@ -42,13 +41,14 @@ def login():
         password = request.form['password']
 
         # Check if the user exists in the database
-        user = User.query.filter_by(username=username).first()
-        if user and user.check_password(password):
+        user = User.query.filter_by(username=username, password=password).first()
+        if user:
             session['user_id'] = user.id
             flash('Login successful!', 'success')
             return redirect(url_for('dashboard'))
         else:
             flash('Invalid username or password.', 'danger')
+            print(f"Login failed: username={username}, password={password}")  # Debugging log
             return redirect(url_for('home'))
 
     return render_template('login.html')
@@ -89,6 +89,14 @@ def logout():
     session.pop('user_id', None)
     flash('You have been logged out.', 'info')
     return redirect(url_for('home'))
+
+from app import db, User
+
+# Add a test user
+new_user = User(username="testuser", password="testpassword")
+db.session.add(new_user)
+db.session.commit()
+print("User added: testuser / testpassword")
 
 # Database setup: Create tables if they do not exist
 with app.app_context():

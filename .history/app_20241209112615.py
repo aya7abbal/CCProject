@@ -17,8 +17,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = f'sqlite:///{db_path}'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 # Initialize SQLAlchemy
-db = SQLAlchemy()
-db.init_app(app)  # Correct initialization
+db = SQLAlchemy(app)
 
 # Define the User model for authentication
 class User(db.Model):
@@ -41,7 +40,6 @@ def login():
         username = request.form['username']
         password = request.form['password']
 
-        # Check if the user exists in the database
         user = User.query.filter_by(username=username).first()
         if user and user.check_password(password):
             session['user_id'] = user.id

@@ -1,0 +1,38 @@
+[2024_12_08_21_33_07] [appsvc_profiler.installer] [INFO] Code Profiler Installer is starting up
+[2024_12_08_21_33_07] [appsvc_profiler.installer] [INFO] Cleaning up any existing status file which indicated signal handlers initialized status
+[2024_12_08_21_33_07] [appsvc_profiler.installer] [DEBUG] APPSETTING_WEBSITE_ENABLE_DEFAULT_CODE_PROFILER : None
+[2024_12_08_21_33_07] [appsvc_profiler.installer] [INFO] Attempting to install the default code profiler.
+[2024_12_08_21_33_07] [appsvc_profiler.installer] [DEBUG] viztracer would save traces to /tmp/e0673e_profiler_trace.json
+[2024_12_08_21_33_07] [appsvc_profiler.installer] [INFO] Successfully installed code profiler.
+[2024_12_08_21_33_07] [appsvc_profiler.installer] [INFO] Signal Handlers SIGUSR for needed code-profiler have been initialized for gunicorn process on instance e0673e1f74cb41099b234cccdcebb2529f890acd174966d89cb55643a6d395c5
+[2024_12_08_21_33_07] [appsvc_profiler.installer] [DEBUG] Code Profiler Installer is exiting as installation is completed
+[2024_12_08_21_36_40] [appsvc_profiler.installer] [INFO] Code Profiler Installer is starting up
+[2024_12_08_21_36_40] [appsvc_profiler.installer] [INFO] Cleaning up any existing status file which indicated signal handlers initialized status
+[2024_12_08_21_36_40] [appsvc_profiler.installer] [INFO] Attempting to delete the signal_handler status file for instance id e0673e1f74cb41099b234cccdcebb2529f890acd174966d89cb55643a6d395c5
+[2024_12_08_21_36_40] [appsvc_profiler.installer] [INFO] successfully deleted the status file
+[2024_12_08_21_36_40] [appsvc_profiler.installer] [DEBUG] APPSETTING_WEBSITE_ENABLE_DEFAULT_CODE_PROFILER : None
+[2024_12_08_21_36_40] [appsvc_profiler.installer] [INFO] Attempting to install the default code profiler.
+[2024_12_08_21_36_40] [appsvc_profiler.installer] [DEBUG] viztracer would save traces to /tmp/e0673e_profiler_trace.json
+[2024_12_08_21_36_40] [appsvc_profiler.installer] [INFO] Successfully installed code profiler.
+[2024_12_08_21_36_40] [appsvc_profiler.installer] [INFO] Signal Handlers SIGUSR for needed code-profiler have been initialized for gunicorn process on instance e0673e1f74cb41099b234cccdcebb2529f890acd174966d89cb55643a6d395c5
+[2024_12_08_21_36_40] [appsvc_profiler.installer] [DEBUG] Code Profiler Installer is exiting as installation is completed
+[2024_12_08_21_41_48] [appsvc_profiler.installer] [INFO] Code Profiler Installer is starting up
+[2024_12_08_21_41_48] [appsvc_profiler.installer] [INFO] Cleaning up any existing status file which indicated signal handlers initialized status
+[2024_12_08_21_41_48] [appsvc_profiler.installer] [INFO] Attempting to delete the signal_handler status file for instance id e0673e1f74cb41099b234cccdcebb2529f890acd174966d89cb55643a6d395c5
+[2024_12_08_21_41_48] [appsvc_profiler.installer] [INFO] successfully deleted the status file
+[2024_12_08_21_41_48] [appsvc_profiler.installer] [DEBUG] APPSETTING_WEBSITE_ENABLE_DEFAULT_CODE_PROFILER : None
+[2024_12_08_21_41_48] [appsvc_profiler.installer] [INFO] Attempting to install the default code profiler.
+[2024_12_08_21_41_48] [appsvc_profiler.installer] [DEBUG] viztracer would save traces to /tmp/e0673e_profiler_trace.json
+[2024_12_08_21_41_48] [appsvc_profiler.installer] [INFO] Successfully installed code profiler.
+[2024_12_08_21_41_48] [appsvc_profiler.installer] [INFO] Signal Handlers SIGUSR for needed code-profiler have been initialized for gunicorn process on instance e0673e1f74cb41099b234cccdcebb2529f890acd174966d89cb55643a6d395c5
+[2024_12_08_21_41_48] [appsvc_profiler.installer] [DEBUG] Code Profiler Installer is exiting as installation is completed
+[2024_12_08_21_42_24] [appsvc_profiler.installer] [INFO] Code Profiler Installer is starting up
+[2024_12_08_21_42_24] [appsvc_profiler.installer] [INFO] Cleaning up any existing status file which indicated signal handlers initialized status
+[2024_12_08_21_42_24] [appsvc_profiler.installer] [INFO] Attempting to delete the signal_handler status file for instance id e0673e1f74cb41099b234cccdcebb2529f890acd174966d89cb55643a6d395c5
+[2024_12_08_21_42_24] [appsvc_profiler.installer] [INFO] successfully deleted the status file
+[2024_12_08_21_42_24] [appsvc_profiler.installer] [DEBUG] APPSETTING_WEBSITE_ENABLE_DEFAULT_CODE_PROFILER : None
+[2024_12_08_21_42_25] [appsvc_profiler.installer] [INFO] Attempting to install the default code profiler.
+[2024_12_08_21_42_25] [appsvc_profiler.installer] [DEBUG] viztracer would save traces to /tmp/e0673e_profiler_trace.json
+[2024_12_08_21_42_25] [appsvc_profiler.installer] [INFO] Successfully installed code profiler.
+[2024_12_08_21_42_25] [appsvc_profiler.installer] [INFO] Signal Handlers SIGUSR for needed code-profiler have been initialized for gunicorn process on instance e0673e1f74cb41099b234cccdcebb2529f890acd174966d89cb55643a6d395c5
+[2024_12_08_21_42_25] [appsvc_profiler.installer] [DEBUG] Code Profiler Installer is exiting as installation is completed
